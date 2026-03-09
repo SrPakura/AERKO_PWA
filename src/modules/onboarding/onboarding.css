@@ -1,0 +1,491 @@
+/* src/modules/onboarding/onboarding.css */
+
+/* 1. IMPORTAMOS ESTILOS DE BOTONES (Necesario para <app-btn>) */
+@import url('/src/modules/system/components/btn.css');
+
+/* --- LAYOUT PRINCIPAL --- */
+/* .screen-onboarding solo gestiona el layout interno.
+   Los paddings globales los hereda de .app-screen (que añadiremos en el JS) */
+.screen-onboarding {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 24px; /* Gap Universal de la pantalla */
+    flex: 1; 
+    
+    /* le meto padding individual porque sino queda muy pegado y me da mil veces más pereza añadir padding a los componentes que en la pantalla de forma general. */ 
+    padding-top: calc(env(safe-area-inset-top) + 16px) !important;
+    padding-bottom: calc(env(safe-area-inset-bottom) + 16px) !important;
+}
+
+/* --- 1. ASCII ART --- */
+.ascii-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* Quitamos padding lateral extra si ya lo da el app-screen, 
+       pero por seguridad de la imagen lo dejamos o ajustamos */
+    padding: 0 24px; 
+}
+
+.ascii-img {
+    width: 100%;
+    /* CORRECCIÓN: Tamaño 1x (341px / 1.5 = ~228px) */
+    max-width: 228px; 
+    height: auto;
+    image-rendering: pixelated; 
+    object-fit: contain;
+}
+
+/* --- 2. LOGS DEL SISTEMA --- */
+.logs-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 24px; 
+    gap: 4px; 
+}
+
+.log-line {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+    margin: 0;
+}
+
+.log-green { color: var(--Verde-acido); }
+.log-white { color: var(--Blanco); }
+
+.cursor-block {
+    display: inline-block;
+    width: 8px;
+    height: 14px;
+    background: var(--Blanco);
+    margin-left: 4px;
+    animation: blink 1s step-end infinite;
+}
+@keyframes blink { 50% { opacity: 0; } }
+
+/* --- 3. BLOQUE DE CONTENIDO --- */
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    align-items: flex-start;
+    gap: 24px; 
+    padding: 0 24px; 
+    flex: 1;
+    width: 100%;
+}
+
+.title-welcome {
+    color: var(--Blanco);
+    font-family: 'Clash Display', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 110%;
+    letter-spacing: -0.4px;
+    margin: 0;
+}
+
+.body-welcome {
+    color: var(--Blanco);
+    font-family: "JetBrains Mono", monospace;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 0;
+}
+
+/* --- 4. BOTONES --- */
+.buttons-container {
+    display: flex;
+    padding: 0 24px;
+    align-items: center;
+    gap: 16px; 
+    width: 100%;
+}
+
+.buttons-container app-btn {
+    flex: 1;
+}
+
+.buttons-container app-btn button {
+    width: 100%; 
+}
+
+/* --- 5. LINK FOOTER --- */
+.text-link-action {
+    color: var(--Blanco);
+    font-family: "JetBrains Mono", monospace;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    padding: 8px; 
+    margin: -8px;
+    
+    /* CORRECCIÓN: Obliga a no romper la línea */
+    white-space: nowrap; 
+}
+
+.text-link-action:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+}
+
+.text-link-action:active {
+    color: var(--Verde-acido);
+    text-decoration-color: var(--Verde-acido);
+}
+
+/* =========================================
+   PANTALLA: IMPORTAR DATOS
+   ========================================= */
+
+/* --- HEADER DE SECCIÓN --- */
+.section-header {
+    display: flex;
+    width: 100%;
+    /* Padding exacto Figma: 16px vertical, 24px horizontal */
+    padding: 16px 24px; 
+    align-items: center;
+    gap: 16px;
+    
+    /* Bordes Blancos 1px */
+    border-bottom: 1px solid var(--Blanco);
+    
+    cursor: pointer;
+    background: var(--Negro-suave);
+    /* Sticky para que se quede arriba si hay scroll */
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.header-title {
+    color: var(--Blanco);
+    font-family: "JetBrains Mono", monospace;
+    font-size: 18px; /* Mobile/Body Large */
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.header-title-small {
+  font-size: 18px;
+  color: var(--Blanco);
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 500;
+  line-height: 150%;
+  text-transform: none;
+}
+
+/* --- LISTA PRINCIPAL --- */
+.import-list-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 24px;
+    
+    /* Lógica de empuje hacia abajo */
+    justify-content: flex-end; 
+    flex: 1; 
+    gap: 24px; /* Gap entre bloques de categorías */
+}
+
+/* --- GRUPOS DE CATEGORÍA --- */
+.category-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* Gap entre titulo y primera app: 8px */
+    gap: 8px; 
+}
+
+.category-title {
+    color: var(--Blanco);
+    font-family: "JetBrains Mono", monospace;
+    font-size: 16px; /* Mobile/Body Base */
+    font-weight: 400;
+    line-height: 150%;
+}
+
+/* --- FILA DE APP (ROW) --- */
+.app-row {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    cursor: pointer;
+    transition: opacity 0.2s;
+    /* Altura forzada por el contenido, pero visualmente sólida */
+}
+
+.app-row:hover {
+    opacity: 0.8;
+}
+
+/* Truco para evitar doble borde vertical entre apps apiladas */
+.app-row + .app-row {
+    margin-top: -1px;
+}
+
+/* CAJA ICONO (42x42) */
+.app-icon-box {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--Blanco);
+    
+    background: var(--Negro-suave); 
+    flex-shrink: 0;
+    overflow: hidden;
+    
+    /* FIX: Un pequeño margen interno para que la imagen no toque/tape el borde */
+    padding: 1px; 
+}
+
+.app-icon-img {
+    width: 100%;
+    height: 100%;
+    /* FIX: Contain asegura que se vea el icono entero sin recortes y sin salirse */
+    object-fit: contain; 
+}
+
+/* CAJA INFO (Texto + Flecha) */
+.app-info-box {
+    flex: 1;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px; /* Padding interno exacto */
+    
+    border: 1px solid var(--Blanco);
+    border-left: none; /* EVITA DOBLE BORDE con el icono */
+}
+
+.app-name {
+    color: var(--Blanco);
+    font-family: "JetBrains Mono", monospace;
+    font-size: 14px; /* Mobile/Caption */
+    font-weight: 400;
+    line-height: 140%;
+}
+
+/* --- TEXTO FINAL --- */
+.coming-soon-text {
+    color: var(--Blanco);
+    font-family: "JetBrains Mono", monospace;
+    font-size: 16px; /* Label & Button */
+    font-weight: 500;
+    line-height: 100%;
+    
+    /* Centrado o alineado según diseño, por defecto flex-start del padre */
+    align-self: center; 
+    margin-bottom: 24px; /* Margen final visual */
+}
+
+/* =========================================
+   PANTALLA: IMPORT ACTION (NUEVA)
+   ========================================= */
+
+.screen-import-action {
+    display: flex;
+    flex-direction: column;
+    /* Hereda padding del app-screen (56px top / 48px bottom) */
+    height: 100%; 
+}
+
+/* Indicador de Fuente */
+.source-indicator {
+    padding: 24px 24px 0 24px; /* Padding lateral igual al resto */
+    font-family: "JetBrains Mono", monospace;
+    font-size: 16px;
+    color: var(--Blanco);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.source-name {
+    color: var(--Verde-acido);
+    font-weight: 500;
+}
+
+/* Contenedor flexible para centrar la Dropzone */
+.action-content-wrapper {
+    flex: 1; /* Ocupa todo el espacio disponible */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    min-height: 0; /* Evita desbordamientos en flex */
+}
+
+/* La Caja Dasheada */
+.action-dropzone {
+    width: 100%;
+    /* Altura fija relativa o máxima para que parezca el diseño */
+    height: 280px; 
+    max-height: 50vh; 
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    
+    border: 1px dashed var(--Verde-acido);
+    background: rgba(204, 255, 0, 0.02);
+    border-radius: 2px; /* Un toque muy sutil */
+    
+    /* Texto */
+    text-align: center;
+    padding: 20px;
+}
+
+.drop-title {
+    font-family: "Clash Display", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--Blanco);
+    margin: 0;
+}
+
+.drop-desc {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 14px;
+    color: #999;
+    line-height: 1.4;
+    max-width: 240px; /* Para que el texto salte de línea bonito */
+    margin: 0;
+}
+
+/* Footer de Botones */
+.action-footer {
+    padding: 0 24px 24px 24px; /* Un poco de aire abajo */
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    margin-top: auto; /* Seguridad extra para empujar al fondo */
+}
+
+.action-footer app-btn, 
+.action-footer app-btn button {
+    width: 100%; /* Botones full width */
+}
+
+/* =========================================
+   WIZARD & FEATURES (FIXED VERSION)
+   ========================================= */
+
+.screen-wizard {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+    /* le meto padding individual porque sino queda muy pegado y me da mil veces más pereza añadir padding a los componentes que en la pantalla de forma general. - Y si, acabo de copiar lo mismo porque me daba pereza escribir otro mensaje.*/ 
+    padding-top: calc(env(safe-area-inset-top) + 16px) !important;
+    padding-bottom: calc(env(safe-area-inset-bottom) + 16px) !important;
+}
+
+/* --- PAGINACIÓN (BOLITAS 1-2-3 ESTADOS) --- */
+.pagination-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 24px 24px 24px;
+}
+
+.page-indicator {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 50%;
+    font-family: 'Clash Display', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    
+    /* ESTADO 1: FUTURO / NO VISTO (Por defecto) */
+    background: var(--Blanco);
+    color: var(--Negro-suave);
+    
+    /* Animación Linear solicitada */
+    transition: background 0.3s linear, box-shadow 0.3s linear;
+    cursor: pointer;
+}
+
+/* ESTADO 2: PRESENTE (Mitad y Mitad) */
+.page-indicator.current {
+    /* Truco CSS para partir el fondo en dos sin imágenes extra */
+    background: linear-gradient(90deg, var(--Verde-acido) 50%, var(--Blanco) 50%);
+}
+
+/* ESTADO 3: COMPLETADO (Pasado) */
+.page-indicator.completed {
+    background: var(--Verde-acido);
+    /* Glow neón específico */
+    box-shadow: 0 0 5px 0 rgba(204, 255, 0, 0.75);
+}
+
+/* --- LISTA DE FEATURES (Ajuste de espacios) --- */
+.features-list {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    
+    /* CENTRADO Y SEPARACIÓN */
+    justify-content: center; 
+    gap: 48px; /* Espacio GRANDE entre los dos bloques (Features) */
+    
+    padding: 0 24px;
+    overflow-y: auto;
+}
+
+.feature-item {
+    display: flex;
+    flex-direction: column;
+    /* Espacio entre Título y Cuerpo (según Figma: 16px) */
+    gap: 16px; 
+    
+}
+
+.title-feature {
+    color: var(--Verde-acido);
+    font-family: 'Clash Display', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 110%;
+    margin: 0;
+}
+
+.text-feature {
+    color: var(--Blanco);
+    font-family: "JetBrains Mono", monospace;
+    font-size: 16px;
+    line-height: 150%;
+    margin: 0;
+}
+
+/* --- BOTÓN FINAL --- */
+.wizard-footer {
+    padding: 24px 24px 0 24px;
+    width: 100%;
+    margin-top: auto; /* Asegura que se vaya al fondo si sobra espacio */
+}
+
+.wizard-footer app-btn,
+.wizard-footer app-btn button {
+    width: 100%;
+}

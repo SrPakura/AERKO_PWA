@@ -1,0 +1,20 @@
+export default {
+    "pin_header": "Sicherheit_Konfigurieren",
+    "pin_warning_off_title": "Achtung:",
+    "pin_warning_off_desc": "Die PIN verschlüsselt deine Daten lokal mit AES-GCM 256. Wenn du deine PIN vergisst, wird die Wiederherstellung extrem komplex – so sehr, dass die Daten als verloren gelten könnten. Merk dir deine PIN gut.",
+    "pin_warning_on_title": "Hinweis",
+    "pin_warning_on_desc": "Wenn du die PIN deaktivierst, werden deine Daten entschlüsselt und liegen wieder ungeschützt im Speicher des Geräts.",
+    "pin_label_vaults": "Geschützte_Tresore (Verschlüsselt)",
+    "btn_activate_pin": "PIN aktivieren",
+    "btn_disable_pin": "Sicherheit deaktivieren",
+    "btn_save": "Speichern",
+    "modal_create_pin": "PIN erstellen (4 Ziffern)",
+    "modal_enter_pin": "Aktuelle PIN eingeben",
+    "alert_pin_length": "Die PIN muss genau 4 Ziffern lang sein.",
+    "alert_pin_disabled": "Sicherheit deaktiviert. Schlüssel zerstört.",
+    "alert_pin_wrong": "Falsche PIN.",
+    "vault_user": "Benutzer (Biometrie / PIN)",
+    "vault_progress": "Fortschritt (Fotos / Maße)",
+    "vault_training": "Training (Routinen / Logs)",
+    "vault_nutrition": "Ernährung (Diäten / Makros)"
+};

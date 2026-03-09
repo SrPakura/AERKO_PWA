@@ -1,0 +1,3720 @@
+[
+  {
+    "id": "machine_chest_press",
+    "name": {
+      "es": "Press de Pecho en Máquina",
+      "en": "Machine Chest Press",
+      "fr": "Développé assis machine",
+      "pt": "Supino Máquina",
+      "de": "Brustpresse"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "pectoralis_major",
+        "triceps_brachii",
+        "deltoids_anterior"
+      ],
+      "activation": {
+        "sternocostal_head": 0.75,
+        "clavicular_head": 0.1,
+        "abdominal_head": 0.15,
+        "anterior_head": 0.4,
+        "medial_head_triceps": 0.3,
+        "lateral_head_triceps": 0.3
+      }
+    }
+  },
+  {
+    "id": "machine_incline_chest_press",
+    "name": {
+      "es": "Press Inclinado en Máquina",
+      "en": "Machine Incline Chest Press",
+      "fr": "Développé incliné machine",
+      "pt": "Supino Inclinado Máquina",
+      "de": "Schrägbankdrücken Maschine"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "pectoralis_major",
+        "deltoids_anterior",
+        "triceps_brachii"
+      ],
+      "activation": {
+        "clavicular_head": 0.7,
+        "sternocostal_head": 0.2,
+        "anterior_head": 0.5,
+        "medial_head_triceps": 0.25,
+        "lateral_head_triceps": 0.25
+      }
+    }
+  },
+  {
+    "id": "smith_machine_bench_press",
+    "name": {
+      "es": "Press de Banca en Multipower",
+      "en": "Smith Machine Bench Press",
+      "fr": "Développé couché guidé",
+      "pt": "Supino na Smith",
+      "de": "Bankdrücken an der Multipresse"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "pectoralis_major",
+        "deltoids_anterior",
+        "triceps_brachii"
+      ],
+      "activation": {
+        "sternocostal_head": 0.7,
+        "clavicular_head": 0.1,
+        "abdominal_head": 0.1,
+        "anterior_head": 0.45,
+        "medial_head_triceps": 0.3,
+        "lateral_head_triceps": 0.3
+      }
+    }
+  },
+  {
+    "id": "high_cable_crossover",
+    "name": {
+      "es": "Cruce de Poleas Alto",
+      "en": "High Cable Crossover",
+      "fr": "Écarté à la poulie vis-à-vis haute",
+      "pt": "Crossover Polia Alta",
+      "de": "Cable Crossover (von oben)"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "pectoralis_major",
+        "deltoids_anterior"
+      ],
+      "activation": {
+        "abdominal_head": 0.75,
+        "sternocostal_head": 0.25,
+        "anterior_head": 0.1
+      }
+    }
+  },
+  {
+    "id": "low_cable_crossover",
+    "name": {
+      "es": "Cruce de Poleas Bajo",
+      "en": "Low Cable Crossover",
+      "fr": "Écarté à la poulie vis-à-vis basse",
+      "pt": "Crossover Polia Baixa",
+      "de": "Cable Crossover (von unten)"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "pectoralis_major",
+        "deltoids_anterior"
+      ],
+      "activation": {
+        "clavicular_head": 0.7,
+        "sternocostal_head": 0.2,
+        "anterior_head": 0.5
+      }
+    }
+  },
+  {
+    "id": "cable_fly",
+    "name": {
+      "es": "Aperturas en Polea Media",
+      "en": "Cable Fly",
+      "fr": "Écarté à la poulie",
+      "pt": "Crucifixo na Polia",
+      "de": "Kabelzug Fliegende"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "pectoralis_major"
+      ],
+      "activation": {
+        "sternocostal_head": 0.8,
+        "clavicular_head": 0.1,
+        "abdominal_head": 0.1
+      }
+    }
+  },
+  {
+    "id": "machine_fly_pec_deck",
+    "name": {
+      "es": "Contractora de Pecho (Pec Deck)",
+      "en": "Machine Fly (Pec Deck)",
+      "fr": "Pec Deck",
+      "pt": "Voador / Pec Deck",
+      "de": "Butterfly Maschine"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "pectoralis_major",
+        "deltoids_anterior"
+      ],
+      "activation": {
+        "sternocostal_head": 0.85,
+        "clavicular_head": 0.1,
+        "anterior_head": 0.15
+      }
+    }
+  },
+  {
+    "id": "assisted_dip_machine",
+    "name": {
+      "es": "Fondos en Máquina Asistida",
+      "en": "Assisted Dip Machine",
+      "fr": "Répulsions à la machine assistée",
+      "pt": "Mergulho na Máquina Assistida",
+      "de": "Dips an der Maschine (unterstützt)"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "pectoralis_major",
+        "triceps_brachii",
+        "deltoids_anterior"
+      ],
+      "activation": {
+        "abdominal_head": 0.6,
+        "sternocostal_head": 0.2,
+        "medial_head_triceps": 0.5,
+        "lateral_head_triceps": 0.5,
+        "anterior_head": 0.3
+      }
+    }
+  },
+  {
+    "id": "barbell_bench_press",
+    "name": {
+      "es": "Press de Banca con Barra",
+      "en": "Barbell Bench Press",
+      "fr": "Développé couché barre",
+      "pt": "Supino Reto com Barra",
+      "de": "Bankdrücken (Langhantel)"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "pectoralis_major",
+        "deltoids_anterior",
+        "triceps_brachii"
+      ],
+      "activation": {
+        "sternocostal_head": 0.8,
+        "clavicular_head": 0.15,
+        "abdominal_head": 0.15,
+        "anterior_head": 0.45,
+        "medial_head_triceps": 0.3,
+        "lateral_head_triceps": 0.3
+      }
+    }
+  },
+  {
+    "id": "incline_barbell_bench_press",
+    "name": {
+      "es": "Press de Banca Inclinado con Barra",
+      "en": "Incline Barbell Bench Press",
+      "fr": "Développé incliné barre",
+      "pt": "Supino Inclinado com Barra",
+      "de": "Schrägbankdrücken (Langhantel)"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "pectoralis_major",
+        "deltoids_anterior",
+        "triceps_brachii"
+      ],
+      "activation": {
+        "clavicular_head": 0.75,
+        "sternocostal_head": 0.2,
+        "anterior_head": 0.6,
+        "medial_head_triceps": 0.3,
+        "lateral_head_triceps": 0.3
+      }
+    }
+  },
+  {
+    "id": "decline_barbell_bench_press",
+    "name": {
+      "es": "Press de Banca Declinado con Barra",
+      "en": "Decline Barbell Bench Press",
+      "fr": "Développé décliné barre",
+      "pt": "Supino Declinado com Barra",
+      "de": "Negativbankdrücken (Langhantel)"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "pectoralis_major",
+        "triceps_brachii",
+        "deltoids_anterior"
+      ],
+      "activation": {
+        "abdominal_head": 0.7,
+        "sternocostal_head": 0.2,
+        "medial_head_triceps": 0.3,
+        "lateral_head_triceps": 0.3,
+        "anterior_head": 0.15
+      }
+    }
+  },
+  {
+    "id": "flat_dumbbell_press",
+    "name": {
+      "es": "Press Plano con Mancuernas",
+      "en": "Flat Dumbbell Press",
+      "fr": "Développé couché haltères",
+      "pt": "Supino Reto com Halteres",
+      "de": "Kurzhantel Bankdrücken"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "pectoralis_major",
+        "deltoids_anterior",
+        "triceps_brachii"
+      ],
+      "activation": {
+        "sternocostal_head": 0.8,
+        "clavicular_head": 0.15,
+        "anterior_head": 0.4,
+        "medial_head_triceps": 0.25,
+        "lateral_head_triceps": 0.25
+      }
+    }
+  },
+  {
+    "id": "incline_dumbbell_press",
+    "name": {
+      "es": "Press Inclinado con Mancuernas",
+      "en": "Incline Dumbbell Press",
+      "fr": "Développé incliné haltères",
+      "pt": "Supino Inclinado com Halteres",
+      "de": "Schrägbankdrücken (Kurzhantel)"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "pectoralis_major",
+        "deltoids_anterior",
+        "triceps_brachii"
+      ],
+      "activation": {
+        "clavicular_head": 0.8,
+        "sternocostal_head": 0.1,
+        "anterior_head": 0.6,
+        "medial_head_triceps": 0.25,
+        "lateral_head_triceps": 0.25
+      }
+    }
+  },
+  {
+    "id": "decline_dumbbell_press",
+    "name": {
+      "es": "Press Declinado con Mancuernas",
+      "en": "Decline Dumbbell Press",
+      "fr": "Développé décliné haltères",
+      "pt": "Supino Declinado com Halteres",
+      "de": "Negativbankdrücken (Kurzhantel)"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "pectoralis_major",
+        "triceps_brachii",
+        "deltoids_anterior"
+      ],
+      "activation": {
+        "abdominal_head": 0.75,
+        "sternocostal_head": 0.15,
+        "medial_head_triceps": 0.25,
+        "lateral_head_triceps": 0.25,
+        "anterior_head": 0.1
+      }
+    }
+  },
+  {
+    "id": "flat_dumbbell_fly",
+    "name": {
+      "es": "Aperturas Planas con Mancuernas",
+      "en": "Flat Dumbbell Fly",
+      "fr": "Écarté couché haltères",
+      "pt": "Crucifixo Reto",
+      "de": "Fliegende (Kurzhantel)"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "pectoralis_major",
+        "deltoids_anterior"
+      ],
+      "activation": {
+        "sternocostal_head": 0.9,
+        "clavicular_head": 0.1,
+        "anterior_head": 0.15
+      }
+    }
+  },
+  {
+    "id": "incline_dumbbell_fly",
+    "name": {
+      "es": "Aperturas Inclinadas con Mancuernas",
+      "en": "Incline Dumbbell Fly",
+      "fr": "Écarté incliné haltères",
+      "pt": "Crucifixo Inclinado",
+      "de": "Schrägbank Fliegende"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "pectoralis_major",
+        "deltoids_anterior"
+      ],
+      "activation": {
+        "clavicular_head": 0.85,
+        "sternocostal_head": 0.1,
+        "anterior_head": 0.25
+      }
+    }
+  },
+  {
+    "id": "dumbbell_pullover",
+    "name": {
+      "es": "Pullover con Mancuerna",
+      "en": "Dumbbell Pullover",
+      "fr": "Pull-over haltère",
+      "pt": "Pullover com Haltere",
+      "de": "Überzüge (Kurzhantel)"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "pectoralis_major",
+        "triceps_brachii",
+        "latissimus_dorsi",
+        "serratus_anterior"
+      ],
+      "activation": {
+        "sternocostal_head": 0.5,
+        "abdominal_head": 0.3,
+        "long_head_triceps": 0.5,
+        "latissimus_dorsi_muscle": 0.4,
+        "serratus_anterior_muscle": 0.4
+      }
+    }
+  },
+  {
+    "id": "landmine_press",
+    "name": {
+      "es": "Press Minas (Landmine Press)",
+      "en": "Landmine Press",
+      "fr": "Développé Landmine",
+      "pt": "Supino Landmine",
+      "de": "Landmine Presse"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "pectoralis_major",
+        "deltoids_anterior",
+        "triceps_brachii"
+      ],
+      "activation": {
+        "clavicular_head": 0.65,
+        "sternocostal_head": 0.2,
+        "anterior_head": 0.65,
+        "medial_head_triceps": 0.3,
+        "lateral_head_triceps": 0.3
+      }
+    }
+  },
+  {
+    "id": "floor_press",
+    "name": {
+      "es": "Press Suelo",
+      "en": "Floor Press",
+      "fr": "Développé au sol",
+      "pt": "Supino no Chão",
+      "de": "Floor Press"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "triceps_brachii",
+        "pectoralis_major",
+        "deltoids_anterior"
+      ],
+      "activation": {
+        "medial_head_triceps": 0.6,
+        "lateral_head_triceps": 0.6,
+        "sternocostal_head": 0.5,
+        "anterior_head": 0.4
+      }
+    }
+  },
+  {
+    "id": "push_up",
+    "name": {
+      "es": "Flexiones",
+      "en": "Push-up",
+      "fr": "Pompes",
+      "pt": "Flexão de Braços",
+      "de": "Liegestütz"
+    },
+    "category": "bodyweight",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "pectoralis_major",
+        "triceps_brachii",
+        "deltoids_anterior"
+      ],
+      "activation": {
+        "sternocostal_head": 0.6,
+        "clavicular_head": 0.2,
+        "anterior_head": 0.4,
+        "medial_head_triceps": 0.4,
+        "lateral_head_triceps": 0.4
+      }
+    }
+  },
+  {
+    "id": "decline_push_up",
+    "name": {
+      "es": "Flexiones Declinadas (Pies Elevados)",
+      "en": "Decline Push-up (Feet Elevated)",
+      "fr": "Pompes déclinées (Pieds surélevés)",
+      "pt": "Flexão Declinada (Pés Elevados)",
+      "de": "Negativ Liegestütz (Füße erhöht)"
+    },
+    "category": "bodyweight",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "pectoralis_major",
+        "deltoids_anterior",
+        "triceps_brachii"
+      ],
+      "activation": {
+        "clavicular_head": 0.65,
+        "sternocostal_head": 0.2,
+        "anterior_head": 0.55,
+        "medial_head_triceps": 0.4,
+        "lateral_head_triceps": 0.4
+      }
+    }
+  },
+  {
+    "id": "incline_push_up",
+    "name": {
+      "es": "Flexiones Inclinadas (Manos Elevadas)",
+      "en": "Incline Push-up (Hands Elevated)",
+      "fr": "Pompes inclinées (Mains surélevées)",
+      "pt": "Flexão Inclinada (Mãos Elevadas)",
+      "de": "Schräg Liegestütz (Hände erhöht)"
+    },
+    "category": "bodyweight",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "pectoralis_major",
+        "triceps_brachii",
+        "deltoids_anterior"
+      ],
+      "activation": {
+        "abdominal_head": 0.6,
+        "sternocostal_head": 0.3,
+        "anterior_head": 0.2,
+        "medial_head_triceps": 0.35,
+        "lateral_head_triceps": 0.35
+      }
+    }
+  },
+  {
+    "id": "parallel_bar_dips",
+    "name": {
+      "es": "Fondos en Paralelas",
+      "en": "Parallel Bar Dips",
+      "fr": "Répulsions aux barres parallèles",
+      "pt": "Mergulho em Barras Paralelas",
+      "de": "Dips (Barrenstütz)"
+    },
+    "category": "bodyweight",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "pectoralis_major",
+        "triceps_brachii",
+        "deltoids_anterior"
+      ],
+      "activation": {
+        "abdominal_head": 0.7,
+        "sternocostal_head": 0.2,
+        "medial_head_triceps": 0.5,
+        "lateral_head_triceps": 0.5,
+        "anterior_head": 0.3
+      }
+    }
+  },
+  {
+    "id": "diamond_push_up",
+    "name": {
+      "es": "Flexiones Diamante",
+      "en": "Diamond Push-up",
+      "fr": "Pompes diamant",
+      "pt": "Flexão Diamante",
+      "de": "Diamant Liegestütz"
+    },
+    "category": "bodyweight",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "triceps_brachii",
+        "pectoralis_major",
+        "deltoids_anterior"
+      ],
+      "activation": {
+        "medial_head_triceps": 0.75,
+        "lateral_head_triceps": 0.75,
+        "sternocostal_head": 0.4,
+        "anterior_head": 0.3
+      }
+    }
+  },
+  {
+    "id": "archer_push_up",
+    "name": {
+      "es": "Flexiones de Arquero",
+      "en": "Archer Push-up",
+      "fr": "Pompes archer",
+      "pt": "Flexão Arqueiro",
+      "de": "Archer Liegestütz"
+    },
+    "category": "bodyweight",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "pectoralis_major",
+        "deltoids_anterior",
+        "triceps_brachii"
+      ],
+      "activation": {
+        "sternocostal_head": 0.8,
+        "clavicular_head": 0.2,
+        "anterior_head": 0.4,
+        "medial_head_triceps": 0.3
+      }
+    }
+  },
+  {
+    "id": "wide_grip_lat_pulldown",
+    "name": {
+      "es": "Jalón al Pecho (Agarre Prono)",
+      "en": "Wide Grip Lat Pulldown",
+      "fr": "Tirage poitrine prise large",
+      "pt": "Puxada Alta (Pegada Aberta)",
+      "de": "Latzug (Breiter Obergriff)"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "latissimus_dorsi",
+        "upper_back",
+        "biceps_brachii"
+      ],
+      "activation": {
+        "latissimus_dorsi_muscle": 0.75,
+        "teres_major": 0.4,
+        "short_head": 0.15,
+        "long_head": 0.15
+      }
+    }
+  },
+  {
+    "id": "reverse_grip_lat_pulldown",
+    "name": {
+      "es": "Jalón al Pecho Supino",
+      "en": "Reverse Grip Lat Pulldown",
+      "fr": "Tirage poitrine supination",
+      "pt": "Puxada Inversa (Supinada)",
+      "de": "Latzug (Untergriff)"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "latissimus_dorsi",
+        "biceps_brachii"
+      ],
+      "activation": {
+        "latissimus_dorsi_muscle": 0.7,
+        "short_head": 0.4,
+        "long_head": 0.3
+      }
+    }
+  },
+  {
+    "id": "neutral_grip_lat_pulldown",
+    "name": {
+      "es": "Jalón al Pecho (Agarre Neutro)",
+      "en": "Neutral Grip Lat Pulldown",
+      "fr": "Tirage prise neutre (Triangle)",
+      "pt": "Puxada Triângulo (Neutra)",
+      "de": "Latzug (Neutraler Griff)"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "latissimus_dorsi",
+        "upper_back",
+        "trapezius"
+      ],
+      "activation": {
+        "latissimus_dorsi_muscle": 0.65,
+        "rhomboids": 0.45,
+        "trapezius_inferior": 0.35,
+        "brachialis_muscle": 0.2
+      }
+    }
+  },
+  {
+    "id": "seated_cable_row",
+    "name": {
+      "es": "Remo en Polea Baja",
+      "en": "Seated Cable Row",
+      "fr": "Tirage assis poulie basse",
+      "pt": "Remada Baixa (Cabo)",
+      "de": "Rudern am Kabelzug (Sitzend)"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "upper_back",
+        "latissimus_dorsi",
+        "trapezius",
+        "biceps_brachii"
+      ],
+      "activation": {
+        "rhomboids": 0.45,
+        "trapezius_media": 0.35,
+        "trapezius_inferior": 0.3,
+        "latissimus_dorsi_muscle": 0.4,
+        "teres_major": 0.25,
+        "short_head": 0.15,
+        "long_head": 0.15
+      }
+    }
+  },
+  {
+    "id": "chest_supported_machine_row",
+    "name": {
+      "es": "Remo en Máquina (Pecho Apoyado)",
+      "en": "Chest Supported Machine Row",
+      "fr": "Tirage horizontal machine (buste soutenu)",
+      "pt": "Remada Máquina (Peito Apoiado)",
+      "de": "Rudermaschine (Brustgestützt)"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "upper_back",
+        "latissimus_dorsi",
+        "deltoids_posterior"
+      ],
+      "activation": {
+        "rhomboids": 0.5,
+        "trapezius_media": 0.4,
+        "latissimus_dorsi_muscle": 0.35,
+        "posterior_head": 0.3,
+        "brachialis_muscle": 0.2
+      }
+    }
+  },
+  {
+    "id": "cable_straight_arm_pulldown",
+    "name": {
+      "es": "Pullover en Polea Alta (Brazos Rígidos)",
+      "en": "Cable Straight-Arm Pulldown",
+      "fr": "Pull-over à la poulie haute",
+      "pt": "Pulldown com Braços Retos",
+      "de": "Überzüge am Kabelzug (Gestreckte Arme)"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "latissimus_dorsi",
+        "triceps_brachii"
+      ],
+      "activation": {
+        "latissimus_dorsi_muscle": 0.85,
+        "teres_major": 0.4,
+        "long_head_triceps": 0.35,
+        "serratus_anterior_muscle": 0.2
+      }
+    }
+  },
+  {
+    "id": "face_pull",
+    "name": {
+      "es": "Face Pull (Jalón a la Cara)",
+      "en": "Face Pull",
+      "fr": "Face Pull",
+      "pt": "Face Pull (Puxada na Face)",
+      "de": "Face Pull"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "deltoids_posterior",
+        "upper_back",
+        "trapezius"
+      ],
+      "activation": {
+        "posterior_head": 0.5,
+        "trapezius_media": 0.3,
+        "rhomboids": 0.2
+      }
+    }
+  },
+  {
+    "id": "smith_machine_shrug",
+    "name": {
+      "es": "Encogimientos en Multipower",
+      "en": "Smith Machine Shrug",
+      "fr": "Shrug à la barre guidée",
+      "pt": "Encolhimento na Smith",
+      "de": "Nackenheben an der Multipresse"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "trapezius"
+      ],
+      "activation": {
+        "trapezius_superior": 0.9,
+        "trapezius_media": 0.1
+      }
+    }
+  },
+  {
+    "id": "deadlift",
+    "name": {
+      "es": "Peso Muerto",
+      "en": "Deadlift",
+      "fr": "Soulevé de terre",
+      "pt": "Levantamento Terra",
+      "de": "Kreuzheben"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "erector_spinae",
+        "gluteal_group",
+        "hamstrings",
+        "trapezius",
+        "latissimus_dorsi"
+      ],
+      "activation": {
+        "lumbar_muscles": 0.85,
+        "gluteus_maximus": 0.7,
+        "biceps_femoris": 0.5,
+        "trapezius_superior": 0.5,
+        "latissimus_dorsi_muscle": 0.3
+      }
+    }
+  },
+  {
+    "id": "bent_over_barbell_row",
+    "name": {
+      "es": "Remo con Barra",
+      "en": "Bent-Over Barbell Row",
+      "fr": "Rowing barre",
+      "pt": "Remada Curvada",
+      "de": "Langhantelrudern (Vorgebeugt)"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "latissimus_dorsi",
+        "upper_back",
+        "trapezius",
+        "erector_spinae",
+        "biceps_brachii"
+      ],
+      "activation": {
+        "latissimus_dorsi_muscle": 0.6,
+        "rhomboids": 0.5,
+        "trapezius_media": 0.45,
+        "lumbar_muscles": 0.4,
+        "short_head": 0.2,
+        "long_head": 0.2
+      }
+    }
+  },
+  {
+    "id": "pendlay_row",
+    "name": {
+      "es": "Remo Pendlay",
+      "en": "Pendlay Row",
+      "fr": "Rowing Pendlay",
+      "pt": "Remada Pendlay",
+      "de": "Pendlay Row"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "upper_back",
+        "latissimus_dorsi",
+        "erector_spinae",
+        "deltoids_posterior"
+      ],
+      "activation": {
+        "latissimus_dorsi_muscle": 0.65,
+        "rhomboids": 0.55,
+        "trapezius_media": 0.45,
+        "lumbar_muscles": 0.35,
+        "posterior_head": 0.3
+      }
+    }
+  },
+  {
+    "id": "one_arm_dumbbell_row",
+    "name": {
+      "es": "Remo con Mancuerna (Serrucho)",
+      "en": "One-Arm Dumbbell Row",
+      "fr": "Rowing haltère à un bras",
+      "pt": "Remada Unilateral (Serrote)",
+      "de": "Einarmiges Kurzhantelrudern"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "latissimus_dorsi",
+        "upper_back",
+        "biceps_brachii",
+        "deltoids_posterior"
+      ],
+      "activation": {
+        "latissimus_dorsi_muscle": 0.75,
+        "teres_major": 0.4,
+        "posterior_head": 0.3,
+        "short_head": 0.25,
+        "rhomboids": 0.2
+      }
+    }
+  },
+  {
+    "id": "t_bar_row",
+    "name": {
+      "es": "Remo en Punta (Barra T)",
+      "en": "T-Bar Row",
+      "fr": "Rowing barre T",
+      "pt": "Remada Cavalinho",
+      "de": "T-Bar Rudern"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "upper_back",
+        "latissimus_dorsi",
+        "trapezius",
+        "erector_spinae"
+      ],
+      "activation": {
+        "latissimus_dorsi_muscle": 0.65,
+        "rhomboids": 0.55,
+        "trapezius_media": 0.5,
+        "lumbar_muscles": 0.45,
+        "posterior_head": 0.25
+      }
+    }
+  },
+  {
+    "id": "seal_row",
+    "name": {
+      "es": "Remo Seal",
+      "en": "Seal Row",
+      "fr": "Rowing Seal (Banc surélevé)",
+      "pt": "Remada Seal",
+      "de": "Seal Row"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "upper_back",
+        "latissimus_dorsi",
+        "deltoids_posterior",
+        "trapezius"
+      ],
+      "activation": {
+        "rhomboids": 0.7,
+        "trapezius_media": 0.5,
+        "latissimus_dorsi_muscle": 0.45,
+        "posterior_head": 0.4,
+        "brachialis_muscle": 0.2
+      }
+    }
+  },
+  {
+    "id": "dumbbell_shrug",
+    "name": {
+      "es": "Encogimientos con Mancuernas",
+      "en": "Dumbbell Shrugs",
+      "fr": "Shrugs haltères",
+      "pt": "Encolhimento com Halteres",
+      "de": "Kurzhantel Nackenheben"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "trapezius"
+      ],
+      "activation": {
+        "trapezius_superior": 0.95,
+        "trapezius_media": 0.15
+      }
+    }
+  },
+  {
+    "id": "pull_up",
+    "name": {
+      "es": "Dominadas Pronas",
+      "en": "Pull-ups",
+      "fr": "Tractions pronation",
+      "pt": "Barra Fixa (Pronada)",
+      "de": "Klimmzüge (Obergriff)"
+    },
+    "category": "bodyweight",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "latissimus_dorsi",
+        "upper_back",
+        "biceps_brachii"
+      ],
+      "activation": {
+        "latissimus_dorsi_muscle": 0.85,
+        "teres_major": 0.45,
+        "rhomboids": 0.3,
+        "brachialis_muscle": 0.2
+      }
+    }
+  },
+  {
+    "id": "neutral_grip_pull_up",
+    "name": {
+      "es": "Dominadas Neutras",
+      "en": "Neutral Grip Pull-ups",
+      "fr": "Tractions prise neutre",
+      "pt": "Barra Fixa (Neutra)",
+      "de": "Klimmzüge (Neutraler Griff)"
+    },
+    "category": "bodyweight",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "latissimus_dorsi",
+        "brachialis",
+        "upper_back"
+      ],
+      "activation": {
+        "latissimus_dorsi_muscle": 0.75,
+        "brachialis_muscle": 0.5,
+        "teres_major": 0.35,
+        "rhomboids": 0.3
+      }
+    }
+  },
+  {
+    "id": "inverted_row",
+    "name": {
+      "es": "Remo Invertido (Australian Pull-up)",
+      "en": "Inverted Row (Australian Pull-up)",
+      "fr": "Traction australienne",
+      "pt": "Remada Invertida (Australiana)",
+      "de": "Inverted Row (Australische Klimmzüge)"
+    },
+    "category": "bodyweight",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "latissimus_dorsi",
+        "upper_back",
+        "trapezius",
+        "biceps_brachii",
+        "deltoids_posterior"
+      ],
+      "activation": {
+        "latissimus_dorsi_muscle": 0.6,
+        "rhomboids": 0.5,
+        "trapezius_media": 0.45,
+        "posterior_head": 0.3,
+        "short_head": 0.2,
+        "long_head": 0.2
+      }
+    }
+  },
+  {
+    "id": "superman_exercise",
+    "name": {
+      "es": "Superman",
+      "en": "Superman",
+      "fr": "Superman",
+      "pt": "Superman (Extensão Lombar no Chão)",
+      "de": "Superman (Rückenstrecken am Boden)"
+    },
+    "category": "bodyweight",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "erector_spinae",
+        "gluteal_group"
+      ],
+      "activation": {
+        "lumbar_muscles": 0.9,
+        "gluteus_maximus": 0.4,
+        "trapezius_inferior": 0.2
+      }
+    }
+  },
+  {
+    "id": "back_extension",
+    "name": {
+      "es": "Extensiones de Espalda (Banco Romano)",
+      "en": "Back Extension (Hyperextension)",
+      "fr": "Extension lombaire (Banc à lombaires)",
+      "pt": "Hiperextensão Lombar",
+      "de": "Rückenstrecken (Hyperextensions)"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "erector_spinae",
+        "hamstrings",
+        "gluteal_group"
+      ],
+      "activation": {
+        "lumbar_muscles": 0.85,
+        "biceps_femoris": 0.45,
+        "gluteus_maximus": 0.4,
+        "semitendinosus": 0.3
+      }
+    }
+  },
+  {
+    "id": "triceps_pushdown",
+    "name": {
+      "es": "Extensiones en Polea Alta",
+      "en": "Triceps Pushdown",
+      "fr": "Extensions à la poulie haute",
+      "pt": "Tríceps Pulley",
+      "de": "Trizepsdrücken am Kabelzug"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "triceps_brachii"
+      ],
+      "activation": {
+        "lateral_head_triceps": 0.6,
+        "medial_head_triceps": 0.3,
+        "long_head_triceps": 0.1
+      }
+    }
+  },
+  {
+    "id": "rope_pushdown",
+    "name": {
+      "es": "Extensiones con Cuerda",
+      "en": "Rope Pushdown",
+      "fr": "Extensions à la corde",
+      "pt": "Tríceps Corda",
+      "de": "Trizepsdrücken mit Seil"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "triceps_brachii"
+      ],
+      "activation": {
+        "lateral_head_triceps": 0.55,
+        "medial_head_triceps": 0.35,
+        "long_head_triceps": 0.1
+      }
+    }
+  },
+  {
+    "id": "overhead_cable_extension",
+    "name": {
+      "es": "Extensiones Katana",
+      "en": "Overhead Cable Extension",
+      "fr": "Extensions Katana",
+      "pt": "Tríceps Katana",
+      "de": "Überkopf Trizepsdrücken (Katana)"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "triceps_brachii"
+      ],
+      "activation": {
+        "long_head_triceps": 0.7,
+        "medial_head_triceps": 0.2,
+        "lateral_head_triceps": 0.1
+      }
+    }
+  },
+  {
+    "id": "cable_skullcrusher",
+    "name": {
+      "es": "Press Francés en Polea",
+      "en": "Cable Skullcrusher",
+      "fr": "Barre au front à la poulie",
+      "pt": "Tríceps Testa na Polia",
+      "de": "Stirndrücken am Kabelzug"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "triceps_brachii"
+      ],
+      "activation": {
+        "long_head_triceps": 0.5,
+        "lateral_head_triceps": 0.4,
+        "medial_head_triceps": 0.15
+      }
+    }
+  },
+  {
+    "id": "cable_bicep_curl",
+    "name": {
+      "es": "Curl de Bíceps en Polea Baja",
+      "en": "Low Cable Bicep Curl",
+      "fr": "Curl à la poulie basse",
+      "pt": "Rosca Direta na Polia Baixa",
+      "de": "Bizepscurl am Kabelzug"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "biceps_brachii"
+      ],
+      "activation": {
+        "short_head": 0.5,
+        "long_head": 0.5
+      }
+    }
+  },
+  {
+    "id": "machine_preacher_curl",
+    "name": {
+      "es": "Curl Predicador en Máquina",
+      "en": "Machine Preacher Curl",
+      "fr": "Curl pupitre à la machine",
+      "pt": "Rosca Scott Máquina",
+      "de": "Preacher Curls an der Maschine"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "biceps_brachii"
+      ],
+      "activation": {
+        "short_head": 0.8,
+        "long_head": 0.2
+      }
+    }
+  },
+  {
+    "id": "bayesian_curl",
+    "name": {
+      "es": "Curl de Baye (Bayesian Curl)",
+      "en": "Bayesian Cable Curl",
+      "fr": "Curl Bayésien",
+      "pt": "Rosca Bayesiana",
+      "de": "Bayesian Curl"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "biceps_brachii"
+      ],
+      "activation": {
+        "long_head": 0.75,
+        "short_head": 0.25
+      }
+    }
+  },
+  {
+    "id": "spider_curl",
+    "name": {
+      "es": "Curl Araña",
+      "en": "Spider Curl",
+      "fr": "Curl Araignée",
+      "pt": "Rosca Aranha",
+      "de": "Spider Curls"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "biceps_brachii"
+      ],
+      "activation": {
+        "short_head": 0.7,
+        "long_head": 0.3
+      }
+    }
+  },
+  {
+    "id": "cable_wrist_curl",
+    "name": {
+      "es": "Curl de Muñeca en Polea",
+      "en": "Cable Wrist Curl",
+      "fr": "Curl poignet à la poulie",
+      "pt": "Rosca de Punho na Polia",
+      "de": "Handgelenkcurls am Kabelzug"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "forearms"
+      ],
+      "activation": {
+        "flexors": 0.95,
+        "extensors": 0.05
+      }
+    }
+  },
+  {
+    "id": "close_grip_bench_press",
+    "name": {
+      "es": "Press de Banca Agarre Cerrado",
+      "en": "Close-Grip Bench Press",
+      "fr": "Développé couché prise serrée",
+      "pt": "Supino Fechado",
+      "de": "Enges Bankdrücken"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "triceps_brachii",
+        "pectoralis_major",
+        "deltoids_anterior"
+      ],
+      "activation": {
+        "medial_head_triceps": 0.35,
+        "lateral_head_triceps": 0.35,
+        "long_head_triceps": 0.2,
+        "sternocostal_head": 0.3,
+        "clavicular_head": 0.1,
+        "anterior_head": 0.45
+      }
+    }
+  },
+  {
+    "id": "barbell_skullcrusher",
+    "name": {
+      "es": "Press Francés con Barra Z",
+      "en": "Barbell Skullcrusher",
+      "fr": "Barre au front",
+      "pt": "Tríceps Testa com Barra",
+      "de": "Stirndrücken (Sz-Stange)"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "triceps_brachii"
+      ],
+      "activation": {
+        "lateral_head_triceps": 0.45,
+        "long_head_triceps": 0.45,
+        "medial_head_triceps": 0.1
+      }
+    }
+  },
+  {
+    "id": "overhead_dumbbell_extension",
+    "name": {
+      "es": "Copa a Dos Manos",
+      "en": "Overhead Dumbbell Extension",
+      "fr": "Extension verticale avec haltère",
+      "pt": "Tríceps Francês (Haltere)",
+      "de": "Überkopf Trizepsdrücken (Kurzhantel)"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "triceps_brachii"
+      ],
+      "activation": {
+        "long_head_triceps": 0.8,
+        "medial_head_triceps": 0.15,
+        "lateral_head_triceps": 0.05
+      }
+    }
+  },
+  {
+    "id": "tricep_kickback",
+    "name": {
+      "es": "Patada de Tríceps con Mancuerna",
+      "en": "Tricep Kickback",
+      "fr": "Extension triceps (Kickback)",
+      "pt": "Coice (Tríceps)",
+      "de": "Kickbacks (Trizeps)"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "triceps_brachii",
+        "deltoids_posterior"
+      ],
+      "activation": {
+        "lateral_head_triceps": 0.5,
+        "medial_head_triceps": 0.4,
+        "long_head_triceps": 0.1,
+        "posterior_head": 0.15
+      }
+    }
+  },
+  {
+    "id": "tate_press",
+    "name": {
+      "es": "Tate Press",
+      "en": "Tate Press",
+      "fr": "Tate Press",
+      "pt": "Tate Press",
+      "de": "Tate Press"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "triceps_brachii"
+      ],
+      "activation": {
+        "medial_head_triceps": 0.7,
+        "lateral_head_triceps": 0.2,
+        "long_head_triceps": 0.1
+      }
+    }
+  },
+  {
+    "id": "barbell_curl",
+    "name": {
+      "es": "Curl con Barra",
+      "en": "Barbell Curl",
+      "fr": "Curl barre",
+      "pt": "Rosca Direta (Barra)",
+      "de": "Langhantelcurls"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "biceps_brachii",
+        "forearms"
+      ],
+      "activation": {
+        "short_head": 0.5,
+        "long_head": 0.5,
+        "flexors": 0.2
+      }
+    }
+  },
+  {
+    "id": "alternating_dumbbell_curl",
+    "name": {
+      "es": "Curl Alterno con Mancuernas (Supinación)",
+      "en": "Alternating Dumbbell Curl (Supinating)",
+      "fr": "Curl haltères alterné",
+      "pt": "Rosca Alternada com Halteres",
+      "de": "Abwechselnde Kurzhantel Curls"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "biceps_brachii",
+        "forearms"
+      ],
+      "activation": {
+        "short_head": 0.5,
+        "long_head": 0.5,
+        "flexors": 0.15
+      }
+    }
+  },
+  {
+    "id": "hammer_curl",
+    "name": {
+      "es": "Curl Martillo",
+      "en": "Hammer Curl",
+      "fr": "Curl Marteau",
+      "pt": "Rosca Martelo",
+      "de": "Hammer Curls"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "brachialis",
+        "biceps_brachii",
+        "forearms"
+      ],
+      "activation": {
+        "brachialis_muscle": 0.7,
+        "long_head": 0.3,
+        "flexors": 0.4
+      }
+    }
+  },
+  {
+    "id": "incline_dumbbell_curl",
+    "name": {
+      "es": "Curl Inclinado con Mancuernas",
+      "en": "Incline Dumbbell Curl",
+      "fr": "Curl incliné haltères",
+      "pt": "Rosca Inclinada",
+      "de": "Schrägbank Curls"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "biceps_brachii"
+      ],
+      "activation": {
+        "long_head": 0.8,
+        "short_head": 0.2
+      }
+    }
+  },
+  {
+    "id": "zottman_curl",
+    "name": {
+      "es": "Curl Zottman",
+      "en": "Zottman Curl",
+      "fr": "Curl Zottman",
+      "pt": "Rosca Zottman",
+      "de": "Zottman Curls"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "biceps_brachii",
+        "brachialis",
+        "forearms"
+      ],
+      "activation": {
+        "brachialis_muscle": 0.5,
+        "extensors": 0.4,
+        "short_head": 0.3,
+        "long_head": 0.3
+      }
+    }
+  },
+  {
+    "id": "concentration_curl",
+    "name": {
+      "es": "Curl Concentrado",
+      "en": "Concentration Curl",
+      "fr": "Curl concentré",
+      "pt": "Rosca Concentrada",
+      "de": "Konzentrationscurls"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "biceps_brachii"
+      ],
+      "activation": {
+        "short_head": 0.9,
+        "long_head": 0.1
+      }
+    }
+  },
+  {
+    "id": "barbell_wrist_curl",
+    "name": {
+      "es": "Curl de Muñeca (Barra/Mancuerna)",
+      "en": "Wrist Curl",
+      "fr": "Curl poignet",
+      "pt": "Rosca de Punho",
+      "de": "Handgelenkcurls"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "forearms"
+      ],
+      "activation": {
+        "flexors": 1.0
+      }
+    }
+  },
+  {
+    "id": "reverse_wrist_curl",
+    "name": {
+      "es": "Curl de Muñeca Inverso",
+      "en": "Reverse Wrist Curl",
+      "fr": "Curl poignet inversé",
+      "pt": "Rosca Inversa de Punho",
+      "de": "Unterarmcurls (Obergriff)"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "forearms"
+      ],
+      "activation": {
+        "extensors": 1.0,
+        "flexors": 0.1
+      }
+    }
+  },
+  {
+    "id": "farmers_walk",
+    "name": {
+      "es": "Paseo del Granjero",
+      "en": "Farmer's Walk",
+      "fr": "Marche du fermier",
+      "pt": "Caminhada do Fazendeiro",
+      "de": "Farmers Walk"
+    },
+    "category": "weights",
+    "type": "time",
+    "impact": {
+      "targets": [
+        "forearms",
+        "trapezius",
+        "abdominals"
+      ],
+      "activation": {
+        "flexors": 0.85,
+        "trapezius_superior": 0.6,
+        "obliques": 0.4,
+        "rectus_abdominis": 0.3
+      }
+    }
+  },
+  {
+    "id": "bench_dips",
+    "name": {
+      "es": "Fondos entre Bancos",
+      "en": "Bench Dips",
+      "fr": "Répulsions entre bancs",
+      "pt": "Mergulho entre Bancos",
+      "de": "Dips an der Bank"
+    },
+    "category": "bodyweight",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "triceps_brachii",
+        "deltoids_anterior",
+        "pectoralis_major"
+      ],
+      "activation": {
+        "lateral_head_triceps": 0.5,
+        "medial_head_triceps": 0.5,
+        "long_head_triceps": 0.2,
+        "anterior_head": 0.45,
+        "abdominal_head": 0.3
+      }
+    }
+  },
+  {
+    "id": "bodyweight_skullcrusher",
+    "name": {
+      "es": "Extensiones de Tríceps en Suelo",
+      "en": "Bodyweight Skullcrusher",
+      "fr": "Barre au front au poids du corps",
+      "pt": "Tríceps Testa no Chão",
+      "de": "Trizepsdrücken (Körpergewicht)"
+    },
+    "category": "bodyweight",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "triceps_brachii",
+        "abdominals"
+      ],
+      "activation": {
+        "long_head_triceps": 0.7,
+        "lateral_head_triceps": 0.3,
+        "medial_head_triceps": 0.3,
+        "rectus_abdominis": 0.4
+      }
+    }
+  },
+  {
+    "id": "chin_up",
+    "name": {
+      "es": "Dominadas Supinas",
+      "en": "Chin-ups",
+      "fr": "Tractions supination",
+      "pt": "Barra Fixa (Supinada)",
+      "de": "Klimmzüge (Untergriff)"
+    },
+    "category": "bodyweight",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "latissimus_dorsi",
+        "biceps_brachii",
+        "forearms"
+      ],
+      "activation": {
+        "latissimus_dorsi_muscle": 0.7,
+        "short_head": 0.5,
+        "long_head": 0.4,
+        "flexors": 0.3
+      }
+    }
+  },
+  {
+    "id": "commando_pull_up",
+    "name": {
+      "es": "Dominadas Comando",
+      "en": "Commando Pull-ups",
+      "fr": "Tractions Commando",
+      "pt": "Barra Comando",
+      "de": "Commando Klimmzüge"
+    },
+    "category": "bodyweight",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "latissimus_dorsi",
+        "biceps_brachii",
+        "brachialis",
+        "obliques"
+      ],
+      "activation": {
+        "latissimus_dorsi_muscle": 0.7,
+        "brachialis_muscle": 0.4,
+        "short_head": 0.3,
+        "long_head": 0.3,
+        "obliques": 0.3
+      }
+    }
+  },
+  {
+    "id": "headbangers",
+    "name": {
+      "es": "Curl de Bíceps en Barra (Headbangers)",
+      "en": "Headbangers (Barbell Curl)",
+      "fr": "Headbangers",
+      "pt": "Headbangers",
+      "de": "Headbangers"
+    },
+    "category": "bodyweight",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "biceps_brachii",
+        "latissimus_dorsi",
+        "core"
+      ],
+      "activation": {
+        "short_head": 0.6,
+        "long_head": 0.4,
+        "latissimus_dorsi_muscle": 0.3,
+        "rectus_abdominis": 0.3
+      }
+    }
+  },
+  {
+    "id": "supine_inverted_row",
+    "name": {
+      "es": "Remo Invertido Supino (A la frente)",
+      "en": "Supine Inverted Row (To Forehead)",
+      "fr": "Traction australienne supination (Front)",
+      "pt": "Remada Invertida Supinada (Testa)",
+      "de": "Inverted Row (Untergriff zur Stirn)"
+    },
+    "category": "bodyweight",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "biceps_brachii",
+        "upper_back",
+        "deltoids_posterior"
+      ],
+      "activation": {
+        "short_head": 0.5,
+        "long_head": 0.4,
+        "posterior_head": 0.4,
+        "rhomboids": 0.3
+      }
+    }
+  },
+  {
+    "id": "dead_hang",
+    "name": {
+      "es": "Colgarse de la Barra (Dead Hang)",
+      "en": "Dead Hang",
+      "fr": "Suspension à la barre",
+      "pt": "Suspensão na Barra",
+      "de": "Aushängen (Klimmzugstange)"
+    },
+    "category": "bodyweight",
+    "type": "time",
+    "impact": {
+      "targets": [
+        "forearms",
+        "latissimus_dorsi"
+      ],
+      "activation": {
+        "flexors": 0.9,
+        "latissimus_dorsi_muscle": 0.2,
+        "trapezius_inferior": 0.1
+      }
+    }
+  },
+  {
+    "id": "fingertip_push_up",
+    "name": {
+      "es": "Flexiones con Dedos",
+      "en": "Fingertip Push-ups",
+      "fr": "Pompes sur les doigts",
+      "pt": "Flexão com os Dedos",
+      "de": "Liegestütz auf den Fingern"
+    },
+    "category": "bodyweight",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "pectoralis_major",
+        "triceps_brachii",
+        "forearms"
+      ],
+      "activation": {
+        "sternocostal_head": 0.6,
+        "anterior_head": 0.3,
+        "medial_head_triceps": 0.4,
+        "extensors": 0.5,
+        "flexors": 0.2
+      }
+    }
+  },
+  {
+    "id": "machine_shoulder_press",
+    "name": {
+      "es": "Press Militar en Máquina",
+      "en": "Machine Shoulder Press",
+      "fr": "Développé militaire à la machine",
+      "pt": "Desenvolvimento Máquina",
+      "de": "Schulterpresse (Maschine)"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "deltoids_anterior",
+        "triceps_brachii",
+        "deltoids_lateral"
+      ],
+      "activation": {
+        "anterior_head": 0.65,
+        "lateral_head": 0.25,
+        "medial_head_triceps": 0.3,
+        "lateral_head_triceps": 0.3,
+        "clavicular_head": 0.15
+      }
+    }
+  },
+  {
+    "id": "smith_machine_shoulder_press",
+    "name": {
+      "es": "Press Militar en Multipower",
+      "en": "Smith Machine Shoulder Press",
+      "fr": "Développé militaire guidé",
+      "pt": "Desenvolvimento na Smith",
+      "de": "Schulterdrücken an der Multipresse"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "deltoids_anterior",
+        "triceps_brachii"
+      ],
+      "activation": {
+        "anterior_head": 0.75,
+        "lateral_head": 0.15,
+        "medial_head_triceps": 0.3,
+        "lateral_head_triceps": 0.3,
+        "clavicular_head": 0.15
+      }
+    }
+  },
+  {
+    "id": "cable_lateral_raise",
+    "name": {
+      "es": "Elevaciones Laterales en Polea",
+      "en": "Cable Lateral Raise",
+      "fr": "Élévations latérales à la poulie",
+      "pt": "Elevação Lateral na Polia",
+      "de": "Kabelzug Seitheben"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "deltoids_lateral"
+      ],
+      "activation": {
+        "lateral_head": 1.0,
+        "trapezius_superior": 0.15,
+        "anterior_head": 0.1,
+        "posterior_head": 0.05
+      }
+    }
+  },
+  {
+    "id": "reverse_pec_deck",
+    "name": {
+      "es": "Pájaros en Máquina (Reverse Pec Deck)",
+      "en": "Reverse Pec Deck (Machine Rear Delt Fly)",
+      "fr": "Oiseau à la machine",
+      "pt": "Voador Inverso",
+      "de": "Reverse Butterfly"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "deltoids_posterior",
+        "upper_back"
+      ],
+      "activation": {
+        "posterior_head": 0.85,
+        "rhomboids": 0.1,
+        "trapezius_media": 0.05
+      }
+    }
+  },
+  {
+    "id": "cable_rear_delt_fly",
+    "name": {
+      "es": "Cruce de Poleas Inverso",
+      "en": "Cable Rear Delt Fly",
+      "fr": "Écarté arrière à la poulie",
+      "pt": "Crucifixo Inverso na Polia",
+      "de": "Reverse Flys am Kabelzug"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "deltoids_posterior",
+        "upper_back"
+      ],
+      "activation": {
+        "posterior_head": 0.8,
+        "rhomboids": 0.15,
+        "trapezius_media": 0.05
+      }
+    }
+  },
+  {
+    "id": "cable_serratus_punch",
+    "name": {
+      "es": "Puñetazo de Serrato",
+      "en": "Cable Serratus Punch",
+      "fr": "Punch serratus à la poulie",
+      "pt": "Soco Serrátil na Polia",
+      "de": "Serratus Punch am Kabelzug"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "serratus_anterior",
+        "deltoids_anterior"
+      ],
+      "activation": {
+        "serratus_anterior_muscle": 0.9,
+        "anterior_head": 0.1
+      }
+    }
+  },
+  {
+    "id": "overhead_press",
+    "name": {
+      "es": "Press Militar con Barra",
+      "en": "Overhead Press (Military Press)",
+      "fr": "Développé militaire barre",
+      "pt": "Desenvolvimento Militar (Barra)",
+      "de": "Militärpresse (Langhantel)"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "deltoids_anterior",
+        "triceps_brachii",
+        "deltoids_lateral"
+      ],
+      "activation": {
+        "anterior_head": 0.6,
+        "lateral_head": 0.2,
+        "medial_head_triceps": 0.15,
+        "lateral_head_triceps": 0.15,
+        "clavicular_head": 0.15,
+        "serratus_anterior_muscle": 0.1
+      }
+    }
+  },
+  {
+    "id": "seated_dumbbell_shoulder_press",
+    "name": {
+      "es": "Press con Mancuernas Sentado",
+      "en": "Seated Dumbbell Shoulder Press",
+      "fr": "Développé épaules assis haltères",
+      "pt": "Desenvolvimento Sentado com Halteres",
+      "de": "Schulterdrücken sitzend (Kurzhantel)"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "deltoids_anterior",
+        "triceps_brachii"
+      ],
+      "activation": {
+        "anterior_head": 0.7,
+        "lateral_head": 0.15,
+        "medial_head_triceps": 0.15,
+        "lateral_head_triceps": 0.15,
+        "clavicular_head": 0.1
+      }
+    }
+  },
+  {
+    "id": "arnold_press",
+    "name": {
+      "es": "Press Arnold",
+      "en": "Arnold Press",
+      "fr": "Développé Arnold",
+      "pt": "Desenvolvimento Arnold",
+      "de": "Arnold Press"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "deltoids_anterior",
+        "deltoids_lateral",
+        "triceps_brachii"
+      ],
+      "activation": {
+        "anterior_head": 0.65,
+        "lateral_head": 0.3,
+        "medial_head_triceps": 0.15,
+        "lateral_head_triceps": 0.15
+      }
+    }
+  },
+  {
+    "id": "dumbbell_lateral_raise",
+    "name": {
+      "es": "Elevaciones Laterales con Mancuernas",
+      "en": "Dumbbell Lateral Raise",
+      "fr": "Élévations latérales haltères",
+      "pt": "Elevação Lateral com Halteres",
+      "de": "Seitheben mit Kurzhanteln"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "deltoids_lateral"
+      ],
+      "activation": {
+        "lateral_head": 1.0,
+        "trapezius_superior": 0.1,
+        "anterior_head": 0.05
+      }
+    }
+  },
+  {
+    "id": "dumbbell_rear_delt_fly",
+    "name": {
+      "es": "Pájaros con Mancuernas",
+      "en": "Dumbbell Rear Delt Fly",
+      "fr": "Oiseau avec haltères",
+      "pt": "Crucifixo Inverso com Halteres",
+      "de": "Vorgebeugtes Seitheben"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "deltoids_posterior",
+        "upper_back"
+      ],
+      "activation": {
+        "posterior_head": 0.85,
+        "rhomboids": 0.1,
+        "trapezius_media": 0.05
+      }
+    }
+  },
+  {
+    "id": "upright_row",
+    "name": {
+      "es": "Remo al Mentón",
+      "en": "Upright Row",
+      "fr": "Tirage menton",
+      "pt": "Remada Alta",
+      "de": "Aufrechtes Rudern"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "deltoids_lateral",
+        "trapezius",
+        "biceps_brachii"
+      ],
+      "activation": {
+        "lateral_head": 0.5,
+        "trapezius_superior": 0.35,
+        "anterior_head": 0.1,
+        "short_head": 0.05
+      }
+    }
+  },
+  {
+    "id": "front_raise",
+    "name": {
+      "es": "Elevaciones Frontales",
+      "en": "Front Raise",
+      "fr": "Élévations frontales",
+      "pt": "Elevação Frontal",
+      "de": "Frontheben"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "deltoids_anterior"
+      ],
+      "activation": {
+        "anterior_head": 0.9,
+        "clavicular_head": 0.1
+      }
+    }
+  },
+  {
+    "id": "push_press",
+    "name": {
+      "es": "Push Press",
+      "en": "Push Press",
+      "fr": "Push Press",
+      "pt": "Push Press",
+      "de": "Push Press"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "deltoids_anterior",
+        "triceps_brachii",
+        "deltoids_lateral"
+      ],
+      "activation": {
+        "anterior_head": 0.5,
+        "lateral_head": 0.2,
+        "medial_head_triceps": 0.15,
+        "lateral_head_triceps": 0.15
+      }
+    }
+  },
+  {
+    "id": "pike_push_up",
+    "name": {
+      "es": "Flexiones en Pica",
+      "en": "Pike Push-up",
+      "fr": "Pompes en pique",
+      "pt": "Flexão em Pique (V)",
+      "de": "Pike Push-ups"
+    },
+    "category": "bodyweight",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "deltoids_anterior",
+        "triceps_brachii",
+        "deltoids_lateral"
+      ],
+      "activation": {
+        "anterior_head": 0.6,
+        "lateral_head": 0.2,
+        "medial_head_triceps": 0.25,
+        "lateral_head_triceps": 0.25,
+        "clavicular_head": 0.15
+      }
+    }
+  },
+  {
+    "id": "handstand_push_up",
+    "name": {
+      "es": "Flexiones de Pino",
+      "en": "Handstand Push-up",
+      "fr": "Pompes en poirier",
+      "pt": "Flexão de Parada de Mão",
+      "de": "Handstand Liegestütz"
+    },
+    "category": "bodyweight",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "deltoids_anterior",
+        "triceps_brachii"
+      ],
+      "activation": {
+        "anterior_head": 0.75,
+        "medial_head_triceps": 0.3,
+        "lateral_head_triceps": 0.3,
+        "lateral_head": 0.15,
+        "trapezius_superior": 0.15
+      }
+    }
+  },
+  {
+    "id": "wall_walk",
+    "name": {
+      "es": "Caminata de Pared",
+      "en": "Wall Walk",
+      "fr": "Marche au mur",
+      "pt": "Escalada na Parede",
+      "de": "Wall Walks"
+    },
+    "category": "bodyweight",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "deltoids_anterior",
+        "serratus_anterior",
+        "abdominals"
+      ],
+      "activation": {
+        "anterior_head": 0.5,
+        "serratus_anterior_muscle": 0.4,
+        "medial_head_triceps": 0.2,
+        "lateral_head_triceps": 0.2,
+        "rectus_abdominis": 0.3,
+        "trapezius_superior": 0.2
+      }
+    }
+  },
+  {
+    "id": "scapular_push_up",
+    "name": {
+      "es": "Flexiones Escapulares",
+      "en": "Scapular Push-ups",
+      "fr": "Pompes scapulaires",
+      "pt": "Flexão Escapular",
+      "de": "Scapula Push-ups"
+    },
+    "category": "bodyweight",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "serratus_anterior",
+        "upper_back"
+      ],
+      "activation": {
+        "serratus_anterior_muscle": 1.0,
+        "rhomboids": 0.4,
+        "trapezius_media": 0.2
+      }
+    }
+  },
+  {
+    "id": "ytwl_floor_raises",
+    "name": {
+      "es": "Y-T-W-L (Suelo)",
+      "en": "Y-T-W-L Floor Raises",
+      "fr": "Y-T-W-L au sol",
+      "pt": "Y-T-W-L no Chão",
+      "de": "Y-T-W-L Bodenübung"
+    },
+    "category": "bodyweight",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "deltoids_posterior",
+        "trapezius",
+        "upper_back"
+      ],
+      "activation": {
+        "posterior_head": 0.7,
+        "trapezius_inferior": 0.6,
+        "trapezius_media": 0.6,
+        "rhomboids": 0.4,
+        "lateral_head": 0.2
+      }
+    }
+  },
+  {
+    "id": "leg_press_low_feet",
+    "name": {
+      "es": "Prensa de Piernas (Pies Bajos)",
+      "en": "Leg Press (Low Feet)",
+      "fr": "Presse à cuisses (Pieds bas)",
+      "pt": "Leg Press (Pés Baixos)",
+      "de": "Beinpresse (Füße tief)"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "quadriceps_femoris",
+        "gluteal_group"
+      ],
+      "activation": {
+        "vastus_lateralis": 0.45,
+        "vastus_medialis": 0.4,
+        "vastus_intermedius": 0.15,
+        "gluteus_maximus": 0.1
+      }
+    }
+  },
+  {
+    "id": "leg_press_high_feet",
+    "name": {
+      "es": "Prensa de Piernas (Pies Altos)",
+      "en": "Leg Press (High Feet)",
+      "fr": "Presse à cuisses (Pieds hauts)",
+      "pt": "Leg Press (Pés Altos)",
+      "de": "Beinpresse (Füße hoch)"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "gluteal_group",
+        "hamstrings",
+        "quadriceps_femoris"
+      ],
+      "activation": {
+        "gluteus_maximus": 0.6,
+        "biceps_femoris": 0.2,
+        "semitendinosus": 0.1,
+        "semimembranosus": 0.1,
+        "vastus_lateralis": 0.1
+      }
+    }
+  },
+  {
+    "id": "hack_squat",
+    "name": {
+      "es": "Sentadilla Hack",
+      "en": "Hack Squat",
+      "fr": "Squat Hack",
+      "pt": "Agachamento Hack",
+      "de": "Hackenschmidt Kniebeuge"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "quadriceps_femoris"
+      ],
+      "activation": {
+        "vastus_lateralis": 0.6,
+        "vastus_medialis": 0.25,
+        "vastus_intermedius": 0.15
+      }
+    }
+  },
+  {
+    "id": "leg_extension",
+    "name": {
+      "es": "Extensiones de Cuádriceps",
+      "en": "Leg Extension",
+      "fr": "Leg Extension",
+      "pt": "Cadeira Extensora",
+      "de": "Beinstrecken"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "quadriceps_femoris"
+      ],
+      "activation": {
+        "rectus_femoris": 1.0,
+        "vastus_lateralis": 0.6,
+        "vastus_medialis": 0.6,
+        "vastus_intermedius": 0.6
+      }
+    }
+  },
+  {
+    "id": "pendulum_squat",
+    "name": {
+      "es": "Sentadilla Pendulum",
+      "en": "Pendulum Squat",
+      "fr": "Squat Pendulaire",
+      "pt": "Agachamento Pêndulo",
+      "de": "Pendulum Squat"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "quadriceps_femoris",
+        "gluteal_group"
+      ],
+      "activation": {
+        "vastus_lateralis": 0.7,
+        "vastus_medialis": 0.7,
+        "vastus_intermedius": 0.7,
+        "rectus_femoris": 0.3,
+        "gluteus_maximus": 0.2
+      }
+    }
+  },
+  {
+    "id": "lying_leg_curl",
+    "name": {
+      "es": "Curl Femoral Tumbado",
+      "en": "Lying Leg Curl",
+      "fr": "Leg Curl allongé",
+      "pt": "Mesa Flexora",
+      "de": "Beinbeugen (Liegend)"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "hamstrings"
+      ],
+      "activation": {
+        "biceps_femoris": 0.85,
+        "semitendinosus": 0.85,
+        "semimembranosus": 0.85,
+        "gastrocnemius": 0.2
+      }
+    }
+  },
+  {
+    "id": "seated_leg_curl",
+    "name": {
+      "es": "Curl Femoral Sentado",
+      "en": "Seated Leg Curl",
+      "fr": "Leg Curl assis",
+      "pt": "Cadeira Flexora",
+      "de": "Beinbeugen (Sitzend)"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "hamstrings"
+      ],
+      "activation": {
+        "biceps_femoris": 0.9,
+        "semitendinosus": 0.95,
+        "semimembranosus": 0.95,
+        "gastrocnemius": 0.1
+      }
+    }
+  },
+  {
+    "id": "hip_abduction_machine",
+    "name": {
+      "es": "Máquina de Abducción",
+      "en": "Hip Abduction Machine",
+      "fr": "Abducteurs à la machine",
+      "pt": "Cadeira Abdutora",
+      "de": "Adduktorenmaschine (Abduktion)"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "gluteal_group"
+      ],
+      "activation": {
+        "gluteus_medius": 0.9,
+        "gluteus_minimus": 0.8,
+        "gluteus_maximus": 0.25
+      }
+    }
+  },
+  {
+    "id": "hip_adduction_machine",
+    "name": {
+      "es": "Máquina de Aducción",
+      "en": "Hip Adduction Machine",
+      "fr": "Adducteurs à la machine",
+      "pt": "Cadeira Adutora",
+      "de": "Adduktorenmaschine (Adduktion)"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "adductors"
+      ],
+      "activation": {
+        "adductor_magnus": 0.85,
+        "adductor_longus": 0.8,
+        "adductor_brevis": 0.5,
+        "gluteus_maximus": 0.15
+      }
+    }
+  },
+  {
+    "id": "cable_kickback",
+    "name": {
+      "es": "Patada de Glúteo en Polea",
+      "en": "Cable Kickback",
+      "fr": "Extension fessier à la poulie",
+      "pt": "Glúteo no Cabo (Patada)",
+      "de": "Gluteus Kickbacks am Kabelzug"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "gluteal_group",
+        "hamstrings"
+      ],
+      "activation": {
+        "gluteus_maximus": 0.9,
+        "gluteus_medius": 0.1,
+        "biceps_femoris": 0.1
+      }
+    }
+  },
+  {
+    "id": "machine_hip_thrust",
+    "name": {
+      "es": "Hip Thrust en Máquina",
+      "en": "Machine Hip Thrust",
+      "fr": "Hip Thrust à la machine",
+      "pt": "Elevação Pélvica na Máquina",
+      "de": "Hip Thrust Maschine"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "gluteal_group",
+        "hamstrings"
+      ],
+      "activation": {
+        "gluteus_maximus": 0.85,
+        "gluteus_medius": 0.15,
+        "biceps_femoris": 0.1,
+        "semitendinosus": 0.1,
+        "semimembranosus": 0.1
+      }
+    }
+  },
+  {
+    "id": "seated_calf_raise",
+    "name": {
+      "es": "Elevación de Talones Sentado",
+      "en": "Seated Calf Raise",
+      "fr": "Mollets assis",
+      "pt": "Panturrilha Sentado",
+      "de": "Wadenheben sitzend"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "calves"
+      ],
+      "activation": {
+        "soleus": 0.95,
+        "gastrocnemius": 0.05
+      }
+    }
+  },
+  {
+    "id": "leg_press_calf_raise",
+    "name": {
+      "es": "Elevación de Talones en Prensa",
+      "en": "Leg Press Calf Raise",
+      "fr": "Mollets à la presse",
+      "pt": "Panturrilha no Leg Press",
+      "de": "Wadenheben an der Beinpresse"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "calves"
+      ],
+      "activation": {
+        "gastrocnemius": 0.75,
+        "soleus": 0.25
+      }
+    }
+  },
+  {
+    "id": "barbell_squat",
+    "name": {
+      "es": "Sentadilla con Barra (Trasera)",
+      "en": "Barbell Back Squat",
+      "fr": "Squat barre nuque",
+      "pt": "Agachamento com Barra (Costas)",
+      "de": "Kniebeugen (Langhantel)"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "quadriceps_femoris",
+        "gluteal_group",
+        "erector_spinae"
+      ],
+      "activation": {
+        "vastus_lateralis": 0.4,
+        "vastus_medialis": 0.3,
+        "vastus_intermedius": 0.3,
+        "gluteus_maximus": 0.6,
+        "lumbar_muscles": 0.4
+      }
+    }
+  },
+  {
+    "id": "front_squat",
+    "name": {
+      "es": "Sentadilla Frontal",
+      "en": "Front Squat",
+      "fr": "Squat avant",
+      "pt": "Agachamento Frontal",
+      "de": "Frontkniebeugen"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "quadriceps_femoris",
+        "erector_spinae",
+        "abdominals"
+      ],
+      "activation": {
+        "vastus_lateralis": 0.45,
+        "vastus_medialis": 0.45,
+        "vastus_intermedius": 0.4,
+        "rectus_femoris": 0.2,
+        "lumbar_muscles": 0.5,
+        "rectus_abdominis": 0.3
+      }
+    }
+  },
+  {
+    "id": "walking_lunges",
+    "name": {
+      "es": "Zancadas (Caminando)",
+      "en": "Walking Lunges",
+      "fr": "Fentes marchées",
+      "pt": "Afundo (Passada)",
+      "de": "Ausfallschritte (Gehend)"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "quadriceps_femoris",
+        "gluteal_group"
+      ],
+      "activation": {
+        "rectus_femoris": 0.6,
+        "gluteus_maximus": 0.5,
+        "vastus_lateralis": 0.3,
+        "vastus_medialis": 0.3,
+        "gluteus_medius": 0.2
+      }
+    }
+  },
+  {
+    "id": "bulgarian_split_squat",
+    "name": {
+      "es": "Sentadilla Búlgara",
+      "en": "Bulgarian Split Squat",
+      "fr": "Fente bulgare",
+      "pt": "Agachamento Búlgaro",
+      "de": "Bulgarische Kniebeuge"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "quadriceps_femoris",
+        "gluteal_group"
+      ],
+      "activation": {
+        "gluteus_maximus": 0.6,
+        "vastus_lateralis": 0.4,
+        "vastus_medialis": 0.4,
+        "rectus_femoris": 0.3,
+        "gluteus_medius": 0.25
+      }
+    }
+  },
+  {
+    "id": "goblet_squat",
+    "name": {
+      "es": "Sentadilla Goblet",
+      "en": "Goblet Squat",
+      "fr": "Goblet Squat",
+      "pt": "Agachamento Goblet",
+      "de": "Goblet Squat"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "quadriceps_femoris",
+        "abdominals",
+        "gluteal_group"
+      ],
+      "activation": {
+        "vastus_lateralis": 0.5,
+        "vastus_medialis": 0.5,
+        "rectus_abdominis": 0.4,
+        "gluteus_maximus": 0.3,
+        "vastus_intermedius": 0.3
+      }
+    }
+  },
+  {
+    "id": "romanian_deadlift",
+    "name": {
+      "es": "Peso Muerto Rumano (RDL)",
+      "en": "Romanian Deadlift (RDL)",
+      "fr": "Soulevé de terre roumain",
+      "pt": "Levantamento Terra Romeno",
+      "de": "Rumänisches Kreuzheben"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "hamstrings",
+        "gluteal_group",
+        "erector_spinae"
+      ],
+      "activation": {
+        "biceps_femoris": 0.7,
+        "semitendinosus": 0.6,
+        "semimembranosus": 0.6,
+        "gluteus_maximus": 0.6,
+        "lumbar_muscles": 0.5
+      }
+    }
+  },
+  {
+    "id": "barbell_hip_thrust",
+    "name": {
+      "es": "Hip Thrust con Barra",
+      "en": "Barbell Hip Thrust",
+      "fr": "Hip Thrust à la barre",
+      "pt": "Elevação Pélvica com Barra",
+      "de": "Hip Thrust (Langhantel)"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "gluteal_group",
+        "hamstrings"
+      ],
+      "activation": {
+        "gluteus_maximus": 1.0,
+        "gluteus_medius": 0.2,
+        "biceps_femoris": 0.15,
+        "semitendinosus": 0.15,
+        "semimembranosus": 0.15
+      }
+    }
+  },
+  {
+    "id": "sumo_deadlift",
+    "name": {
+      "es": "Peso Muerto Sumo",
+      "en": "Sumo Deadlift",
+      "fr": "Soulevé de terre Sumo",
+      "pt": "Levantamento Terra Sumo",
+      "de": "Sumo Kreuzheben"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "gluteal_group",
+        "adductors",
+        "hamstrings",
+        "erector_spinae",
+        "quadriceps_femoris"
+      ],
+      "activation": {
+        "gluteus_maximus": 0.7,
+        "adductor_magnus": 0.7,
+        "lumbar_muscles": 0.5,
+        "vastus_lateralis": 0.3,
+        "vastus_medialis": 0.3,
+        "biceps_femoris": 0.3
+      }
+    }
+  },
+  {
+    "id": "barbell_good_morning",
+    "name": {
+      "es": "Buenos Días",
+      "en": "Good Mornings",
+      "fr": "Good Morning",
+      "pt": "Bom Dia",
+      "de": "Good Mornings"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "hamstrings",
+        "erector_spinae",
+        "gluteal_group"
+      ],
+      "activation": {
+        "biceps_femoris": 0.65,
+        "semitendinosus": 0.65,
+        "semimembranosus": 0.65,
+        "lumbar_muscles": 0.6,
+        "gluteus_maximus": 0.4
+      }
+    }
+  },
+  {
+    "id": "kettlebell_swing",
+    "name": {
+      "es": "Kettlebell Swing",
+      "en": "Kettlebell Swing",
+      "fr": "Swing avec Kettlebell",
+      "pt": "Swing com Kettlebell",
+      "de": "Kettlebell Swing"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "gluteal_group",
+        "hamstrings",
+        "erector_spinae"
+      ],
+      "activation": {
+        "gluteus_maximus": 0.6,
+        "biceps_femoris": 0.2,
+        "semitendinosus": 0.1,
+        "semimembranosus": 0.1,
+        "lumbar_muscles": 0.2
+      }
+    }
+  },
+  {
+    "id": "standing_calf_raise",
+    "name": {
+      "es": "Elevación de Talones de Pie",
+      "en": "Standing Calf Raise",
+      "fr": "Mollets debout",
+      "pt": "Panturrilha em Pé",
+      "de": "Wadenheben stehend"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "calves"
+      ],
+      "activation": {
+        "gastrocnemius": 0.8,
+        "soleus": 0.2
+      }
+    }
+  },
+  {
+    "id": "dumbbell_tibialis_raise",
+    "name": {
+      "es": "Tibial con Mancuerna/Kettlebell",
+      "en": "Dumbbell/KB Tibialis Raise",
+      "fr": "Élévations tibiales (Haltère)",
+      "pt": "Tibial Anterior com Haltere",
+      "de": "Tibialis Curls (Kurzhantel)"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "tibialis_anterior"
+      ],
+      "activation": {
+        "tibialis_muscle": 1.0
+      }
+    }
+  },
+  {
+    "id": "pistol_squat",
+    "name": {
+      "es": "Sentadilla Pistol",
+      "en": "Pistol Squat",
+      "fr": "Squat pistolet",
+      "pt": "Agachamento Pistol",
+      "de": "Pistol Squat (Einbeinige Kniebeuge)"
+    },
+    "category": "bodyweight",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "quadriceps_femoris",
+        "gluteal_group",
+        "abdominals"
+      ],
+      "activation": {
+        "gluteus_maximus": 0.6,
+        "rectus_femoris": 0.4,
+        "vastus_lateralis": 0.3,
+        "vastus_medialis": 0.3,
+        "rectus_abdominis": 0.2
+      }
+    }
+  },
+  {
+    "id": "sissy_squat",
+    "name": {
+      "es": "Sentadilla Sissy",
+      "en": "Sissy Squat",
+      "fr": "Sissy Squat",
+      "pt": "Agachamento Sissy",
+      "de": "Sissy Squat"
+    },
+    "category": "bodyweight",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "quadriceps_femoris"
+      ],
+      "activation": {
+        "rectus_femoris": 1.0,
+        "vastus_intermedius": 0.2
+      }
+    }
+  },
+  {
+    "id": "jump_squat",
+    "name": {
+      "es": "Sentadilla con Salto",
+      "en": "Jump Squat",
+      "fr": "Squat sauté",
+      "pt": "Agachamento com Salto",
+      "de": "Sprungkniebeugen"
+    },
+    "category": "bodyweight",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "quadriceps_femoris",
+        "gluteal_group",
+        "calves"
+      ],
+      "activation": {
+        "vastus_lateralis": 0.5,
+        "vastus_medialis": 0.4,
+        "rectus_femoris": 0.4,
+        "gluteus_maximus": 0.3,
+        "gastrocnemius": 0.5
+      }
+    }
+  },
+  {
+    "id": "step_up",
+    "name": {
+      "es": "Subidas al Cajón",
+      "en": "Step-ups",
+      "fr": "Montées sur banc (Step-up)",
+      "pt": "Subida no Banco (Step-up)",
+      "de": "Step-ups (Aufsteiger)"
+    },
+    "category": "bodyweight",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "gluteal_group",
+        "quadriceps_femoris"
+      ],
+      "activation": {
+        "gluteus_maximus": 0.6,
+        "vastus_lateralis": 0.4,
+        "vastus_medialis": 0.4,
+        "gluteus_medius": 0.2,
+        "rectus_femoris": 0.3
+      }
+    }
+  },
+  {
+    "id": "nordic_hamstring_curl",
+    "name": {
+      "es": "Curl Nórdico",
+      "en": "Nordic Hamstring Curl",
+      "fr": "Nordic Curl",
+      "pt": "Flexão Nórdica",
+      "de": "Nordic Hamstring Curl"
+    },
+    "category": "bodyweight",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "hamstrings",
+        "gluteal_group"
+      ],
+      "activation": {
+        "biceps_femoris": 0.95,
+        "semitendinosus": 0.95,
+        "semimembranosus": 0.95,
+        "gluteus_maximus": 0.3
+      }
+    }
+  },
+  {
+    "id": "glute_bridge",
+    "name": {
+      "es": "Puente de Glúteo",
+      "en": "Glute Bridge",
+      "fr": "Pont fessier",
+      "pt": "Ponte de Glúteos",
+      "de": "Beckenheben"
+    },
+    "category": "bodyweight",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "gluteal_group",
+        "hamstrings"
+      ],
+      "activation": {
+        "gluteus_maximus": 0.8,
+        "gluteus_medius": 0.2,
+        "biceps_femoris": 0.15,
+        "semitendinosus": 0.1,
+        "semimembranosus": 0.1
+      }
+    }
+  },
+  {
+    "id": "slider_leg_curl",
+    "name": {
+      "es": "Deslizamientos de Isquios",
+      "en": "Slider Leg Curl",
+      "fr": "Leg Curl glissé",
+      "pt": "Flexão Nórdica Deslizante",
+      "de": "Leg Curl mit Slidern"
+    },
+    "category": "bodyweight",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "hamstrings",
+        "gluteal_group"
+      ],
+      "activation": {
+        "biceps_femoris": 0.85,
+        "semitendinosus": 0.85,
+        "semimembranosus": 0.85,
+        "gluteus_maximus": 0.2
+      }
+    }
+  },
+  {
+    "id": "copenhagen_plank",
+    "name": {
+      "es": "Plancha Copenhague",
+      "en": "Copenhagen Plank",
+      "fr": "Gainage Copenhague",
+      "pt": "Prancha Copenhagen",
+      "de": "Copenhagen Plank"
+    },
+    "category": "bodyweight",
+    "type": "time",
+    "impact": {
+      "targets": [
+        "adductors",
+        "abdominals"
+      ],
+      "activation": {
+        "adductor_magnus": 0.7,
+        "adductor_longus": 0.7,
+        "adductor_brevis": 0.5,
+        "obliques": 0.6,
+        "rectus_abdominis": 0.2
+      }
+    }
+  },
+  {
+    "id": "clamshells",
+    "name": {
+      "es": "Almeja",
+      "en": "Clamshells",
+      "fr": "Clamshell",
+      "pt": "Ostra (Clamshell)",
+      "de": "Muschel (Clamshells)"
+    },
+    "category": "bodyweight",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "gluteal_group"
+      ],
+      "activation": {
+        "gluteus_medius": 0.9,
+        "gluteus_minimus": 0.6,
+        "gluteus_maximus": 0.2
+      }
+    }
+  },
+  {
+    "id": "single_leg_step_up",
+    "name": {
+      "es": "Elevación a una Pierna en Escalón",
+      "en": "Single Leg Step-up",
+      "fr": "Montée sur banc unilatérale",
+      "pt": "Subida Unilateral no Degrau",
+      "de": "Einbeiniges Aufsteigen"
+    },
+    "category": "bodyweight",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "quadriceps_femoris",
+        "gluteal_group"
+      ],
+      "activation": {
+        "vastus_medialis": 0.6,
+        "vastus_lateralis": 0.5,
+        "gluteus_maximus": 0.5,
+        "rectus_femoris": 0.4,
+        "gluteus_medius": 0.3
+      }
+    }
+  },
+  {
+    "id": "jump_rope",
+    "name": {
+      "es": "Saltos a la Comba",
+      "en": "Jump Rope",
+      "fr": "Corde à sauter",
+      "pt": "Pular Corda",
+      "de": "Seilspringen"
+    },
+    "category": "bodyweight",
+    "type": "time",
+    "impact": {
+      "targets": [
+        "calves"
+      ],
+      "activation": {
+        "gastrocnemius": 0.85,
+        "soleus": 0.3
+      }
+    }
+  },
+  {
+    "id": "cable_crunch",
+    "name": {
+      "es": "Crunch en Polea Alta",
+      "en": "Cable Crunch",
+      "fr": "Crunch à la poulie haute",
+      "pt": "Abdominal na Polia Alta",
+      "de": "Kabel Crunches"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "abdominals"
+      ],
+      "activation": {
+        "rectus_abdominis": 0.85,
+        "obliques": 0.15
+      }
+    }
+  },
+  {
+    "id": "pallof_press",
+    "name": {
+      "es": "Press Pallof",
+      "en": "Pallof Press",
+      "fr": "Presse Pallof",
+      "pt": "Press Pallof",
+      "de": "Pallof Drücken"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "abdominals",
+        "obliques",
+        "serratus_anterior"
+      ],
+      "activation": {
+        "obliques": 0.6,
+        "rectus_abdominis": 0.3,
+        "serratus_anterior_muscle": 0.1
+      }
+    }
+  },
+  {
+    "id": "cable_woodchopper",
+    "name": {
+      "es": "Leñador en Polea",
+      "en": "Cable Woodchopper",
+      "fr": "Le Bûcheron à la poulie",
+      "pt": "Lenhador no Cabo",
+      "de": "Kabel Holzhacker"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "obliques",
+        "abdominals"
+      ],
+      "activation": {
+        "obliques": 0.7,
+        "rectus_abdominis": 0.3
+      }
+    }
+  },
+  {
+    "id": "cable_woodchopper_high_low",
+    "name": {
+      "es": "Leñador en Polea (Alto a Bajo)",
+      "en": "Cable Woodchopper (High-to-Low)",
+      "fr": "Bûcheron à la poulie (Haut-Bas)",
+      "pt": "Lenhador no Cabo (Alto para Baixo)",
+      "de": "Kabel Holzhacker (Hoch-Tief)"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "obliques",
+        "abdominals"
+      ],
+      "activation": {
+        "obliques": 0.65,
+        "rectus_abdominis": 0.35
+      }
+    }
+  },
+  {
+    "id": "cable_woodchopper_low_high",
+    "name": {
+      "es": "Leñador en Polea (Bajo a Alto)",
+      "en": "Cable Woodchopper (Low-to-High)",
+      "fr": "Bûcheron à la poulie (Bas-Haut)",
+      "pt": "Lenhador no Cabo (Baixo para Alto)",
+      "de": "Kabel Holzhacker (Tief-Hoch)"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "obliques",
+        "abdominals",
+        "serratus_anterior"
+      ],
+      "activation": {
+        "obliques": 0.6,
+        "rectus_abdominis": 0.3,
+        "serratus_anterior_muscle": 0.1
+      }
+    }
+  },
+  {
+    "id": "captains_chair_leg_raise",
+    "name": {
+      "es": "Elevación de Piernas en Torre",
+      "en": "Captain's Chair Leg Raise",
+      "fr": "Relevé de jambes (Chaise romaine)",
+      "pt": "Elevação de Pernas na Torre",
+      "de": "Beinheben am Kapitänstuhl"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "abdominals",
+        "quadriceps_femoris"
+      ],
+      "activation": {
+        "rectus_abdominis": 0.8,
+        "obliques": 0.1,
+        "rectus_femoris": 0.1
+      }
+    }
+  },
+  {
+    "id": "machine_crunch",
+    "name": {
+      "es": "Crunch en Máquina",
+      "en": "Machine Crunch",
+      "fr": "Crunch à la machine",
+      "pt": "Abdominal na Máquina",
+      "de": "Crunch Maschine"
+    },
+    "category": "gym",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "abdominals"
+      ],
+      "activation": {
+        "rectus_abdominis": 0.9,
+        "obliques": 0.1
+      }
+    }
+  },
+  {
+    "id": "ab_wheel_rollout",
+    "name": {
+      "es": "Rueda Abdominal",
+      "en": "Ab Wheel Rollout",
+      "fr": "Roulette abdominale",
+      "pt": "Roda Abdominal",
+      "de": "Ab-Roller"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "abdominals",
+        "latissimus_dorsi",
+        "serratus_anterior"
+      ],
+      "activation": {
+        "rectus_abdominis": 0.6,
+        "latissimus_dorsi_muscle": 0.2,
+        "serratus_anterior_muscle": 0.1,
+        "obliques": 0.1
+      }
+    }
+  },
+  {
+    "id": "landmine_180",
+    "name": {
+      "es": "Rotación de Tronco (Landmine 180)",
+      "en": "Landmine 180 (Torso Rotation)",
+      "fr": "Rotation de buste (Landmine)",
+      "pt": "Rotação de Tronco (Landmine)",
+      "de": "Landmine 180 (Rumpfrotation)"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "obliques",
+        "abdominals",
+        "deltoids_anterior"
+      ],
+      "activation": {
+        "obliques": 0.7,
+        "rectus_abdominis": 0.2,
+        "anterior_head": 0.1
+      }
+    }
+  },
+  {
+    "id": "suitcase_carry",
+    "name": {
+      "es": "Paseo del Granjero a una mano",
+      "en": "Suitcase Carry",
+      "fr": "Marche valise (Unilatéral)",
+      "pt": "Caminhada do Fazendeiro Unilateral",
+      "de": "Koffer-Tragen (Einarmig)"
+    },
+    "category": "weights",
+    "type": "time",
+    "impact": {
+      "targets": [
+        "obliques",
+        "forearms",
+        "erector_spinae"
+      ],
+      "activation": {
+        "obliques": 0.5,
+        "flexors": 0.3,
+        "lumbar_muscles": 0.2
+      }
+    }
+  },
+  {
+    "id": "weighted_plate_crunch",
+    "name": {
+      "es": "Crunch con Disco al Pecho",
+      "en": "Weighted Plate Crunch",
+      "fr": "Crunch avec disque",
+      "pt": "Abdominal com Anilha ao Peito",
+      "de": "Crunches mit Hantelscheibe"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "abdominals"
+      ],
+      "activation": {
+        "rectus_abdominis": 0.9,
+        "obliques": 0.1
+      }
+    }
+  },
+  {
+    "id": "weighted_decline_sit_up",
+    "name": {
+      "es": "Sit-up Declinado con Lastre",
+      "en": "Weighted Decline Sit-up",
+      "fr": "Sit-up décliné lesté",
+      "pt": "Abdominal Declinado com Carga",
+      "de": "Negativ Sit-ups mit Zusatzgewicht"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "abdominals",
+        "quadriceps_femoris"
+      ],
+      "activation": {
+        "rectus_abdominis": 0.7,
+        "rectus_femoris": 0.3
+      }
+    }
+  },
+  {
+    "id": "dumbbell_side_bend",
+    "name": {
+      "es": "Bend Lateral con Mancuerna",
+      "en": "Dumbbell Side Bend",
+      "fr": "Flexion latérale avec haltère",
+      "pt": "Flexão Lateral de Tronco (Haltere)",
+      "de": "Seitbeugen mit Kurzhantel"
+    },
+    "category": "weights",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "obliques",
+        "erector_spinae"
+      ],
+      "activation": {
+        "obliques": 0.8,
+        "lumbar_muscles": 0.2
+      }
+    }
+  },
+  {
+    "id": "hanging_leg_raise",
+    "name": {
+      "es": "Elevación de Piernas Colgado",
+      "en": "Hanging Leg Raise",
+      "fr": "Relevé de jambes suspendu",
+      "pt": "Elevação de Pernas Suspenso",
+      "de": "Beinheben hängend"
+    },
+    "category": "bodyweight",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "abdominals",
+        "quadriceps_femoris",
+        "forearms"
+      ],
+      "activation": {
+        "rectus_abdominis": 0.7,
+        "rectus_femoris": 0.2,
+        "flexors": 0.1
+      }
+    }
+  },
+  {
+    "id": "hanging_knee_raise",
+    "name": {
+      "es": "Elevación de Rodillas (Colgado)",
+      "en": "Hanging Knee Raise",
+      "fr": "Relevé de genoux suspendu",
+      "pt": "Elevação de Joelhos Suspenso",
+      "de": "Knieheben hängend"
+    },
+    "category": "bodyweight",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "abdominals",
+        "quadriceps_femoris",
+        "forearms"
+      ],
+      "activation": {
+        "rectus_abdominis": 0.6,
+        "rectus_femoris": 0.3,
+        "flexors": 0.1
+      }
+    }
+  },
+  {
+    "id": "toes_to_bar",
+    "name": {
+      "es": "Pies a la Barra (Toes to Bar)",
+      "en": "Toes to Bar",
+      "fr": "Orteils à la barre",
+      "pt": "Pés na Barra",
+      "de": "Zehen zur Stange"
+    },
+    "category": "bodyweight",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "abdominals",
+        "latissimus_dorsi",
+        "forearms",
+        "quadriceps_femoris"
+      ],
+      "activation": {
+        "rectus_abdominis": 0.6,
+        "latissimus_dorsi_muscle": 0.2,
+        "flexors": 0.1,
+        "rectus_femoris": 0.1
+      }
+    }
+  },
+  {
+    "id": "plank",
+    "name": {
+      "es": "Plancha Abdominal",
+      "en": "Plank",
+      "fr": "Gainage frontal",
+      "pt": "Prancha Abdominal",
+      "de": "Unterarmstütz"
+    },
+    "category": "bodyweight",
+    "type": "time",
+    "impact": {
+      "targets": [
+        "abdominals",
+        "serratus_anterior"
+      ],
+      "activation": {
+        "rectus_abdominis": 0.7,
+        "obliques": 0.15,
+        "serratus_anterior_muscle": 0.15
+      }
+    }
+  },
+  {
+    "id": "body_saw_plank",
+    "name": {
+      "es": "Plancha Sierra",
+      "en": "Body Saw Plank",
+      "fr": "Gainage dynamique (Body Saw)",
+      "pt": "Prancha Serra",
+      "de": "Body Saw (Säge-Plank)"
+    },
+    "category": "bodyweight",
+    "type": "time",
+    "impact": {
+      "targets": [
+        "abdominals",
+        "serratus_anterior"
+      ],
+      "activation": {
+        "rectus_abdominis": 0.85,
+        "serratus_anterior_muscle": 0.1,
+        "obliques": 0.05
+      }
+    }
+  },
+  {
+    "id": "side_plank",
+    "name": {
+      "es": "Plancha Lateral",
+      "en": "Side Plank",
+      "fr": "Gainage latéral",
+      "pt": "Prancha Lateral",
+      "de": "Seitstütz"
+    },
+    "category": "bodyweight",
+    "type": "time",
+    "impact": {
+      "targets": [
+        "obliques",
+        "erector_spinae",
+        "abdominals"
+      ],
+      "activation": {
+        "obliques": 0.7,
+        "lumbar_muscles": 0.2,
+        "rectus_abdominis": 0.1
+      }
+    }
+  },
+  {
+    "id": "hollow_body_hold",
+    "name": {
+      "es": "Hollow Body Hold (La Canoa)",
+      "en": "Hollow Body Hold",
+      "fr": "Gainage Banane (Hollow Body)",
+      "pt": "Canoa (Hollow Hold)",
+      "de": "Schiffchen (Hollow Body)"
+    },
+    "category": "bodyweight",
+    "type": "time",
+    "impact": {
+      "targets": [
+        "abdominals",
+        "quadriceps_femoris"
+      ],
+      "activation": {
+        "rectus_abdominis": 0.7,
+        "obliques": 0.15,
+        "rectus_femoris": 0.15
+      }
+    }
+  },
+  {
+    "id": "dragon_flag",
+    "name": {
+      "es": "Dragon Flag",
+      "en": "Dragon Flag",
+      "fr": "Drapeau Dragon",
+      "pt": "Dragon Flag (Bandeira do Dragão)",
+      "de": "Dragon Flag"
+    },
+    "category": "bodyweight",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "abdominals",
+        "latissimus_dorsi",
+        "serratus_anterior"
+      ],
+      "activation": {
+        "rectus_abdominis": 0.8,
+        "latissimus_dorsi_muscle": 0.1,
+        "serratus_anterior_muscle": 0.1
+      }
+    }
+  },
+  {
+    "id": "dead_bug",
+    "name": {
+      "es": "Bicho Muerto (Dead Bug)",
+      "en": "Dead Bug",
+      "fr": "Dead Bug (L'Insecte)",
+      "pt": "Dead Bug (Inseto Morto)",
+      "de": "Käfer (Dead Bug)"
+    },
+    "category": "bodyweight",
+    "type": "reps",
+    "impact": {
+      "targets": [
+        "abdominals",
+        "obliques"
+      ],
+      "activation": {
+        "rectus_abdominis": 0.6,
+        "obliques": 0.4
+      }
+    }
+  },
+  {
+    "id": "l_sit",
+    "name": {
+      "es": "L-Sit (Escuadra)",
+      "en": "L-Sit",
+      "fr": "Équerre (L-Sit)",
+      "pt": "L-Sit (Sustentação em L)",
+      "de": "L-Sitz (Winkelstütz)"
+    },
+    "category": "bodyweight",
+    "type": "time",
+    "impact": {
+      "targets": [
+        "abdominals",
+        "quadriceps_femoris",
+        "triceps_brachii"
+      ],
+      "activation": {
+        "rectus_abdominis": 0.5,
+        "rectus_femoris": 0.3,
+        "medial_head_triceps": 0.1,
+        "lateral_head_triceps": 0.1
+      }
+    }
+  }
+]

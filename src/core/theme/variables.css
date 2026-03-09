@@ -1,0 +1,20 @@
+:root {
+    /* --- COLORES (Design Tokens) --- */
+    --Blanco: #FFFFFF;
+    --gris-hover: #E5E5E5;
+    
+    --Negro-suave: #1A1A1A;
+    --gris-suave-hover: #2F2F2F;
+    
+    --Verde-acido: #CCFF00; /* #CF0 expandido */
+    --verde-lima-hover: #DFFF4F;
+
+    /* --- ALIAS SEMÁNTICOS (Para uso lógico en la app) --- */
+    --bg-app: var(--Negro-suave);
+    --color-primary: var(--Verde-acido);
+    --text-primary: var(--Blanco);
+    
+    /* --- FUENTES (Añade esto dentro del :root) --- */
+    --font-title: 'Clash Display', 'Space Grotesk Local', sans-serif;
+    --font-body: 'JetBrains Mono', monospace;
+}

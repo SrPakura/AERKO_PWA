@@ -1,0 +1,35 @@
+export default {
+    "record_title": "Eintrag_Hinzufügen",
+    "record_toast_success": "Erfolgreich_Gespeichert",
+    "record_btn_save": "Eintrag_Speichern",
+    "record_btn_go_measures": "Maße_Hinzufügen",
+    "record_btn_go_folds": "Falten_Hinzufügen",
+
+    "record_add_lbl_weight": "Körpergewicht",
+    "record_add_lbl_fat": "Körperfettanteil",
+    "record_add_lbl_height": "Größe",
+    "record_add_lbl_muscle": "Muskelmasse",
+    "record_add_lbl_photo": "// Fortschrittsfoto",
+    "record_add_photo_title": "Foto_importieren",
+    "record_add_photo_desc": "Tippe, um Kamera oder Galerie zu öffnen.",
+    "record_add_helper": "Denk daran, dass du nur ein Feld ausfüllen oder ein Foto hochladen musst, um speichern zu können.",
+    "record_add_cooldown": "Sich mehrmals am Tag zu wiegen macht keinen Sinn.<br><br>Optimal ist einmal pro Woche.",
+
+    "record_folds_pectoral": "Brust",
+    "record_folds_abdominal": "Bauch",
+    "record_folds_quadriceps": "Quadrizeps",
+    "record_folds_suprailiac": "Suprailiakal",
+    "record_folds_triceps": "Trizeps",
+    "record_folds_subscapular": "Subskapular",
+    "record_folds_midaxillary": "Axillar_Mitte",
+
+    "record_meas_neck": "Hals",
+    "record_meas_shoulder": "Schulter",
+    "record_meas_chest": "Brust",
+    "record_meas_arm_rel": "Arm_Entspannt",
+    "record_meas_arm_flex": "Arm_Angespannt",
+    "record_meas_waist": "Taille",
+    "record_meas_hip": "Hüfte",
+    "record_meas_thigh": "Oberschenkel_(Quadrizeps)",
+    "record_meas_calf": "Waden"
+};

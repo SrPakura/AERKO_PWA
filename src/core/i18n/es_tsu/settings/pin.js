@@ -1,0 +1,20 @@
+export default {
+    "pin_header": "Configurar_seguridad",
+    "pin_warning_off_title": "Tierra llamando a idiota, mira aquí que esto es importante:",
+    "pin_warning_off_desc": "Sabemos que eres un inutil, pero vas a tener que esforzarte aquí. Si cifras tus datos y pierdes el pin, los pierdes. Y no solo los pierdes, sino que voy a ser el primero en recordarte que eres idiota.",
+    "pin_warning_on_title": "Aviso",
+    "pin_warning_on_desc": "Eres vago hasta para poner el pin, o es que te has olvidado de el? En cualquier caso, si quitas el pin, quitas la encriptación.",
+    "pin_label_vaults": "Bóvedas_Protegidas (Cifradas)",
+    "btn_activate_pin": "Activar PIN",
+    "btn_disable_pin": "Desactivar Seguridad",
+    "btn_save": "Guardar",
+    "modal_create_pin": "Crea un PIN (4 Dígitos)",
+    "modal_enter_pin": "Introduce PIN Actual",
+    "alert_pin_length": "Idiota, ¿Qué no entiendes de 4 digitos?",
+    "alert_pin_disabled": "Ya no hay seguridad, esperamos que no tengas windows defender...",
+    "alert_pin_wrong": "No eres capaz ni de acordarte de 4 números...",
+    "vault_user": "Usuario (Biometría / Pin)",
+    "vault_progress": "Progreso (Fotos / Medidas)",
+    "vault_training": "Entrenamiento (Rutinas / Logs)",
+    "vault_nutrition": "Nutrición (Dietas / Macros)"
+};

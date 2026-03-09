@@ -1,0 +1,56 @@
+/* src/modules/system/components/box.css */
+
+:host {
+    display: inline-flex; /* Según Figma */
+    width: 100%;          /* Pero dejamos que se estire si el padre quiere */
+    box-sizing: border-box;
+    font-family: "JetBrains Mono", monospace;
+}
+
+/* EL CONTENEDOR REAL */
+.box {
+    display: flex; /* Internamente usamos flex para centrar el slot */
+    width: 100%;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    
+    /* ESTADO DEFAULT (Figma) */
+    border: 1px solid var(--Blanco);
+    background: transparent;
+    color: var(--Blanco);
+    
+    /* Transición suave para el efecto neón */
+    transition: all 0.2s ease;
+    
+    /* Asegura que el texto herede la fuente */
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+/* --- COMPORTAMIENTO: CLICKABLE (Hover) --- */
+:host([clickable]) .box {
+    cursor: pointer;
+}
+
+/* Hover: Solo borde verde (Según Figma Dev) */
+@media (hover: hover) {
+    :host([clickable]:hover) .box {
+        border-color: var(--Verde-acido);
+    }
+}
+
+/* --- COMPORTAMIENTO: ACTIVE (Neón Completo) --- */
+/* Active: Borde Y Contenido verdes */
+:host([active]) .box {
+    border-color: var(--Verde-acido);
+    color: var(--Verde-acido);
+}
+
+/* MAGIA SVG: Esto hace que cualquier icono SVG dentro cambie de color */
+:host([active]) .box ::slotted(svg) {
+    fill: var(--Verde-acido);
+    stroke: var(--Verde-acido);
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#1A1A1A"> 
+    <meta name="description" content="Aerko - Fitness Revolution">
+    
+    <title>Aerko_</title>
+
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#CCFF00">
+
+    <link href="https://api.fontshare.com/v2/css?f[]=clash-display@600,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/src/core/theme/variables.css">
+    
+    <link rel="stylesheet" href="/src/core/theme/main.css">
+
+    <link rel="stylesheet" href="/src/modules/system/components/btn.css">
+    <link rel="stylesheet" href="/src/modules/system/components/keypad.css">
+    <link rel="stylesheet" href="/src/modules/system/components/navbar.css">
+
+    <link rel="stylesheet" href="/src/modules/auth/components/lock-screen.css">
+    <link rel="stylesheet" href="/src/modules/onboarding/onboarding.css">
+    <link rel="stylesheet" href="/src/modules/user/views/home.css">
+    <link rel="stylesheet" href="/src/modules/system/components/widget.css">
+    <link rel="stylesheet" href="/src/modules/system/components/input-card.css">
+    <link rel="stylesheet" href="/src/modules/nutrition_wizard/views/form.css">
+    
+    <link rel="stylesheet" href="/src/modules/system/components/input-card.css">
+    <link rel="stylesheet" href="/src/modules/system/components/keypad-modal.css">
+    
+</head>
+<body>
+    <div id="app"></div>
+    <script src="/src/assets/lib/jszip.min.js"></script>
+    <script src="/src/assets/lib/html2canvas.min.js"></script>
+    <script src="/src/assets/lib/chart.umd.js"></script>
+    <script src="/src/assets/lib/html5-qrcode.min.js"></script> 
+    <script src="/src/assets/lib/sortable.min.js"></script> 
+    <script type="module" src="/main.js"></script>
+    
+    <script>
+        // Fichamos al Service Worker si el navegador lo permite
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js')
+                    .then(reg => console.log('🟢⚪ [PWA] Service Worker registrado correctamente.', reg.scope))
+                    .catch(err => console.error('🔴 [PWA] Fallo en el fichaje del Service Worker.', err));
+            });
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+:host {
+    display: flex;
+    width: 100%;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.exercise-card {
+    display: flex;
+    /* EL SANTO GRIAL DEL UX DE POWERLIFTING */
+    padding: 24px 16px; 
+    
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 0 0; /* Ocupa todo el ancho flexible */
+    
+    /* Borde base */
+    border: 1px solid var(--Blanco);
+    background: transparent;
+    color: var(--Blanco);
+    
+    transition: all 0.2s ease;
+}
+
+/* Tipografía Body Large */
+.exercise-name {
+    color: var(--Blanco);
+    font-family: "JetBrains Mono", monospace; /* [cite: 56] */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+    
+    /* Seguridad por si el nombre es kilométrico */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-right: 16px; /* Gap automático visual */
+}
+
+.icon-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 27px; /* Tamaño del SVG original */
+    height: 27px;
+    flex-shrink: 0; /* Que no se aplaste si el texto empuja */
+}
+
+/* --- ESTADOS --- */
+
+/* Completado (Opcional: Si quieres feedback verde) */
+/* Si no lo quieres verde, borra esto, pero ayuda visualmente */
+.exercise-card.completed {
+    /* border-color: var(--Verde-acido); */ 
+    /* color: var(--Verde-acido); */
+}
+
+/* Interacción */
+.exercise-card:active {
+    background: rgba(255, 255, 255, 0.1);
+}

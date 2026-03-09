@@ -1,0 +1,92 @@
+/* src/modules/nutrition_wizard/views/form.css */
+
+/* --- FRAME GLOBAL (Layout Principal) --- */
+.wizard-screen {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100dvh; /* Altura real del viewport móvil */
+    background: var(--Negro-suave);
+    
+    /* PADDING GLOBAL (Heredado de .app-screen pero forzado aquí por si acaso) */
+    padding-bottom: 16px;
+    
+    /* GAP GLOBAL ENTRE SECCIONES */
+    gap: 24px;
+}
+
+/* --- FRAME 1: TÍTULO SECCIONES --- */
+.wizard-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    
+    /* Padding específico de Figma: Top 8px, Resto 24px */
+    padding: 8px 24px 24px 24px;
+}
+
+.wizard-title {
+    color: var(--Verde-acido);
+    font-family: 'Clash Display', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%; /* 44px */
+    letter-spacing: -0.4px;
+    margin: 0;
+}
+
+.wizard-desc {
+    color: var(--Blanco);
+    font-family: "JetBrains Mono", monospace;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 19.6px */
+    margin: 0;
+}
+
+/* --- FRAME 2: CONTENIDO PRINCIPAL (Inputs) --- */
+.wizard-content {
+    display: flex;
+    flex-direction: column;
+    /* CAMBIO: De 'center' a 'stretch' para que los hijos ocupen todo el ancho */
+    align-items: stretch; 
+    gap: 24px;
+    padding: 0 24px;
+    flex: 1;
+    align-self: stretch;
+}
+
+/* --- FRAME 3: BOTONES --- */
+.wizard-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* CAMBIO: De 'flex-start' a 'stretch' */
+    align-items: stretch;
+    gap: 16px;
+    align-self: stretch;
+    padding: 0 24px;
+}
+
+/* Forzamos que los botones ocupen el ancho completo */
+.wizard-buttons app-btn {
+    width: 100%;
+}
+
+.wizard-buttons app-btn button {
+    width: 100%;
+    justify-content: center; /* Asegura que el texto quede centrado */
+}
+
+/* --- FRAME 4: BOTTOM NAV --- */
+.wizard-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    /* La altura ya la define el componente app-nav */
+}

@@ -1,0 +1,69 @@
+/* src/modules/system/components/btn.css */
+
+/* --- BOTÓN BASE (Estructura "Madre") --- */
+.btn {
+    display: flex;      
+    width: 100%;
+    
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center; /* Asegura que texto e iconos sigan centrados */
+    padding: 16px 32px;
+    gap: 8px;
+    
+    /* Tipografía Madre */
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    
+    /* Truco anti-salto: Borde transparente base para que el Active no cambie el tamaño */
+    border: 1px solid transparent; 
+    box-sizing: border-box;
+}
+
+/* --- VARIANTE: PRIMARY (Verde) --- */
+.btn--primary {
+    background: var(--Verde-acido);
+    color: var(--Negro-suave);
+}
+
+.btn--primary:hover {
+    background: var(--verde-lima-hover);
+    /* El texto se mantiene igual */
+}
+
+.btn--primary:active {
+    background: var(--Negro-suave);
+    color: var(--Verde-acido);
+    border-color: var(--Verde-acido);
+}
+
+/* --- VARIANTE: SECONDARY (Blanco) --- */
+.btn--secondary {
+    background: var(--Blanco);
+    color: var(--Negro-suave);
+}
+
+.btn--secondary:hover {
+    background: var(--gris-hover);
+    color: var(--gris-suave-hover);
+}
+
+.btn--secondary:active {
+    background: var(--Negro-suave);
+    color: var(--Blanco);
+    border-color: var(--Blanco);
+}
+
+/* --- ESTADOS EXTRA --- */
+.btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+}

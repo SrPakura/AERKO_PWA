@@ -1,0 +1,5378 @@
+[
+  {
+    "id": "O_001",
+    "name": {
+      "es": "Pechuga de pollo (sin piel)",
+      "en": "Chicken breast (skinless)",
+      "fr": "Blanc de poulet (sans peau)",
+      "pt": "Peito de frango (sem pele)",
+      "de": "Hähnchenbrust (ohne Haut)"
+    },
+    "category": "meat",
+    "type": "Aliment",
+    "k": 110,
+    "p": 23.1,
+    "c": 0,
+    "f": 1.2
+  },
+  {
+    "id": "O_002",
+    "name": {
+      "es": "Muslo de pollo (con piel)",
+      "en": "Chicken thigh (with skin)",
+      "fr": "Cuisse de poulet (avec peau)",
+      "pt": "Coxa de frango (com pele)",
+      "de": "Hähnchenschenkel (mit Haut)"
+    },
+    "category": "meat",
+    "type": "Aliment",
+    "k": 211,
+    "p": 17.1,
+    "c": 0,
+    "f": 15.3
+  },
+  {
+    "id": "O_003",
+    "name": {
+      "es": "Muslo de pollo (sin piel)",
+      "en": "Chicken thigh (skinless)",
+      "fr": "Cuisse de poulet (sans peau)",
+      "pt": "Coxa de frango (sem pele)",
+      "de": "Hähnchenschenkel (ohne Haut)"
+    },
+    "category": "meat",
+    "type": "Aliment",
+    "k": 119,
+    "p": 19.8,
+    "c": 0,
+    "f": 3.9
+  },
+  {
+    "id": "O_004",
+    "name": {
+      "es": "Alitas de pollo",
+      "en": "Chicken wings",
+      "fr": "Ailes de poulet",
+      "pt": "Asas de frango",
+      "de": "Hähnchenflügel"
+    },
+    "category": "meat",
+    "type": "Aliment",
+    "k": 191,
+    "p": 17.5,
+    "c": 0,
+    "f": 12.8
+  },
+  {
+    "id": "O_005",
+    "name": {
+      "es": "Pollo entero",
+      "en": "Whole chicken",
+      "fr": "Poulet entier",
+      "pt": "Frango inteiro",
+      "de": "Ganzes Hähnchen"
+    },
+    "category": "meat",
+    "type": "Aliment",
+    "k": 167,
+    "p": 20,
+    "c": 0,
+    "f": 9.7
+  },
+  {
+    "id": "O_006",
+    "name": {
+      "es": "Pechuga de pavo",
+      "en": "Turkey breast",
+      "fr": "Blanc de dinde",
+      "pt": "Peito de peru",
+      "de": "Putenbrust"
+    },
+    "category": "meat",
+    "type": "Aliment",
+    "k": 114,
+    "p": 23.7,
+    "c": 0,
+    "f": 1.5
+  },
+  {
+    "id": "O_007",
+    "name": {
+      "es": "Fiambre de pavo",
+      "en": "Turkey cold cut",
+      "fr": "Jambon de dinde",
+      "pt": "Fiambre de peru",
+      "de": "Putenaufschnitt"
+    },
+    "category": "processed",
+    "type": "Aliment",
+    "k": 88,
+    "p": 19.6,
+    "c": 1.0,
+    "f": 1.0
+  },
+  {
+    "id": "O_008",
+    "name": {
+      "es": "Carne picada de pavo",
+      "en": "Ground turkey",
+      "fr": "Dinde hachée",
+      "pt": "Carne moída de peru",
+      "de": "Putenhackfleisch"
+    },
+    "category": "meat",
+    "type": "Aliment",
+    "k": 148,
+    "p": 19.4,
+    "c": 0,
+    "f": 8.0
+  },
+  {
+    "id": "O_009",
+    "name": {
+      "es": "Pato (magret con piel/grasa)",
+      "en": "Duck breast (Magret with skin)",
+      "fr": "Magret de canard",
+      "pt": "Peito de pato (com pele)",
+      "de": "Entenbrust (mit Haut)"
+    },
+    "category": "meat",
+    "type": "Aliment",
+    "k": 363,
+    "p": 14.0,
+    "c": 0,
+    "f": 33.0
+  },
+  {
+    "id": "O_010",
+    "name": {
+      "es": "Pato (confit)",
+      "en": "Duck confit",
+      "fr": "Confit de canard",
+      "pt": "Confit de pato",
+      "de": "Entenconfit"
+    },
+    "category": "meat",
+    "type": "Aliment",
+    "k": 470,
+    "p": 34.0,
+    "c": 1.0,
+    "f": 37.0
+  },
+  {
+    "id": "O_011",
+    "name": {
+      "es": "Codorniz",
+      "en": "Quail",
+      "fr": "Caille",
+      "pt": "Codorna",
+      "de": "Wachtel"
+    },
+    "category": "meat",
+    "type": "Aliment",
+    "k": 114,
+    "p": 22.1,
+    "c": 0,
+    "f": 2.8
+  },
+  {
+    "id": "O_012",
+    "name": {
+      "es": "Conejo",
+      "en": "Rabbit",
+      "fr": "Lapin",
+      "pt": "Coelho",
+      "de": "Kaninchen"
+    },
+    "category": "meat",
+    "type": "Aliment",
+    "k": 133,
+    "p": 21.0,
+    "c": 0,
+    "f": 5.3
+  },
+  {
+    "id": "O_013",
+    "name": {
+      "es": "Ternera (solomillo)",
+      "en": "Veal tenderloin",
+      "fr": "Filet de veau",
+      "pt": "Filé mignon de vitela",
+      "de": "Kalbsfilet"
+    },
+    "category": "meat",
+    "type": "Aliment",
+    "k": 110,
+    "p": 20.2,
+    "c": 0,
+    "f": 3.1
+  },
+  {
+    "id": "O_014",
+    "name": {
+      "es": "Ternera (entrecot/lomo alto)",
+      "en": "Veal entrecôte / Ribeye",
+      "fr": "Entrecôte de veau",
+      "pt": "Entrecosto de vitela",
+      "de": "Kalbsentrecôte"
+    },
+    "category": "meat",
+    "type": "Aliment",
+    "k": 185,
+    "p": 18.7,
+    "c": 0,
+    "f": 12.2
+  },
+  {
+    "id": "O_015",
+    "name": {
+      "es": "Ternera (filete magro)",
+      "en": "Lean veal steak",
+      "fr": "Steak de veau maigre",
+      "pt": "Bife de vitela magro",
+      "de": "Mageres Kalbssteak"
+    },
+    "category": "meat",
+    "type": "Aliment",
+    "k": 113,
+    "p": 20.4,
+    "c": 0,
+    "f": 3.5
+  },
+  {
+    "id": "O_016",
+    "name": {
+      "es": "Carne picada de ternera magra",
+      "en": "Lean ground veal/beef",
+      "fr": "Veau haché maigre",
+      "pt": "Carne de vitela moída magra",
+      "de": "Mageres Kalbshackfleisch"
+    },
+    "category": "meat",
+    "type": "Aliment",
+    "k": 137,
+    "p": 21.4,
+    "c": 0,
+    "f": 5.0
+  },
+  {
+    "id": "O_017",
+    "name": {
+      "es": "Carne picada de ternera",
+      "en": "Ground veal/beef",
+      "fr": "Veau haché",
+      "pt": "Carne de vitela moída",
+      "de": "Kalbshackfleisch"
+    },
+    "category": "meat",
+    "type": "Aliment",
+    "k": 245,
+    "p": 16.9,
+    "c": 0,
+    "f": 19.4
+  },
+  {
+    "id": "O_018",
+    "name": {
+      "es": "Hígado de ternera",
+      "en": "Veal liver",
+      "fr": "Foie de veau",
+      "pt": "Fígado de vitela",
+      "de": "Kalbsleber"
+    },
+    "category": "meat",
+    "type": "Aliment",
+    "k": 134,
+    "p": 21.0,
+    "c": 1.9,
+    "f": 4.5
+  },
+  {
+    "id": "O_019",
+    "name": {
+      "es": "Buey",
+      "en": "Ox meat / Beef",
+      "fr": "Viande de bœuf",
+      "pt": "Carne de boi",
+      "de": "Ochsenfleisch"
+    },
+    "category": "meat",
+    "type": "Aliment",
+    "k": 250,
+    "p": 19.4,
+    "c": 0,
+    "f": 19.1
+  },
+  {
+    "id": "O_020",
+    "name": {
+      "es": "Cerdo (lomo)",
+      "en": "Pork loin",
+      "fr": "Longe de porc",
+      "pt": "Lombo de porco",
+      "de": "Schweinelende"
+    },
+    "category": "meat",
+    "type": "Aliment",
+    "k": 151,
+    "p": 22.0,
+    "c": 0,
+    "f": 7.0
+  },
+  {
+    "id": "O_021",
+    "name": {
+      "es": "Cerdo (solomillo)",
+      "en": "Pork tenderloin",
+      "fr": "Filet mignon de porc",
+      "pt": "Filé mignon suíno",
+      "de": "Schweinefilet"
+    },
+    "category": "meat",
+    "type": "Aliment",
+    "k": 111,
+    "p": 22.0,
+    "c": 0,
+    "f": 2.6
+  },
+  {
+    "id": "O_022",
+    "name": {
+      "es": "Cerdo (chuleta)",
+      "en": "Pork chop",
+      "fr": "Côtelette de porc",
+      "pt": "Costeleta de porco",
+      "de": "Schweinekotelett"
+    },
+    "category": "meat",
+    "type": "Aliment",
+    "k": 159,
+    "p": 22.9,
+    "c": 0,
+    "f": 7.4
+  },
+  {
+    "id": "O_023",
+    "name": {
+      "es": "Costillas de cerdo",
+      "en": "Pork ribs",
+      "fr": "Travers de porc",
+      "pt": "Costelinha de porco",
+      "de": "Schweinerippchen"
+    },
+    "category": "meat",
+    "type": "Aliment",
+    "k": 281,
+    "p": 17.1,
+    "c": 0,
+    "f": 23.6
+  },
+  {
+    "id": "O_024",
+    "name": {
+      "es": "Carne picada de cerdo",
+      "en": "Ground pork",
+      "fr": "Porc haché",
+      "pt": "Carne de porco moída",
+      "de": "Schweinehackfleisch"
+    },
+    "category": "meat",
+    "type": "Aliment",
+    "k": 221,
+    "p": 15.0,
+    "c": 0,
+    "f": 17.0
+  },
+  {
+    "id": "O_025",
+    "name": {
+      "es": "Panceta / Bacon",
+      "en": "Bacon / Pork belly",
+      "fr": "Lard / Bacon",
+      "pt": "Bacon / Barriga de porco",
+      "de": "Speck / Bacon"
+    },
+    "category": "processed",
+    "type": "Aliment",
+    "k": 341,
+    "p": 14.3,
+    "c": 0,
+    "f": 31.5
+  },
+  {
+    "id": "O_026",
+    "name": {
+      "es": "Jamón serrano (sin grasa visible)",
+      "en": "Serrano ham (lean)",
+      "fr": "Jambon serrano (maigre)",
+      "pt": "Presunto serrano (sem gordura)",
+      "de": "Serrano-Schinken (mager)"
+    },
+    "category": "processed",
+    "type": "Aliment",
+    "k": 160,
+    "p": 30.5,
+    "c": 0,
+    "f": 4.5
+  },
+  {
+    "id": "O_027",
+    "name": {
+      "es": "Jamón cocido / York",
+      "en": "Cooked ham / York ham",
+      "fr": "Jambon blanc / cuit",
+      "pt": "Fiambre / Presunto cozido",
+      "de": "Kochschinken"
+    },
+    "category": "processed",
+    "type": "Aliment",
+    "k": 105,
+    "p": 18.4,
+    "c": 0.2,
+    "f": 3.4
+  },
+  {
+    "id": "O_028",
+    "name": {
+      "es": "Chorizo",
+      "en": "Chorizo",
+      "fr": "Chorizo",
+      "pt": "Chouriço",
+      "de": "Chorizo"
+    },
+    "category": "processed",
+    "type": "Aliment",
+    "k": 387,
+    "p": 21.6,
+    "c": 1.9,
+    "f": 32.5
+  },
+  {
+    "id": "O_029",
+    "name": {
+      "es": "Salchichón / Salami",
+      "en": "Salami",
+      "fr": "Saucisson / Salami",
+      "pt": "Salpicão / Salami",
+      "de": "Salami"
+    },
+    "category": "processed",
+    "type": "Aliment",
+    "k": 443,
+    "p": 22.1,
+    "c": 0,
+    "f": 39.4
+  },
+  {
+    "id": "O_030",
+    "name": {
+      "es": "Morcilla",
+      "en": "Blood sausage / Black pudding",
+      "fr": "Boudin noir",
+      "pt": "Morcela",
+      "de": "Blutwurst"
+    },
+    "category": "processed",
+    "type": "Aliment",
+    "k": 382,
+    "p": 12.1,
+    "c": 2.1,
+    "f": 36.1
+  },
+  {
+    "id": "O_031",
+    "name": {
+      "es": "Cordero (chuletas)",
+      "en": "Lamb chops",
+      "fr": "Côtelettes d'agneau",
+      "pt": "Costeletas de cordeiro",
+      "de": "Lammkoteletts"
+    },
+    "category": "meat",
+    "type": "Aliment",
+    "k": 191,
+    "p": 15.4,
+    "c": 0,
+    "f": 14.4
+  },
+  {
+    "id": "O_032",
+    "name": {
+      "es": "Pierna de cordero",
+      "en": "Leg of lamb",
+      "fr": "Gigot d'agneau",
+      "pt": "Perna de cordeiro",
+      "de": "Lammkeule"
+    },
+    "category": "meat",
+    "type": "Aliment",
+    "k": 172,
+    "p": 18.0,
+    "c": 0,
+    "f": 11.0
+  },
+  {
+    "id": "O_033",
+    "name": {
+      "es": "Salchichas tipo Frankfurt",
+      "en": "Frankfurt sausages",
+      "fr": "Saucisses de Francfort",
+      "pt": "Salsichas tipo Frankfurt",
+      "de": "Frankfurter Würstchen"
+    },
+    "category": "processed",
+    "type": "Aliment",
+    "k": 269,
+    "p": 12.1,
+    "c": 2.4,
+    "f": 23.4
+  },
+  {
+    "id": "O_034",
+    "name": {
+      "es": "Lomo embuchado",
+      "en": "Dry-cured pork loin",
+      "fr": "Longe de porc séchée",
+      "pt": "Lombo curado",
+      "de": "Luftgetrocknete Schweinelende"
+    },
+    "category": "processed",
+    "type": "Aliment",
+    "k": 236,
+    "p": 37.0,
+    "c": 1.0,
+    "f": 9.3
+  },
+  {
+    "id": "O_035",
+    "name": {
+      "es": "Cecina",
+      "en": "Cured beef (Cecina)",
+      "fr": "Viande de bœuf séchée",
+      "pt": "Cecina (Carne de vaca curada)",
+      "de": "Trockenfleisch vom Rind"
+    },
+    "category": "processed",
+    "type": "Aliment",
+    "k": 232,
+    "p": 39.1,
+    "c": 0,
+    "f": 8.4
+  },
+  {
+    "id": "O_036",
+    "name": {
+      "es": "Cabrito",
+      "en": "Kid goat",
+      "fr": "Chevreau",
+      "pt": "Cabrito",
+      "de": "Zicklein"
+    },
+    "category": "meat",
+    "type": "Aliment",
+    "k": 104,
+    "p": 19.3,
+    "c": 0,
+    "f": 3.0
+  },
+  {
+    "id": "O_037",
+    "name": {
+      "es": "Carne de caballo",
+      "en": "Horse meat",
+      "fr": "Viande de cheval",
+      "pt": "Carne de cavalo",
+      "de": "Pferdefleisch"
+    },
+    "category": "meat",
+    "type": "Aliment",
+    "k": 108,
+    "p": 21.5,
+    "c": 0.5,
+    "f": 2.5
+  },
+  {
+    "id": "O_038",
+    "name": {
+      "es": "Venado (Ciervo)",
+      "en": "Venison (Deer)",
+      "fr": "Venaison (Cerf)",
+      "pt": "Veado",
+      "de": "Hirschfleisch"
+    },
+    "category": "meat",
+    "type": "Aliment",
+    "k": 120,
+    "p": 23.0,
+    "c": 0,
+    "f": 2.4
+  },
+  {
+    "id": "O_039",
+    "name": {
+      "es": "Jabalí",
+      "en": "Wild boar",
+      "fr": "Sanglier",
+      "pt": "Javali",
+      "de": "Wildschwein"
+    },
+    "category": "meat",
+    "type": "Aliment",
+    "k": 107,
+    "p": 21.7,
+    "c": 0,
+    "f": 2.3
+  },
+  {
+    "id": "O_040",
+    "name": {
+      "es": "Avestruz",
+      "en": "Ostrich",
+      "fr": "Autruche",
+      "pt": "Avestruz",
+      "de": "Straußenfleisch"
+    },
+    "category": "meat",
+    "type": "Aliment",
+    "k": 105,
+    "p": 21.7,
+    "c": 0,
+    "f": 2.0
+  },
+  {
+    "id": "O_041",
+    "name": {
+      "es": "Albóndigas de carne",
+      "en": "Meatballs",
+      "fr": "Boulettes de viande",
+      "pt": "Almôndegas de carne",
+      "de": "Fleischbällchen"
+    },
+    "category": "processed",
+    "type": "Aliment",
+    "k": 202,
+    "p": 16.4,
+    "c": 5.1,
+    "f": 12.9
+  },
+  {
+    "id": "O_042",
+    "name": {
+      "es": "Pato (pechuga magra)",
+      "en": "Duck breast (lean)",
+      "fr": "Magret de canard (maigre)",
+      "pt": "Peito de pato (magro)",
+      "de": "Entenbrust (mager)"
+    },
+    "category": "meat",
+    "type": "Aliment",
+    "k": 201,
+    "p": 18.2,
+    "c": 0,
+    "f": 14.2
+  },
+  {
+    "id": "O_043",
+    "name": {
+      "es": "Foie gras / Hígado de pato",
+      "en": "Foie gras / Duck liver",
+      "fr": "Foie gras",
+      "pt": "Foie gras / Fígado de pato",
+      "de": "Foie gras / Entenleber"
+    },
+    "category": "meat",
+    "type": "Aliment",
+    "k": 451,
+    "p": 7.5,
+    "c": 5.1,
+    "f": 44.5
+  },
+  {
+    "id": "O_044",
+    "name": {
+      "es": "Nuggets de pollo",
+      "en": "Chicken nuggets",
+      "fr": "Nuggets de poulet",
+      "pt": "Nuggets de frango",
+      "de": "Hähnchen-Nuggets"
+    },
+    "category": "processed",
+    "type": "Aliment",
+    "k": 265,
+    "p": 13.0,
+    "c": 21.0,
+    "f": 14.3
+  },
+  {
+    "id": "O_045",
+    "name": {
+      "es": "Canguro",
+      "en": "Kangaroo",
+      "fr": "Kangourou",
+      "pt": "Canguru",
+      "de": "Känguru"
+    },
+    "category": "meat",
+    "type": "Aliment",
+    "k": 98,
+    "p": 22.0,
+    "c": 0,
+    "f": 1.1
+  },
+  {
+    "id": "O_046",
+    "name": {
+      "es": "Salchicha de pavo",
+      "en": "Turkey sausage",
+      "fr": "Saucisse de dinde",
+      "pt": "Salsicha de peru",
+      "de": "Putenwurst"
+    },
+    "category": "processed",
+    "type": "Aliment",
+    "k": 164,
+    "p": 13.5,
+    "c": 4.1,
+    "f": 10.4
+  },
+  {
+    "id": "O_047",
+    "name": {
+      "es": "Hamburguesa de ternera",
+      "en": "Beef burger patty",
+      "fr": "Steak haché de bœuf",
+      "pt": "Hambúrguer de vitela",
+      "de": "Rinderburger"
+    },
+    "category": "processed",
+    "type": "Aliment",
+    "k": 210,
+    "p": 17.0,
+    "c": 2.5,
+    "f": 14.5
+  },
+  {
+    "id": "O_048",
+    "name": {
+      "es": "Hamburguesa de pollo",
+      "en": "Chicken burger patty",
+      "fr": "Burger de poulet",
+      "pt": "Hambúrguer de frango",
+      "de": "Hähnchenburger"
+    },
+    "category": "processed",
+    "type": "Aliment",
+    "k": 155,
+    "p": 18.0,
+    "c": 2.5,
+    "f": 8.0
+  },
+  {
+    "id": "O_049",
+    "name": {
+      "es": "Hamburguesa mixta (vacuno y cerdo)",
+      "en": "Mixed burger patty (beef & pork)",
+      "fr": "Burger mixte (bœuf et porc)",
+      "pt": "Hambúrguer misto",
+      "de": "Gemischter Burger"
+    },
+    "category": "processed",
+    "type": "Aliment",
+    "k": 232,
+    "p": 16.2,
+    "c": 2.2,
+    "f": 17.6
+  },
+  {
+    "id": "O_050",
+    "name": {
+      "es": "Atún fresco",
+      "en": "Fresh tuna",
+      "fr": "Thon frais",
+      "pt": "Atum fresco",
+      "de": "Frischer Thunfisch"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 143,
+    "p": 23.3,
+    "c": 0,
+    "f": 4.9
+  },
+  {
+    "id": "O_051",
+    "name": {
+      "es": "Atún en lata (al natural)",
+      "en": "Canned tuna (in water)",
+      "fr": "Thon en conserve (au naturel)",
+      "pt": "Atum em lata (ao natural)",
+      "de": "Thunfisch aus der Dose (im eigenen Saft)"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 101,
+    "p": 24.2,
+    "c": 0,
+    "f": 0.5
+  },
+  {
+    "id": "O_052",
+    "name": {
+      "es": "Atún en lata (en aceite de oliva)",
+      "en": "Canned tuna (in olive oil)",
+      "fr": "Thon à l'huile d'olive",
+      "pt": "Atum em lata (em azeite)",
+      "de": "Thunfisch in Olivenöl"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 198,
+    "p": 25.1,
+    "c": 0,
+    "f": 10.8
+  },
+  {
+    "id": "O_053",
+    "name": {
+      "es": "Salmón fresco",
+      "en": "Fresh salmon",
+      "fr": "Saumon frais",
+      "pt": "Salmão fresco",
+      "de": "Frischer Lachs"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 182,
+    "p": 18.4,
+    "c": 0,
+    "f": 12.0
+  },
+  {
+    "id": "O_054",
+    "name": {
+      "es": "Salmón ahumado",
+      "en": "Smoked salmon",
+      "fr": "Saumon fumé",
+      "pt": "Salmão fumado",
+      "de": "Räucherlachs"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 176,
+    "p": 25.4,
+    "c": 0,
+    "f": 8.3
+  },
+  {
+    "id": "O_055",
+    "name": {
+      "es": "Merluza",
+      "en": "Hake",
+      "fr": "Merlu / Colin",
+      "pt": "Pescada",
+      "de": "Seehecht"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 89,
+    "p": 15.9,
+    "c": 0,
+    "f": 2.8
+  },
+  {
+    "id": "O_056",
+    "name": {
+      "es": "Bacalao fresco",
+      "en": "Fresh cod",
+      "fr": "Cabillaud frais",
+      "pt": "Bacalhau fresco",
+      "de": "Frischer Kabeljau"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 74,
+    "p": 17.7,
+    "c": 0,
+    "f": 0.4
+  },
+  {
+    "id": "O_057",
+    "name": {
+      "es": "Bacalao salado/desecado",
+      "en": "Salted/Dried cod",
+      "fr": "Morue salée/séchée",
+      "pt": "Bacalhau salgado/seco",
+      "de": "Salz- / Stockfisch"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 316,
+    "p": 75.1,
+    "c": 0,
+    "f": 1.8
+  },
+  {
+    "id": "O_058",
+    "name": {
+      "es": "Lenguado",
+      "en": "Sole",
+      "fr": "Sole",
+      "pt": "Linguado",
+      "de": "Seezunge"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 81,
+    "p": 16.5,
+    "c": 0,
+    "f": 1.5
+  },
+  {
+    "id": "O_059",
+    "name": {
+      "es": "Dorada",
+      "en": "Gilt-head bream",
+      "fr": "Dorade royale",
+      "pt": "Dourada",
+      "de": "Goldbrasse"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 111,
+    "p": 17.5,
+    "c": 0,
+    "f": 4.8
+  },
+  {
+    "id": "O_060",
+    "name": {
+      "es": "Lubina",
+      "en": "Sea bass",
+      "fr": "Bar / Loup de mer",
+      "pt": "Robalo",
+      "de": "Wolfsbarsch"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 98,
+    "p": 18.4,
+    "c": 0,
+    "f": 2.7
+  },
+  {
+    "id": "O_061",
+    "name": {
+      "es": "Rodaballo",
+      "en": "Turbot",
+      "fr": "Turbot",
+      "pt": "Rodovalho",
+      "de": "Steinbutt"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 102,
+    "p": 16.1,
+    "c": 0,
+    "f": 3.0
+  },
+  {
+    "id": "O_062",
+    "name": {
+      "es": "Emperador / Pez espada",
+      "en": "Swordfish",
+      "fr": "Espadon",
+      "pt": "Espadarte / Peixe-espada",
+      "de": "Schwertfisch"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 111,
+    "p": 19.8,
+    "c": 0,
+    "f": 3.5
+  },
+  {
+    "id": "O_063",
+    "name": {
+      "es": "Caballa",
+      "en": "Mackerel",
+      "fr": "Maquereau",
+      "pt": "Cavala",
+      "de": "Makrele"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 180,
+    "p": 18.7,
+    "c": 0,
+    "f": 11.6
+  },
+  {
+    "id": "O_064",
+    "name": {
+      "es": "Sardinas",
+      "en": "Sardines",
+      "fr": "Sardines",
+      "pt": "Sardinhas",
+      "de": "Sardinen"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 153,
+    "p": 18.1,
+    "c": 0,
+    "f": 9.0
+  },
+  {
+    "id": "O_065",
+    "name": {
+      "es": "Boquerones / Anchoas (frescos)",
+      "en": "Fresh anchovies",
+      "fr": "Anchois frais",
+      "pt": "Biqueirão / Anchovas (frescas)",
+      "de": "Frische Sardellen"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 128,
+    "p": 17.6,
+    "c": 0,
+    "f": 6.0
+  },
+  {
+    "id": "O_066",
+    "name": {
+      "es": "Trucha",
+      "en": "Trout",
+      "fr": "Truite",
+      "pt": "Truta",
+      "de": "Forelle"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 141,
+    "p": 18.8,
+    "c": 0,
+    "f": 7.3
+  },
+  {
+    "id": "O_067",
+    "name": {
+      "es": "Congrio",
+      "en": "Conger eel",
+      "fr": "Congre",
+      "pt": "Congro",
+      "de": "Meeraal"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 106,
+    "p": 19.0,
+    "c": 0,
+    "f": 3.3
+  },
+  {
+    "id": "O_068",
+    "name": {
+      "es": "Gallo",
+      "en": "Megrim / Whiff",
+      "fr": "Cardine",
+      "pt": "Areeiro",
+      "de": "Flügelbutt"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 80,
+    "p": 16.2,
+    "c": 0,
+    "f": 1.7
+  },
+  {
+    "id": "O_069",
+    "name": {
+      "es": "Raya",
+      "en": "Skate / Ray",
+      "fr": "Raie",
+      "pt": "Raia",
+      "de": "Rochen"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 71,
+    "p": 16.7,
+    "c": 0,
+    "f": 0.5
+  },
+  {
+    "id": "O_070",
+    "name": {
+      "es": "Boquerones en vinagre",
+      "en": "Anchovies in vinegar",
+      "fr": "Anchois au vinaigre",
+      "pt": "Biqueirão em vinagre",
+      "de": "Sardellen in Essig"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 151,
+    "p": 17.5,
+    "c": 0.5,
+    "f": 8.8
+  },
+  {
+    "id": "O_071",
+    "name": {
+      "es": "Pescadito frito",
+      "en": "Fried fish",
+      "fr": "Poisson frit",
+      "pt": "Peixe frito",
+      "de": "Frittierter Fisch"
+    },
+    "category": "processed",
+    "type": "Aliment",
+    "k": 214,
+    "p": 19.4,
+    "c": 4.1,
+    "f": 13.4
+  },
+  {
+    "id": "O_072",
+    "name": {
+      "es": "Rape",
+      "en": "Monkfish",
+      "fr": "Lotte",
+      "pt": "Tamboril",
+      "de": "Seeteufel"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 70,
+    "p": 15.1,
+    "c": 0,
+    "f": 1.0
+  },
+  {
+    "id": "O_073",
+    "name": {
+      "es": "Perca",
+      "en": "Perch",
+      "fr": "Perche",
+      "pt": "Perca",
+      "de": "Barsch"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 90,
+    "p": 18.6,
+    "c": 0,
+    "f": 1.6
+  },
+  {
+    "id": "O_074",
+    "name": {
+      "es": "Tilapia",
+      "en": "Tilapia",
+      "fr": "Tilapia",
+      "pt": "Tilápia",
+      "de": "Tilapia / Buntbarsch"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 96,
+    "p": 20.1,
+    "c": 0,
+    "f": 1.7
+  },
+  {
+    "id": "O_075",
+    "name": {
+      "es": "Panga",
+      "en": "Panga / Basa fish",
+      "fr": "Panga",
+      "pt": "Panga",
+      "de": "Pangasius"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 76,
+    "p": 14.2,
+    "c": 0,
+    "f": 2.1
+  },
+  {
+    "id": "O_076",
+    "name": {
+      "es": "Arenque",
+      "en": "Herring",
+      "fr": "Hareng",
+      "pt": "Arenque",
+      "de": "Hering"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 158,
+    "p": 18.0,
+    "c": 0,
+    "f": 9.0
+  },
+  {
+    "id": "O_077",
+    "name": {
+      "es": "Anguila",
+      "en": "Eel",
+      "fr": "Anguille",
+      "pt": "Enguia",
+      "de": "Aal"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 219,
+    "p": 16.3,
+    "c": 0,
+    "f": 15.0
+  },
+  {
+    "id": "O_078",
+    "name": {
+      "es": "Caviar",
+      "en": "Caviar",
+      "fr": "Caviar",
+      "pt": "Caviar",
+      "de": "Kaviar"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 264,
+    "p": 24.6,
+    "c": 4.0,
+    "f": 15.5
+  },
+  {
+    "id": "O_079",
+    "name": {
+      "es": "Gambas",
+      "en": "Prawns / Shrimp",
+      "fr": "Crevettes",
+      "pt": "Gambas / Camarão",
+      "de": "Garnelen"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 96,
+    "p": 19.8,
+    "c": 0,
+    "f": 1.7
+  },
+  {
+    "id": "O_080",
+    "name": {
+      "es": "Langostinos",
+      "en": "King prawns / Langoustines",
+      "fr": "Langoustines / Gambas",
+      "pt": "Langostinos",
+      "de": "Riesengarnelen"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 93,
+    "p": 20.1,
+    "c": 1.5,
+    "f": 0.8
+  },
+  {
+    "id": "O_081",
+    "name": {
+      "es": "Cigalas",
+      "en": "Dublin Bay Prawn / Langoustine",
+      "fr": "Langoustines",
+      "pt": "Lagostim",
+      "de": "Kaisergranat"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 85,
+    "p": 17.7,
+    "c": 0,
+    "f": 1.4
+  },
+  {
+    "id": "O_082",
+    "name": {
+      "es": "Bogavante",
+      "en": "European Lobster",
+      "fr": "Homard",
+      "pt": "Lavagante",
+      "de": "Hummer"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 84,
+    "p": 18.3,
+    "c": 0,
+    "f": 1.2
+  },
+  {
+    "id": "O_083",
+    "name": {
+      "es": "Langosta",
+      "en": "Spiny Lobster",
+      "fr": "Langouste",
+      "pt": "Lagosta",
+      "de": "Languste"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 85,
+    "p": 17.7,
+    "c": 0,
+    "f": 1.4
+  },
+  {
+    "id": "O_084",
+    "name": {
+      "es": "Cangrejo",
+      "en": "Crab",
+      "fr": "Crabe",
+      "pt": "Caranguejo",
+      "de": "Krebs"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 84,
+    "p": 18.1,
+    "c": 0,
+    "f": 1.3
+  },
+  {
+    "id": "O_085",
+    "name": {
+      "es": "Surimi",
+      "en": "Surimi / Crab sticks",
+      "fr": "Surimi / Bâtonnets de crabe",
+      "pt": "Surimi / Delícias do mar",
+      "de": "Surimi / Krebsfleischimitat"
+    },
+    "category": "processed",
+    "type": "Aliment",
+    "k": 99,
+    "p": 12.0,
+    "c": 11.0,
+    "f": 0.8
+  },
+  {
+    "id": "O_086",
+    "name": {
+      "es": "Mejillones",
+      "en": "Mussels",
+      "fr": "Moules",
+      "pt": "Mexilhões",
+      "de": "Miesmuscheln"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 86,
+    "p": 12.1,
+    "c": 2.3,
+    "f": 1.9
+  },
+  {
+    "id": "O_087",
+    "name": {
+      "es": "Almejas",
+      "en": "Clams",
+      "fr": "Palourdes",
+      "pt": "Amêijoas",
+      "de": "Venusmuscheln"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 76,
+    "p": 10.7,
+    "c": 1.5,
+    "f": 1.0
+  },
+  {
+    "id": "O_088",
+    "name": {
+      "es": "Berberechos",
+      "en": "Cockles",
+      "fr": "Coques",
+      "pt": "Berbigão",
+      "de": "Herzmuscheln"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 47,
+    "p": 10.7,
+    "c": 0,
+    "f": 0.5
+  },
+  {
+    "id": "O_089",
+    "name": {
+      "es": "Ostras",
+      "en": "Oysters",
+      "fr": "Huîtres",
+      "pt": "Ostras",
+      "de": "Austern"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 66,
+    "p": 9.0,
+    "c": 4.8,
+    "f": 1.2
+  },
+  {
+    "id": "O_090",
+    "name": {
+      "es": "Vieiras",
+      "en": "Scallops",
+      "fr": "Coquilles Saint-Jacques",
+      "pt": "Vieiras",
+      "de": "Jakobsmuscheln"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 82,
+    "p": 15.6,
+    "c": 2.3,
+    "f": 1.1
+  },
+  {
+    "id": "O_091",
+    "name": {
+      "es": "Calamar",
+      "en": "Squid",
+      "fr": "Calamar",
+      "pt": "Lula",
+      "de": "Tintenfisch / Kalmar"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 80,
+    "p": 16.2,
+    "c": 0.7,
+    "f": 1.4
+  },
+  {
+    "id": "O_092",
+    "name": {
+      "es": "Sepia / Choco",
+      "en": "Cuttlefish",
+      "fr": "Seiche",
+      "pt": "Choco",
+      "de": "Sepia"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 75,
+    "p": 16.1,
+    "c": 0.7,
+    "f": 0.9
+  },
+  {
+    "id": "O_093",
+    "name": {
+      "es": "Pulpo",
+      "en": "Octopus",
+      "fr": "Poulpe",
+      "pt": "Polvo",
+      "de": "Oktopus"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 82,
+    "p": 17.9,
+    "c": 0,
+    "f": 1.0
+  },
+  {
+    "id": "O_094",
+    "name": {
+      "es": "Gulas",
+      "en": "Imitation baby eels / Surimi eels",
+      "fr": "Succédané de civelles / Surimi",
+      "pt": "Gulas / Sucedâneo de enguias",
+      "de": "Glasaal-Imitat / Surimi-Aale"
+    },
+    "category": "processed",
+    "type": "Aliment",
+    "k": 165,
+    "p": 8.1,
+    "c": 8.2,
+    "f": 11.2
+  },
+  {
+    "id": "O_095",
+    "name": {
+      "es": "Bonito",
+      "en": "Bonito tuna",
+      "fr": "Bonite",
+      "pt": "Bonito",
+      "de": "Bonito"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 138,
+    "p": 21.0,
+    "c": 0,
+    "f": 6.0
+  },
+  {
+    "id": "O_096",
+    "name": {
+      "es": "Cazón (Tiburón/Bienmesabe)",
+      "en": "Dogfish / School shark",
+      "fr": "Chien de mer / Requin-hâ",
+      "pt": "Cação / Tubarão",
+      "de": "Dornhai / Hundshai"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 84,
+    "p": 18.5,
+    "c": 0,
+    "f": 0.9
+  },
+  {
+    "id": "O_097",
+    "name": {
+      "es": "Mero",
+      "en": "Grouper",
+      "fr": "Mérou",
+      "pt": "Garoupa",
+      "de": "Zackenbarsch"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 92,
+    "p": 19.1,
+    "c": 0,
+    "f": 1.2
+  },
+  {
+    "id": "O_098",
+    "name": {
+      "es": "Navajas",
+      "en": "Razor clams",
+      "fr": "Couteaux",
+      "pt": "Navalhas",
+      "de": "Schwertmuscheln"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 86,
+    "p": 14.8,
+    "c": 1.5,
+    "f": 1.1
+  },
+  {
+    "id": "O_099",
+    "name": {
+      "es": "Centollo",
+      "en": "Spider crab",
+      "fr": "Araignée de mer",
+      "pt": "Santola",
+      "de": "Seespinne"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 128,
+    "p": 20.1,
+    "c": 0,
+    "f": 5.2
+  },
+  {
+    "id": "O_100",
+    "name": {
+      "es": "Buey de mar",
+      "en": "Brown crab / Edible crab",
+      "fr": "Tourteau",
+      "pt": "Sapateira",
+      "de": "Taschenkrebs"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 124,
+    "p": 19.5,
+    "c": 0,
+    "f": 5.1
+  },
+  {
+    "id": "O_101",
+    "name": {
+      "es": "Fletán / Halibut",
+      "en": "Halibut",
+      "fr": "Flétan",
+      "pt": "Alabote",
+      "de": "Heilbutt"
+    },
+    "category": "seafood",
+    "type": "Aliment",
+    "k": 103,
+    "p": 21.5,
+    "c": 0,
+    "f": 1.9
+  },
+  {
+    "id": "O_102",
+    "name": {
+      "es": "Huevo de gallina (entero)",
+      "en": "Chicken egg (whole)",
+      "fr": "Œuf de poule (entier)",
+      "pt": "Ovo de galinha (inteiro)",
+      "de": "Hühnerei (ganz)"
+    },
+    "category": "dairy_eggs",
+    "type": "Aliment",
+    "k": 150,
+    "p": 12.5,
+    "c": 0.7,
+    "f": 11.1
+  },
+  {
+    "id": "O_103",
+    "name": {
+      "es": "Clara de huevo",
+      "en": "Egg white",
+      "fr": "Blanc d'œuf",
+      "pt": "Clara de ovo",
+      "de": "Eiweiß / Eiklar"
+    },
+    "category": "dairy_eggs",
+    "type": "Aliment",
+    "k": 49,
+    "p": 11.1,
+    "c": 0.7,
+    "f": 0.2
+  },
+  {
+    "id": "O_104",
+    "name": {
+      "es": "Yema de huevo",
+      "en": "Egg yolk",
+      "fr": "Jaune d'œuf",
+      "pt": "Gema de ovo",
+      "de": "Eigelb"
+    },
+    "category": "dairy_eggs",
+    "type": "Aliment",
+    "k": 322,
+    "p": 15.9,
+    "c": 3.6,
+    "f": 26.5
+  },
+  {
+    "id": "O_105",
+    "name": {
+      "es": "Huevo de codorniz",
+      "en": "Quail egg",
+      "fr": "Œuf de caille",
+      "pt": "Ovo de codorna",
+      "de": "Wachtelei"
+    },
+    "category": "dairy_eggs",
+    "type": "Aliment",
+    "k": 158,
+    "p": 13.1,
+    "c": 0.4,
+    "f": 11.1
+  },
+  {
+    "id": "O_106",
+    "name": {
+      "es": "Leche entera de vaca",
+      "en": "Whole cow milk",
+      "fr": "Lait entier de vache",
+      "pt": "Leite de vaca gordo/inteiro",
+      "de": "Kuhmilch (Vollmilch)"
+    },
+    "category": "dairy_eggs",
+    "type": "Aliment",
+    "k": 65,
+    "p": 3.1,
+    "c": 4.7,
+    "f": 3.8
+  },
+  {
+    "id": "O_107",
+    "name": {
+      "es": "Leche semidesnatada de vaca",
+      "en": "Semi-skimmed cow milk",
+      "fr": "Lait demi-écrémé",
+      "pt": "Leite de vaca meio-gordo",
+      "de": "Kuhmilch (fettarm)"
+    },
+    "category": "dairy_eggs",
+    "type": "Aliment",
+    "k": 46,
+    "p": 3.2,
+    "c": 4.8,
+    "f": 1.6
+  },
+  {
+    "id": "O_108",
+    "name": {
+      "es": "Leche desnatada de vaca",
+      "en": "Skimmed cow milk",
+      "fr": "Lait écrémé",
+      "pt": "Leite de vaca magro/desnatado",
+      "de": "Kuhmilch (mager)"
+    },
+    "category": "dairy_eggs",
+    "type": "Aliment",
+    "k": 34,
+    "p": 3.5,
+    "c": 4.9,
+    "f": 0.2
+  },
+  {
+    "id": "O_109",
+    "name": {
+      "es": "Leche sin lactosa",
+      "en": "Lactose-free milk",
+      "fr": "Lait sans lactose",
+      "pt": "Leite sem lactose",
+      "de": "Laktosefreie Milch"
+    },
+    "category": "dairy_eggs",
+    "type": "Aliment",
+    "k": 46,
+    "p": 3.2,
+    "c": 4.8,
+    "f": 1.6
+  },
+  {
+    "id": "O_110",
+    "name": {
+      "es": "Leche de cabra",
+      "en": "Goat milk",
+      "fr": "Lait de chèvre",
+      "pt": "Leite de cabra",
+      "de": "Ziegenmilch"
+    },
+    "category": "dairy_eggs",
+    "type": "Aliment",
+    "k": 69,
+    "p": 3.6,
+    "c": 4.5,
+    "f": 4.1
+  },
+  {
+    "id": "O_111",
+    "name": {
+      "es": "Leche de oveja",
+      "en": "Sheep milk",
+      "fr": "Lait de brebis",
+      "pt": "Leite de ovelha",
+      "de": "Schafsmilch"
+    },
+    "category": "dairy_eggs",
+    "type": "Aliment",
+    "k": 108,
+    "p": 6.0,
+    "c": 5.4,
+    "f": 7.0
+  },
+  {
+    "id": "O_112",
+    "name": {
+      "es": "Leche en polvo",
+      "en": "Powdered milk",
+      "fr": "Lait en poudre",
+      "pt": "Leite em pó",
+      "de": "Milchpulver"
+    },
+    "category": "dairy_eggs",
+    "type": "Aliment",
+    "k": 496,
+    "p": 26.3,
+    "c": 38.4,
+    "f": 26.7
+  },
+  {
+    "id": "O_113",
+    "name": {
+      "es": "Yogur natural (entero)",
+      "en": "Plain yogurt (whole)",
+      "fr": "Yaourt nature (entier)",
+      "pt": "Iogurte natural (gordo/inteiro)",
+      "de": "Naturjoghurt (Vollmilch)"
+    },
+    "category": "dairy_eggs",
+    "type": "Aliment",
+    "k": 57,
+    "p": 3.7,
+    "c": 4.4,
+    "f": 2.7
+  },
+  {
+    "id": "O_114",
+    "name": {
+      "es": "Yogur natural (desnatado)",
+      "en": "Plain yogurt (skimmed)",
+      "fr": "Yaourt nature (écrémé)",
+      "pt": "Iogurte natural (magro/desnatado)",
+      "de": "Naturjoghurt (mager)"
+    },
+    "category": "dairy_eggs",
+    "type": "Aliment",
+    "k": 45,
+    "p": 4.4,
+    "c": 6.3,
+    "f": 0.1
+  },
+  {
+    "id": "O_115",
+    "name": {
+      "es": "Yogur Griego",
+      "en": "Greek yogurt",
+      "fr": "Yaourt grec",
+      "pt": "Iogurte grego",
+      "de": "Griechischer Joghurt"
+    },
+    "category": "dairy_eggs",
+    "type": "Aliment",
+    "k": 120,
+    "p": 6.4,
+    "c": 3.5,
+    "f": 9.2
+  },
+  {
+    "id": "O_116",
+    "name": {
+      "es": "Kéfir",
+      "en": "Kefir",
+      "fr": "Kéfir",
+      "pt": "Kefir",
+      "de": "Kefir"
+    },
+    "category": "dairy_eggs",
+    "type": "Aliment",
+    "k": 64,
+    "p": 3.3,
+    "c": 4.8,
+    "f": 3.5
+  },
+  {
+    "id": "O_117",
+    "name": {
+      "es": "Queso fresco batido (Quark)",
+      "en": "Quark / Whipped fresh cheese",
+      "fr": "Fromage frais battu / Quark",
+      "pt": "Queijo fresco batido / Quark",
+      "de": "Magerquark"
+    },
+    "category": "dairy_eggs",
+    "type": "Aliment",
+    "k": 46,
+    "p": 8.0,
+    "c": 3.5,
+    "f": 0.1
+  },
+  {
+    "id": "O_118",
+    "name": {
+      "es": "Queso fresco (tipo Burgos)",
+      "en": "Fresh cheese (Burgos style)",
+      "fr": "Fromage frais (type Burgos)",
+      "pt": "Queijo fresco (tipo Burgos)",
+      "de": "Frischkäse (nach Burgos-Art)"
+    },
+    "category": "dairy_eggs",
+    "type": "Aliment",
+    "k": 174,
+    "p": 11.2,
+    "c": 3.5,
+    "f": 12.6
+  },
+  {
+    "id": "O_119",
+    "name": {
+      "es": "Requesón",
+      "en": "Ricotta / Curd cheese",
+      "fr": "Ricotta / Fromage de lactosérum",
+      "pt": "Requeijão",
+      "de": "Ricotta / Molkenkäse"
+    },
+    "category": "dairy_eggs",
+    "type": "Aliment",
+    "k": 109,
+    "p": 12.3,
+    "c": 3.3,
+    "f": 4.3
+  },
+  {
+    "id": "O_120",
+    "name": {
+      "es": "Queso Cottage",
+      "en": "Cottage cheese",
+      "fr": "Fromage cottage",
+      "pt": "Queijo cottage",
+      "de": "Hüttenkäse"
+    },
+    "category": "dairy_eggs",
+    "type": "Aliment",
+    "k": 81,
+    "p": 10.4,
+    "c": 4.8,
+    "f": 2.3
+  },
+  {
+    "id": "O_121",
+    "name": {
+      "es": "Queso Mozzarella (fresca/bola)",
+      "en": "Fresh Mozzarella",
+      "fr": "Mozzarella fraîche",
+      "pt": "Mozzarella fresca",
+      "de": "Frischer Mozzarella"
+    },
+    "category": "dairy_eggs",
+    "type": "Aliment",
+    "k": 220,
+    "p": 17.5,
+    "c": 2.0,
+    "f": 16.0
+  },
+  {
+    "id": "O_122",
+    "name": {
+      "es": "Queso de Cabra (rulo)",
+      "en": "Goat cheese log",
+      "fr": "Bûche de chèvre",
+      "pt": "Queijo de cabra (rolo)",
+      "de": "Ziegenkäserolle"
+    },
+    "category": "dairy_eggs",
+    "type": "Aliment",
+    "k": 364,
+    "p": 22.0,
+    "c": 0.1,
+    "f": 29.8
+  },
+  {
+    "id": "O_123",
+    "name": {
+      "es": "Queso Roquefort / Azul",
+      "en": "Blue cheese / Roquefort",
+      "fr": "Fromage bleu / Roquefort",
+      "pt": "Queijo azul / Roquefort",
+      "de": "Blauschimmelkäse / Roquefort"
+    },
+    "category": "dairy_eggs",
+    "type": "Aliment",
+    "k": 369,
+    "p": 21.5,
+    "c": 2.0,
+    "f": 30.6
+  },
+  {
+    "id": "O_124",
+    "name": {
+      "es": "Queso Brie",
+      "en": "Brie cheese",
+      "fr": "Brie",
+      "pt": "Queijo Brie",
+      "de": "Brie"
+    },
+    "category": "dairy_eggs",
+    "type": "Aliment",
+    "k": 334,
+    "p": 20.7,
+    "c": 0.5,
+    "f": 27.7
+  },
+  {
+    "id": "O_125",
+    "name": {
+      "es": "Queso Mascarpone",
+      "en": "Mascarpone",
+      "fr": "Mascarpone",
+      "pt": "Queijo Mascarpone",
+      "de": "Mascarpone"
+    },
+    "category": "dairy_eggs",
+    "type": "Aliment",
+    "k": 429,
+    "p": 3.6,
+    "c": 4.3,
+    "f": 44.0
+  },
+  {
+    "id": "O_126",
+    "name": {
+      "es": "Queso de untar",
+      "en": "Cream cheese / Spread",
+      "fr": "Fromage à tartiner",
+      "pt": "Queijo creme / de barrar",
+      "de": "Frischkäse (Doppelrahm)"
+    },
+    "category": "dairy_eggs",
+    "type": "Aliment",
+    "k": 243,
+    "p": 4.6,
+    "c": 3.8,
+    "f": 23.0
+  },
+  {
+    "id": "O_127",
+    "name": {
+      "es": "Mantequilla",
+      "en": "Butter",
+      "fr": "Beurre",
+      "pt": "Manteiga",
+      "de": "Butter"
+    },
+    "category": "fats_nuts",
+    "type": "Aliment",
+    "k": 743,
+    "p": 0.6,
+    "c": 0.6,
+    "f": 82.0
+  },
+  {
+    "id": "O_128",
+    "name": {
+      "es": "Ghee (Mantequilla clarificada)",
+      "en": "Ghee (Clarified butter)",
+      "fr": "Ghee (Beurre clarifié)",
+      "pt": "Ghee (Manteiga clarificada)",
+      "de": "Ghee (Geklärte Butter)"
+    },
+    "category": "fats_nuts",
+    "type": "Aliment",
+    "k": 876,
+    "p": 0,
+    "c": 0,
+    "f": 99.5
+  },
+  {
+    "id": "O_129",
+    "name": {
+      "es": "Nata (35% M.G.)",
+      "en": "Heavy cream (35% fat)",
+      "fr": "Crème liquide / fraîche (35%)",
+      "pt": "Natas (35% gordura)",
+      "de": "Sahne / Rahm (35%)"
+    },
+    "category": "dairy_eggs",
+    "type": "Aliment",
+    "k": 340,
+    "p": 2.8,
+    "c": 2.7,
+    "f": 36.1
+  },
+  {
+    "id": "O_130",
+    "name": {
+      "es": "Lentejas (secas)",
+      "en": "Lentils (dry)",
+      "fr": "Lentilles (sèches)",
+      "pt": "Lentilhas (secas)",
+      "de": "Linsen (getrocknet)"
+    },
+    "category": "legumes_vegan",
+    "type": "Aliment",
+    "k": 310,
+    "p": 24.8,
+    "c": 48.7,
+    "f": 1.2
+  },
+  {
+    "id": "O_131",
+    "name": {
+      "es": "Lentejas (cocidas)",
+      "en": "Lentils (cooked)",
+      "fr": "Lentilles (cuites)",
+      "pt": "Lentilhas (cozidas)",
+      "de": "Linsen (gekocht)"
+    },
+    "category": "legumes_vegan",
+    "type": "Aliment",
+    "k": 116,
+    "p": 9.0,
+    "c": 20.1,
+    "f": 0.4
+  },
+  {
+    "id": "O_132",
+    "name": {
+      "es": "Garbanzos",
+      "en": "Chickpeas",
+      "fr": "Pois chiches",
+      "pt": "Grão-de-bico",
+      "de": "Kichererbsen"
+    },
+    "category": "legumes_vegan",
+    "type": "Aliment",
+    "k": 336,
+    "p": 19.3,
+    "c": 49.3,
+    "f": 6.3
+  },
+  {
+    "id": "O_133",
+    "name": {
+      "es": "Alubias blancas",
+      "en": "White beans",
+      "fr": "Haricots blancs",
+      "pt": "Feijão branco",
+      "de": "Weiße Bohnen"
+    },
+    "category": "legumes_vegan",
+    "type": "Aliment",
+    "k": 310,
+    "p": 21.1,
+    "c": 45.0,
+    "f": 1.5
+  },
+  {
+    "id": "O_134",
+    "name": {
+      "es": "Alubias rojas",
+      "en": "Kidney beans / Red beans",
+      "fr": "Haricots rouges",
+      "pt": "Feijão vermelho",
+      "de": "Kidneybohnen"
+    },
+    "category": "legumes_vegan",
+    "type": "Aliment",
+    "k": 337,
+    "p": 22.5,
+    "c": 61.3,
+    "f": 1.1
+  },
+  {
+    "id": "O_135",
+    "name": {
+      "es": "Alubias negras",
+      "en": "Black beans",
+      "fr": "Haricots noirs",
+      "pt": "Feijão preto",
+      "de": "Schwarze Bohnen"
+    },
+    "category": "legumes_vegan",
+    "type": "Aliment",
+    "k": 341,
+    "p": 21.6,
+    "c": 62.4,
+    "f": 1.5
+  },
+  {
+    "id": "O_136",
+    "name": {
+      "es": "Soja (grano)",
+      "en": "Soybeans (dry)",
+      "fr": "Soja (graines)",
+      "pt": "Soja (grão)",
+      "de": "Sojabohnen (getrocknet)"
+    },
+    "category": "legumes_vegan",
+    "type": "Aliment",
+    "k": 446,
+    "p": 36.5,
+    "c": 30.2,
+    "f": 19.9
+  },
+  {
+    "id": "O_137",
+    "name": {
+      "es": "Edamame",
+      "en": "Edamame",
+      "fr": "Edamame",
+      "pt": "Edamame",
+      "de": "Edamame"
+    },
+    "category": "legumes_vegan",
+    "type": "Aliment",
+    "k": 121,
+    "p": 11.9,
+    "c": 8.9,
+    "f": 5.2
+  },
+  {
+    "id": "O_138",
+    "name": {
+      "es": "Guisantes",
+      "en": "Peas",
+      "fr": "Petits pois",
+      "pt": "Ervilhas",
+      "de": "Erbsen"
+    },
+    "category": "legumes_vegan",
+    "type": "Aliment",
+    "k": 78,
+    "p": 6.0,
+    "c": 10.3,
+    "f": 0.5
+  },
+  {
+    "id": "O_139",
+    "name": {
+      "es": "Habas",
+      "en": "Broad beans / Fava beans",
+      "fr": "Fèves",
+      "pt": "Favas",
+      "de": "Dicke Bohnen"
+    },
+    "category": "legumes_vegan",
+    "type": "Aliment",
+    "k": 64,
+    "p": 5.4,
+    "c": 8.0,
+    "f": 0.5
+  },
+  {
+    "id": "O_140",
+    "name": {
+      "es": "Altramuces (Encurtidos/Conserva)",
+      "en": "Lupins (Pickled)",
+      "fr": "Lupins (saumure)",
+      "pt": "Tremoços (conserva)",
+      "de": "Lupinen (eingelegt)"
+    },
+    "category": "legumes_vegan",
+    "type": "Aliment",
+    "k": 105,
+    "p": 11.0,
+    "c": 1.0,
+    "f": 2.5
+  },
+  {
+    "id": "O_141",
+    "name": {
+      "es": "Tofu firme",
+      "en": "Firm Tofu",
+      "fr": "Tofu ferme",
+      "pt": "Tofu firme",
+      "de": "Tofu (fest)"
+    },
+    "category": "legumes_vegan",
+    "type": "Aliment",
+    "k": 144,
+    "p": 17.3,
+    "c": 2.8,
+    "f": 8.7
+  },
+  {
+    "id": "O_142",
+    "name": {
+      "es": "Tofu sedoso (Silken)",
+      "en": "Silken Tofu",
+      "fr": "Tofu soyeux",
+      "pt": "Tofu sedoso",
+      "de": "Seidentofu"
+    },
+    "category": "legumes_vegan",
+    "type": "Aliment",
+    "k": 55,
+    "p": 4.8,
+    "c": 1.9,
+    "f": 2.7
+  },
+  {
+    "id": "O_143",
+    "name": {
+      "es": "Tempeh",
+      "en": "Tempeh",
+      "fr": "Tempeh",
+      "pt": "Tempeh",
+      "de": "Tempeh"
+    },
+    "category": "legumes_vegan",
+    "type": "Aliment",
+    "k": 192,
+    "p": 20.3,
+    "c": 7.6,
+    "f": 10.8
+  },
+  {
+    "id": "O_144",
+    "name": {
+      "es": "Seitán (bloque)",
+      "en": "Seitan (block)",
+      "fr": "Seitan",
+      "pt": "Seitan (bloco)",
+      "de": "Seitan"
+    },
+    "category": "legumes_vegan",
+    "type": "Aliment",
+    "k": 124,
+    "p": 24.0,
+    "c": 3.5,
+    "f": 1.6
+  },
+  {
+    "id": "O_145",
+    "name": {
+      "es": "Heura (Bocados originales)",
+      "en": "Heura (Original chunks)",
+      "fr": "Heura (Bocados)",
+      "pt": "Heura (Pedaços originais)",
+      "de": "Heura (Original)"
+    },
+    "category": "legumes_vegan",
+    "type": "Aliment",
+    "k": 126,
+    "p": 18.0,
+    "c": 1.7,
+    "f": 2.9
+  },
+  {
+    "id": "O_146",
+    "name": {
+      "es": "Soja texturizada (seca)",
+      "en": "Textured Soy Protein (dry) / TVP",
+      "fr": "Protéines de soja texturées",
+      "pt": "Soja texturizada (seca)",
+      "de": "Sojagranulat (trocken)"
+    },
+    "category": "legumes_vegan",
+    "type": "Aliment",
+    "k": 327,
+    "p": 51.5,
+    "c": 33.9,
+    "f": 1.2
+  },
+  {
+    "id": "O_147",
+    "name": {
+      "es": "Levadura nutricional",
+      "en": "Nutritional yeast",
+      "fr": "Levure nutritionnelle",
+      "pt": "Levedura nutricional",
+      "de": "Hefeflocken"
+    },
+    "category": "sauces_condiments",
+    "type": "Aliment",
+    "k": 344,
+    "p": 51.0,
+    "c": 36.9,
+    "f": 4.0
+  },
+  {
+    "id": "O_148",
+    "name": {
+      "es": "Miso (pasta)",
+      "en": "Miso paste",
+      "fr": "Miso (pâte)",
+      "pt": "Miso (pasta)",
+      "de": "Miso-Paste"
+    },
+    "category": "sauces_condiments",
+    "type": "Aliment",
+    "k": 198,
+    "p": 12.8,
+    "c": 25.4,
+    "f": 6.0
+  },
+  {
+    "id": "O_149",
+    "name": {
+      "es": "Hummus",
+      "en": "Hummus",
+      "fr": "Houmous",
+      "pt": "Húmus",
+      "de": "Hummus"
+    },
+    "category": "legumes_vegan",
+    "type": "Aliment",
+    "k": 240,
+    "p": 7.9,
+    "c": 14.3,
+    "f": 17.0
+  },
+  {
+    "id": "O_150",
+    "name": {
+      "es": "Arroz blanco",
+      "en": "White rice",
+      "fr": "Riz blanc",
+      "pt": "Arroz branco",
+      "de": "Weißer Reis"
+    },
+    "category": "grains_tubers",
+    "type": "Aliment",
+    "k": 360,
+    "p": 7.0,
+    "c": 79.0,
+    "f": 0.6
+  },
+  {
+    "id": "O_151",
+    "name": {
+      "es": "Arroz integral",
+      "en": "Brown rice",
+      "fr": "Riz complet",
+      "pt": "Arroz integral",
+      "de": "Naturreis / Vollkornreis"
+    },
+    "category": "grains_tubers",
+    "type": "Aliment",
+    "k": 365,
+    "p": 7.5,
+    "c": 76.0,
+    "f": 3.2
+  },
+  {
+    "id": "O_152",
+    "name": {
+      "es": "Arroz Basmati",
+      "en": "Basmati rice",
+      "fr": "Riz Basmati",
+      "pt": "Arroz Basmati",
+      "de": "Basmati-Reis"
+    },
+    "category": "grains_tubers",
+    "type": "Aliment",
+    "k": 354,
+    "p": 8.5,
+    "c": 77.0,
+    "f": 1.0
+  },
+  {
+    "id": "O_153",
+    "name": {
+      "es": "Arroz Jazmín",
+      "en": "Jasmine rice",
+      "fr": "Riz Jasmin",
+      "pt": "Arroz Jasmim",
+      "de": "Jasmin-Reis"
+    },
+    "category": "grains_tubers",
+    "type": "Aliment",
+    "k": 356,
+    "p": 6.7,
+    "c": 81.0,
+    "f": 0.8
+  },
+  {
+    "id": "O_154",
+    "name": {
+      "es": "Avena (copos)",
+      "en": "Rolled oats / Oatmeal",
+      "fr": "Flocons d'avoine",
+      "pt": "Aveia (flocos)",
+      "de": "Haferflocken"
+    },
+    "category": "grains_tubers",
+    "type": "Aliment",
+    "k": 353,
+    "p": 11.7,
+    "c": 55.7,
+    "f": 7.1
+  },
+  {
+    "id": "O_155",
+    "name": {
+      "es": "Harina de avena",
+      "en": "Oat flour",
+      "fr": "Farine d'avoine",
+      "pt": "Farinha de aveia",
+      "de": "Hafermehl"
+    },
+    "category": "grains_tubers",
+    "type": "Aliment",
+    "k": 404,
+    "p": 14.7,
+    "c": 65.7,
+    "f": 9.1
+  },
+  {
+    "id": "O_156",
+    "name": {
+      "es": "Trigo (grano)",
+      "en": "Wheat grain",
+      "fr": "Blé (grain)",
+      "pt": "Trigo (grão)",
+      "de": "Weizen (Korn)"
+    },
+    "category": "grains_tubers",
+    "type": "Aliment",
+    "k": 339,
+    "p": 13.7,
+    "c": 71.1,
+    "f": 2.5
+  },
+  {
+    "id": "O_157",
+    "name": {
+      "es": "Harina de trigo (blanca)",
+      "en": "Wheat flour (white)",
+      "fr": "Farine de blé (blanche)",
+      "pt": "Farinha de trigo (branca)",
+      "de": "Weizenmehl (Weiß)"
+    },
+    "category": "grains_tubers",
+    "type": "Aliment",
+    "k": 341,
+    "p": 10.0,
+    "c": 70.6,
+    "f": 1.2
+  },
+  {
+    "id": "O_158",
+    "name": {
+      "es": "Harina de trigo (integral)",
+      "en": "Whole wheat flour",
+      "fr": "Farine de blé (complète)",
+      "pt": "Farinha de trigo (integral)",
+      "de": "Weizenmehl (Vollkorn)"
+    },
+    "category": "grains_tubers",
+    "type": "Aliment",
+    "k": 322,
+    "p": 13.2,
+    "c": 60.0,
+    "f": 2.2
+  },
+  {
+    "id": "O_159",
+    "name": {
+      "es": "Espelta (grano)",
+      "en": "Spelt (grain)",
+      "fr": "Épeautre (grain)",
+      "pt": "Espelta (grão)",
+      "de": "Dinkel (Korn)"
+    },
+    "category": "grains_tubers",
+    "type": "Aliment",
+    "k": 338,
+    "p": 14.6,
+    "c": 70.2,
+    "f": 2.4
+  },
+  {
+    "id": "O_160",
+    "name": {
+      "es": "Cebada",
+      "en": "Barley",
+      "fr": "Orge",
+      "pt": "Cevada",
+      "de": "Gerste"
+    },
+    "category": "grains_tubers",
+    "type": "Aliment",
+    "k": 354,
+    "p": 10.4,
+    "c": 71.7,
+    "f": 2.1
+  },
+  {
+    "id": "O_161",
+    "name": {
+      "es": "Centeno (grano)",
+      "en": "Rye (grain)",
+      "fr": "Seigle (grain)",
+      "pt": "Centeio (grão)",
+      "de": "Roggen (Korn)"
+    },
+    "category": "grains_tubers",
+    "type": "Aliment",
+    "k": 325,
+    "p": 9.4,
+    "c": 65.5,
+    "f": 1.7
+  },
+  {
+    "id": "O_162",
+    "name": {
+      "es": "Maíz (grano)",
+      "en": "Corn / Maize (grain)",
+      "fr": "Maïs (grain)",
+      "pt": "Milho (grão)",
+      "de": "Mais (Korn)"
+    },
+    "category": "grains_tubers",
+    "type": "Aliment",
+    "k": 363,
+    "p": 9.2,
+    "c": 66.8,
+    "f": 3.8
+  },
+  {
+    "id": "O_163",
+    "name": {
+      "es": "Quinoa",
+      "en": "Quinoa",
+      "fr": "Quinoa",
+      "pt": "Quinoa",
+      "de": "Quinoa"
+    },
+    "category": "grains_tubers",
+    "type": "Aliment",
+    "k": 368,
+    "p": 14.1,
+    "c": 64.2,
+    "f": 6.1
+  },
+  {
+    "id": "O_164",
+    "name": {
+      "es": "Trigo sarraceno (Alforfón)",
+      "en": "Buckwheat",
+      "fr": "Sarrasin",
+      "pt": "Trigo-sarraceno",
+      "de": "Buchweizen"
+    },
+    "category": "grains_tubers",
+    "type": "Aliment",
+    "k": 343,
+    "p": 13.3,
+    "c": 71.5,
+    "f": 3.4
+  },
+  {
+    "id": "O_165",
+    "name": {
+      "es": "Cuscús",
+      "en": "Couscous",
+      "fr": "Couscous",
+      "pt": "Cuscuz",
+      "de": "Couscous"
+    },
+    "category": "grains_tubers",
+    "type": "Aliment",
+    "k": 351,
+    "p": 12.7,
+    "c": 70.1,
+    "f": 1.2
+  },
+  {
+    "id": "O_166",
+    "name": {
+      "es": "Mijo",
+      "en": "Millet",
+      "fr": "Millet",
+      "pt": "Painço / Milho-miúdo",
+      "de": "Hirse"
+    },
+    "category": "grains_tubers",
+    "type": "Aliment",
+    "k": 360,
+    "p": 11.0,
+    "c": 64.4,
+    "f": 3.9
+  },
+  {
+    "id": "O_167",
+    "name": {
+      "es": "Amaranto",
+      "en": "Amaranth",
+      "fr": "Amarante",
+      "pt": "Amaranto",
+      "de": "Amaranth"
+    },
+    "category": "grains_tubers",
+    "type": "Aliment",
+    "k": 371,
+    "p": 13.6,
+    "c": 65.3,
+    "f": 7.0
+  },
+  {
+    "id": "O_168",
+    "name": {
+      "es": "Pasta de trigo (blanca)",
+      "en": "Wheat pasta (white)",
+      "fr": "Pâtes de blé (blanches)",
+      "pt": "Massa de trigo (branca)",
+      "de": "Weizennudeln (Hell)"
+    },
+    "category": "grains_tubers",
+    "type": "Aliment",
+    "k": 359,
+    "p": 12.5,
+    "c": 70.9,
+    "f": 1.5
+  },
+  {
+    "id": "O_169",
+    "name": {
+      "es": "Pasta integral",
+      "en": "Whole wheat pasta",
+      "fr": "Pâtes complètes",
+      "pt": "Massa integral",
+      "de": "Vollkornnudeln"
+    },
+    "category": "grains_tubers",
+    "type": "Aliment",
+    "k": 332,
+    "p": 13.0,
+    "c": 65.0,
+    "f": 2.3
+  },
+  {
+    "id": "O_170",
+    "name": {
+      "es": "Fideos de arroz",
+      "en": "Rice noodles",
+      "fr": "Nouilles de riz",
+      "pt": "Massa de arroz",
+      "de": "Reisnudeln"
+    },
+    "category": "grains_tubers",
+    "type": "Aliment",
+    "k": 364,
+    "p": 5.9,
+    "c": 80.2,
+    "f": 0.6
+  },
+  {
+    "id": "O_171",
+    "name": {
+      "es": "Maíz dulce",
+      "en": "Sweet corn",
+      "fr": "Maïs doux",
+      "pt": "Milho doce",
+      "de": "Zuckermais"
+    },
+    "category": "grains_tubers",
+    "type": "Aliment",
+    "k": 86,
+    "p": 3.2,
+    "c": 19.0,
+    "f": 1.2
+  },
+  {
+    "id": "O_172",
+    "name": {
+      "es": "Palomitas de maíz (natural)",
+      "en": "Popcorn (plain)",
+      "fr": "Pop-corn (nature)",
+      "pt": "Pipocas (naturais)",
+      "de": "Popcorn (natur)"
+    },
+    "category": "grains_tubers",
+    "type": "Aliment",
+    "k": 387,
+    "p": 12.9,
+    "c": 77.9,
+    "f": 4.5
+  },
+  {
+    "id": "O_173",
+    "name": {
+      "es": "Pan blanco (barra)",
+      "en": "White bread (loaf/baguette)",
+      "fr": "Pain blanc (baguette)",
+      "pt": "Pão branco (barra)",
+      "de": "Weißbrot (Stange)"
+    },
+    "category": "grains_tubers",
+    "type": "Aliment",
+    "k": 261,
+    "p": 8.5,
+    "c": 51.5,
+    "f": 1.6
+  },
+  {
+    "id": "O_174",
+    "name": {
+      "es": "Pan integral",
+      "en": "Whole wheat bread",
+      "fr": "Pain complet",
+      "pt": "Pão integral",
+      "de": "Vollkornbrot"
+    },
+    "category": "grains_tubers",
+    "type": "Aliment",
+    "k": 242,
+    "p": 9.0,
+    "c": 44.0,
+    "f": 2.3
+  },
+  {
+    "id": "O_175",
+    "name": {
+      "es": "Pan de centeno",
+      "en": "Rye bread",
+      "fr": "Pain de seigle",
+      "pt": "Pão de centeio",
+      "de": "Roggenbrot"
+    },
+    "category": "grains_tubers",
+    "type": "Aliment",
+    "k": 259,
+    "p": 8.2,
+    "c": 45.8,
+    "f": 3.3
+  },
+  {
+    "id": "O_176",
+    "name": {
+      "es": "Pan de molde blanco",
+      "en": "White sliced bread",
+      "fr": "Pain de mie blanc",
+      "pt": "Pão de forma branco",
+      "de": "Toastbrot (Weiß)"
+    },
+    "category": "grains_tubers",
+    "type": "Aliment",
+    "k": 261,
+    "p": 8.1,
+    "c": 47.1,
+    "f": 3.8
+  },
+  {
+    "id": "O_177",
+    "name": {
+      "es": "Pan de molde integral",
+      "en": "Whole wheat sliced bread",
+      "fr": "Pain de mie complet",
+      "pt": "Pão de forma integral",
+      "de": "Vollkorntoast"
+    },
+    "category": "grains_tubers",
+    "type": "Aliment",
+    "k": 243,
+    "p": 11.0,
+    "c": 38.0,
+    "f": 3.9
+  },
+  {
+    "id": "O_178",
+    "name": {
+      "es": "Pan de hamburguesa",
+      "en": "Burger bun",
+      "fr": "Pain à burger",
+      "pt": "Pão de hambúrguer",
+      "de": "Burgerbrötchen"
+    },
+    "category": "grains_tubers",
+    "type": "Aliment",
+    "k": 256,
+    "p": 9.1,
+    "c": 46.0,
+    "f": 3.4
+  },
+  {
+    "id": "O_179",
+    "name": {
+      "es": "Tortillas de trigo (wraps)",
+      "en": "Wheat tortillas / Wraps",
+      "fr": "Tortillas de blé / Wraps",
+      "pt": "Tortilhas de trigo / Wraps",
+      "de": "Weizentortillas / Wraps"
+    },
+    "category": "grains_tubers",
+    "type": "Aliment",
+    "k": 312,
+    "p": 8.5,
+    "c": 50.0,
+    "f": 8.0
+  },
+  {
+    "id": "O_180",
+    "name": {
+      "es": "Tortitas de maíz (tacos)",
+      "en": "Corn tortillas / Tacos",
+      "fr": "Tortillas de maïs / Tacos",
+      "pt": "Tortilhas de milho / Tacos",
+      "de": "Maistortillas / Tacos"
+    },
+    "category": "grains_tubers",
+    "type": "Aliment",
+    "k": 218,
+    "p": 5.7,
+    "c": 45.0,
+    "f": 3.0
+  },
+  {
+    "id": "O_181",
+    "name": {
+      "es": "Patata",
+      "en": "Potato",
+      "fr": "Pomme de terre",
+      "pt": "Batata",
+      "de": "Kartoffel"
+    },
+    "category": "grains_tubers",
+    "type": "Aliment",
+    "k": 77,
+    "p": 2.0,
+    "c": 17.0,
+    "f": 0.1
+  },
+  {
+    "id": "O_182",
+    "name": {
+      "es": "Boniato / Camote",
+      "en": "Sweet potato",
+      "fr": "Patate douce",
+      "pt": "Batata-doce",
+      "de": "Süßkartoffel"
+    },
+    "category": "grains_tubers",
+    "type": "Aliment",
+    "k": 86,
+    "p": 1.6,
+    "c": 20.1,
+    "f": 0.1
+  },
+  {
+    "id": "O_183",
+    "name": {
+      "es": "Yuca / Mandioca",
+      "en": "Cassava / Manioc / Yuca",
+      "fr": "Manioc",
+      "pt": "Mandioca",
+      "de": "Maniok"
+    },
+    "category": "grains_tubers",
+    "type": "Aliment",
+    "k": 160,
+    "p": 1.4,
+    "c": 38.1,
+    "f": 0.3
+  },
+  {
+    "id": "O_184",
+    "name": {
+      "es": "Ñame",
+      "en": "Yam",
+      "fr": "Igname",
+      "pt": "Inhame",
+      "de": "Yams"
+    },
+    "category": "grains_tubers",
+    "type": "Aliment",
+    "k": 118,
+    "p": 1.5,
+    "c": 27.9,
+    "f": 0.2
+  },
+  {
+    "id": "O_185",
+    "name": {
+      "es": "Pan rallado",
+      "en": "Breadcrumbs",
+      "fr": "Chapelure",
+      "pt": "Pão ralado",
+      "de": "Paniermehl"
+    },
+    "category": "grains_tubers",
+    "type": "Aliment",
+    "k": 361,
+    "p": 12.0,
+    "c": 72.0,
+    "f": 1.5
+  },
+  {
+    "id": "O_186",
+    "name": {
+      "es": "Lechuga Iceberg",
+      "en": "Iceberg lettuce",
+      "fr": "Laitue Iceberg",
+      "pt": "Alface Iceberg",
+      "de": "Eisbergsalat"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 14,
+    "p": 0.9,
+    "c": 3.0,
+    "f": 0.1
+  },
+  {
+    "id": "O_187",
+    "name": {
+      "es": "Lechuga Romana",
+      "en": "Romaine lettuce",
+      "fr": "Laitue Romaine",
+      "pt": "Alface Romana",
+      "de": "Römersalat"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 17,
+    "p": 1.2,
+    "c": 3.3,
+    "f": 0.3
+  },
+  {
+    "id": "O_188",
+    "name": {
+      "es": "Rúcula",
+      "en": "Arugula / Rocket",
+      "fr": "Roquette",
+      "pt": "Rúcula",
+      "de": "Rucola"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 25,
+    "p": 2.6,
+    "c": 3.7,
+    "f": 0.7
+  },
+  {
+    "id": "O_189",
+    "name": {
+      "es": "Canónigos",
+      "en": "Lamb's lettuce / Corn salad",
+      "fr": "Mâche",
+      "pt": "Canónigos",
+      "de": "Feldsalat"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 21,
+    "p": 2.0,
+    "c": 3.6,
+    "f": 0.4
+  },
+  {
+    "id": "O_190",
+    "name": {
+      "es": "Espinacas",
+      "en": "Spinach",
+      "fr": "Épinards",
+      "pt": "Espinafres",
+      "de": "Spinat"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 23,
+    "p": 2.9,
+    "c": 3.6,
+    "f": 0.4
+  },
+  {
+    "id": "O_191",
+    "name": {
+      "es": "Acelgas",
+      "en": "Swiss chard",
+      "fr": "Blettes / Poirée",
+      "pt": "Acelgas",
+      "de": "Mangold"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 19,
+    "p": 1.8,
+    "c": 3.7,
+    "f": 0.2
+  },
+  {
+    "id": "O_192",
+    "name": {
+      "es": "Berros",
+      "en": "Watercress",
+      "fr": "Cresson",
+      "pt": "Agrião",
+      "de": "Brunnenkresse"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 11,
+    "p": 2.3,
+    "c": 1.3,
+    "f": 0.1
+  },
+  {
+    "id": "O_193",
+    "name": {
+      "es": "Kale (Col rizada)",
+      "en": "Kale",
+      "fr": "Chou frisé / Kale",
+      "pt": "Couve kale",
+      "de": "Grünkohl"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 49,
+    "p": 4.3,
+    "c": 8.8,
+    "f": 0.9
+  },
+  {
+    "id": "O_194",
+    "name": {
+      "es": "Repollo",
+      "en": "Cabbage",
+      "fr": "Chou blanc",
+      "pt": "Repolho",
+      "de": "Weißkohl"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 25,
+    "p": 1.3,
+    "c": 5.8,
+    "f": 0.1
+  },
+  {
+    "id": "O_195",
+    "name": {
+      "es": "Col lombarda",
+      "en": "Red cabbage",
+      "fr": "Chou rouge",
+      "pt": "Couve roxa",
+      "de": "Rotkohl"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 31,
+    "p": 1.4,
+    "c": 7.4,
+    "f": 0.2
+  },
+  {
+    "id": "O_196",
+    "name": {
+      "es": "Coliflor",
+      "en": "Cauliflower",
+      "fr": "Chou-fleur",
+      "pt": "Couve-flor",
+      "de": "Blumenkohl"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 25,
+    "p": 1.9,
+    "c": 5.0,
+    "f": 0.3
+  },
+  {
+    "id": "O_197",
+    "name": {
+      "es": "Brócoli",
+      "en": "Broccoli",
+      "fr": "Brocoli",
+      "pt": "Brócolos",
+      "de": "Brokkoli"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 34,
+    "p": 2.8,
+    "c": 6.6,
+    "f": 0.4
+  },
+  {
+    "id": "O_198",
+    "name": {
+      "es": "Coles de Bruselas",
+      "en": "Brussels sprouts",
+      "fr": "Choux de Bruxelles",
+      "pt": "Couves de Bruxelas",
+      "de": "Rosenkohl"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 43,
+    "p": 3.4,
+    "c": 9.0,
+    "f": 0.3
+  },
+  {
+    "id": "O_199",
+    "name": {
+      "es": "Alcachofas",
+      "en": "Artichokes",
+      "fr": "Artichauts",
+      "pt": "Alcachofras",
+      "de": "Artischocken"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 44,
+    "p": 2.4,
+    "c": 2.9,
+    "f": 0.1
+  },
+  {
+    "id": "O_200",
+    "name": {
+      "es": "Espárragos verdes/trigueros",
+      "en": "Green asparagus",
+      "fr": "Asperges vertes",
+      "pt": "Espargos verdes",
+      "de": "Grüner Spargel"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 18,
+    "p": 2.7,
+    "c": 1.1,
+    "f": 0.2
+  },
+  {
+    "id": "O_201",
+    "name": {
+      "es": "Espárragos blancos",
+      "en": "White asparagus",
+      "fr": "Asperges blanches",
+      "pt": "Espargos brancos",
+      "de": "Weißer Spargel"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 24,
+    "p": 2.7,
+    "c": 1.6,
+    "f": 0.2
+  },
+  {
+    "id": "O_202",
+    "name": {
+      "es": "Judías verdes",
+      "en": "Green beans",
+      "fr": "Haricots verts",
+      "pt": "Feijão verde",
+      "de": "Grüne Bohnen"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 35,
+    "p": 2.4,
+    "c": 2.7,
+    "f": 0.2
+  },
+  {
+    "id": "O_203",
+    "name": {
+      "es": "Guisantes",
+      "en": "Peas",
+      "fr": "Petits pois",
+      "pt": "Ervilhas",
+      "de": "Erbsen"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 81,
+    "p": 5.4,
+    "c": 14.5,
+    "f": 0.4
+  },
+  {
+    "id": "O_204",
+    "name": {
+      "es": "Habas (tiernas)",
+      "en": "Broad beans (fresh)",
+      "fr": "Fèves (fraîches)",
+      "pt": "Favas (frescas)",
+      "de": "Dicke Bohnen (frisch)"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 64,
+    "p": 5.4,
+    "c": 8.6,
+    "f": 0.4
+  },
+  {
+    "id": "O_205",
+    "name": {
+      "es": "Berenjena",
+      "en": "Eggplant / Aubergine",
+      "fr": "Aubergine",
+      "pt": "Beringela",
+      "de": "Aubergine"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 21,
+    "p": 1.2,
+    "c": 2.6,
+    "f": 0.2
+  },
+  {
+    "id": "O_206",
+    "name": {
+      "es": "Calabacín",
+      "en": "Zucchini / Courgette",
+      "fr": "Courgette",
+      "pt": "Curgete",
+      "de": "Zucchini"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 17,
+    "p": 1.8,
+    "c": 2.0,
+    "f": 0.2
+  },
+  {
+    "id": "O_207",
+    "name": {
+      "es": "Pepino",
+      "en": "Cucumber",
+      "fr": "Concombre",
+      "pt": "Pepino",
+      "de": "Gurke"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 13,
+    "p": 0.7,
+    "c": 1.9,
+    "f": 0.2
+  },
+  {
+    "id": "O_208",
+    "name": {
+      "es": "Pimiento verde",
+      "en": "Green pepper",
+      "fr": "Poivron vert",
+      "pt": "Pimento verde",
+      "de": "Grüne Paprika"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 19,
+    "p": 0.9,
+    "c": 3.7,
+    "f": 0.2
+  },
+  {
+    "id": "O_209",
+    "name": {
+      "es": "Pimiento rojo",
+      "en": "Red pepper",
+      "fr": "Poivron rouge",
+      "pt": "Pimento vermelho",
+      "de": "Rote Paprika"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 26,
+    "p": 1.0,
+    "c": 6.0,
+    "f": 0.3
+  },
+  {
+    "id": "O_210",
+    "name": {
+      "es": "Pimiento amarillo",
+      "en": "Yellow pepper",
+      "fr": "Poivron jaune",
+      "pt": "Pimento amarelo",
+      "de": "Gelbe Paprika"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 27,
+    "p": 1.0,
+    "c": 6.3,
+    "f": 0.2
+  },
+  {
+    "id": "O_211",
+    "name": {
+      "es": "Tomate (ensalada/fresco)",
+      "en": "Tomato (fresh)",
+      "fr": "Tomate (fraîche)",
+      "pt": "Tomate (fresco)",
+      "de": "Tomate (frisch)"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 19,
+    "p": 0.9,
+    "c": 3.5,
+    "f": 0.2
+  },
+  {
+    "id": "O_212",
+    "name": {
+      "es": "Tomate Cherry",
+      "en": "Cherry tomato",
+      "fr": "Tomate cerise",
+      "pt": "Tomate cereja",
+      "de": "Kirschtomate"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 27,
+    "p": 1.3,
+    "c": 5.8,
+    "f": 0.4
+  },
+  {
+    "id": "O_213",
+    "name": {
+      "es": "Tomate Triturado (natural/lata)",
+      "en": "Crushed tomato (canned)",
+      "fr": "Tomates concassées",
+      "pt": "Tomate triturado",
+      "de": "Passierte Tomaten"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 19,
+    "p": 1.1,
+    "c": 4.0,
+    "f": 0.1
+  },
+  {
+    "id": "O_214",
+    "name": {
+      "es": "Tomate frito (estilo casero)",
+      "en": "Fried tomato sauce",
+      "fr": "Sauce tomate frite",
+      "pt": "Tomate frito / Molho de tomate",
+      "de": "Gebratene Tomatensauce"
+    },
+    "category": "sauces_condiments",
+    "type": "Aliment",
+    "k": 82,
+    "p": 1.4,
+    "c": 9.5,
+    "f": 3.8
+  },
+  {
+    "id": "O_215",
+    "name": {
+      "es": "Zanahoria",
+      "en": "Carrot",
+      "fr": "Carotte",
+      "pt": "Cenoura",
+      "de": "Karotte"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 40,
+    "p": 0.9,
+    "c": 9.6,
+    "f": 0.2
+  },
+  {
+    "id": "O_216",
+    "name": {
+      "es": "Cebolla",
+      "en": "Onion",
+      "fr": "Oignon",
+      "pt": "Cebola",
+      "de": "Zwiebel"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 26,
+    "p": 1.3,
+    "c": 5.3,
+    "f": 0.1
+  },
+  {
+    "id": "O_217",
+    "name": {
+      "es": "Cebolla morada",
+      "en": "Red onion",
+      "fr": "Oignon rouge",
+      "pt": "Cebola roxa",
+      "de": "Rote Zwiebel"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 40,
+    "p": 1.1,
+    "c": 9.3,
+    "f": 0.1
+  },
+  {
+    "id": "O_218",
+    "name": {
+      "es": "Cebolleta",
+      "en": "Spring onion / Scallion",
+      "fr": "Ciboule / Oignon nouveau",
+      "pt": "Cebolinho",
+      "de": "Frühlingszwiebel"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 29,
+    "p": 1.9,
+    "c": 4.4,
+    "f": 0.4
+  },
+  {
+    "id": "O_219",
+    "name": {
+      "es": "Puerro",
+      "en": "Leek",
+      "fr": "Poireau",
+      "pt": "Alho-francês",
+      "de": "Lauch"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 48,
+    "p": 2.1,
+    "c": 7.6,
+    "f": 0.3
+  },
+  {
+    "id": "O_220",
+    "name": {
+      "es": "Ajo (diente)",
+      "en": "Garlic (clove)",
+      "fr": "Ail (gousse)",
+      "pt": "Alho (dente)",
+      "de": "Knoblauch (Zehe)"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 118,
+    "p": 5.3,
+    "c": 23.0,
+    "f": 0.2
+  },
+  {
+    "id": "O_221",
+    "name": {
+      "es": "Calabaza",
+      "en": "Pumpkin / Squash",
+      "fr": "Citrouille / Potiron",
+      "pt": "Abóbora",
+      "de": "Kürbis"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 32,
+    "p": 1.2,
+    "c": 5.6,
+    "f": 0.5
+  },
+  {
+    "id": "O_222",
+    "name": {
+      "es": "Champiñones",
+      "en": "Mushrooms (Button)",
+      "fr": "Champignons de Paris",
+      "pt": "Cogumelos (Paris)",
+      "de": "Champignons"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 22,
+    "p": 3.1,
+    "c": 3.3,
+    "f": 0.3
+  },
+  {
+    "id": "O_223",
+    "name": {
+      "es": "Setas",
+      "en": "Mushrooms (Wild/Oyster)",
+      "fr": "Champignons / Pleurotes",
+      "pt": "Cogumelos / Pleurotos",
+      "de": "Pilze / Austernpilze"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 33,
+    "p": 3.3,
+    "c": 6.1,
+    "f": 0.4
+  },
+  {
+    "id": "O_224",
+    "name": {
+      "es": "Remolacha",
+      "en": "Beetroot",
+      "fr": "Betterave",
+      "pt": "Beterraba",
+      "de": "Rote Bete"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 43,
+    "p": 1.6,
+    "c": 9.6,
+    "f": 0.2
+  },
+  {
+    "id": "O_225",
+    "name": {
+      "es": "Endivias",
+      "en": "Endive / Chicory",
+      "fr": "Endives / Chicons",
+      "pt": "Endívias",
+      "de": "Chicorée"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 17,
+    "p": 1.1,
+    "c": 3.3,
+    "f": 0.1
+  },
+  {
+    "id": "O_226",
+    "name": {
+      "es": "Escarola",
+      "en": "Escarole",
+      "fr": "Scarole",
+      "pt": "Escarola",
+      "de": "Endivien (Scarole)"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 17,
+    "p": 1.6,
+    "c": 1.0,
+    "f": 0.2
+  },
+  {
+    "id": "O_227",
+    "name": {
+      "es": "Chucrut",
+      "en": "Sauerkraut",
+      "fr": "Choucroute",
+      "pt": "Chucrute",
+      "de": "Sauerkraut"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 19,
+    "p": 0.9,
+    "c": 4.3,
+    "f": 0.1
+  },
+  {
+    "id": "O_228",
+    "name": {
+      "es": "Tomate seco",
+      "en": "Sun-dried tomato",
+      "fr": "Tomate séchée",
+      "pt": "Tomate seco",
+      "de": "Getrocknete Tomaten"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 258,
+    "p": 14.1,
+    "c": 55.8,
+    "f": 3.0
+  },
+  {
+    "id": "O_229",
+    "name": {
+      "es": "Pimiento picante / Chile",
+      "en": "Chili pepper",
+      "fr": "Piment",
+      "pt": "Malagueta / Pimenta",
+      "de": "Chili"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 40,
+    "p": 1.9,
+    "c": 8.8,
+    "f": 0.4
+  },
+  {
+    "id": "O_230",
+    "name": {
+      "es": "Portobello",
+      "en": "Portobello mushroom",
+      "fr": "Champignon Portobello",
+      "pt": "Cogumelo Portobello",
+      "de": "Portobello-Pilz"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 22,
+    "p": 2.1,
+    "c": 3.9,
+    "f": 0.3
+  },
+  {
+    "id": "O_231",
+    "name": {
+      "es": "Setas Shiitake",
+      "en": "Shiitake mushrooms",
+      "fr": "Champignons Shiitake",
+      "pt": "Cogumelos Shiitake",
+      "de": "Shiitake-Pilze"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 34,
+    "p": 2.2,
+    "c": 6.8,
+    "f": 0.5
+  },
+  {
+    "id": "O_232",
+    "name": {
+      "es": "Apio",
+      "en": "Celery",
+      "fr": "Céleri",
+      "pt": "Aipo",
+      "de": "Sellerie"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 14,
+    "p": 0.7,
+    "c": 3.0,
+    "f": 0.2
+  },
+  {
+    "id": "O_233",
+    "name": {
+      "es": "Rábano",
+      "en": "Radish",
+      "fr": "Radis",
+      "pt": "Rabanete",
+      "de": "Radieschen"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 16,
+    "p": 0.7,
+    "c": 3.4,
+    "f": 0.1
+  },
+  {
+    "id": "O_234",
+    "name": {
+      "es": "Nabo",
+      "en": "Turnip",
+      "fr": "Navet",
+      "pt": "Nabo",
+      "de": "Steckrübe / Weiße Rübe"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 28,
+    "p": 0.9,
+    "c": 6.4,
+    "f": 0.1
+  },
+  {
+    "id": "O_235",
+    "name": {
+      "es": "Chirivía",
+      "en": "Parsnip",
+      "fr": "Panais",
+      "pt": "Pastinaca",
+      "de": "Pastinake"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 75,
+    "p": 1.2,
+    "c": 18.0,
+    "f": 0.3
+  },
+  {
+    "id": "O_236",
+    "name": {
+      "es": "Hinojo",
+      "en": "Fennel",
+      "fr": "Fenouil",
+      "pt": "Funcho",
+      "de": "Fenchel"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 31,
+    "p": 1.2,
+    "c": 7.3,
+    "f": 0.2
+  },
+  {
+    "id": "O_237",
+    "name": {
+      "es": "Okra",
+      "en": "Okra",
+      "fr": "Gombo / Okra",
+      "pt": "Quiabo",
+      "de": "Okra"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 33,
+    "p": 1.9,
+    "c": 7.5,
+    "f": 0.2
+  },
+  {
+    "id": "O_238",
+    "name": {
+      "es": "Brotes de soja",
+      "en": "Bean sprouts",
+      "fr": "Pousses de soja",
+      "pt": "Rebentos de soja",
+      "de": "Sojasprossen"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 30,
+    "p": 3.0,
+    "c": 5.9,
+    "f": 0.2
+  },
+  {
+    "id": "O_239",
+    "name": {
+      "es": "Brotes de alfalfa",
+      "en": "Alfalfa sprouts",
+      "fr": "Pousses de luzerne",
+      "pt": "Rebentos de alfafa",
+      "de": "Alfalfasprossen"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 23,
+    "p": 4.0,
+    "c": 2.1,
+    "f": 0.7
+  },
+  {
+    "id": "O_240",
+    "name": {
+      "es": "Palmitos",
+      "en": "Hearts of palm",
+      "fr": "Cœurs de palmier",
+      "pt": "Palmitos",
+      "de": "Palmenherzen"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 28,
+    "p": 2.5,
+    "c": 4.6,
+    "f": 0.2
+  },
+  {
+    "id": "O_241",
+    "name": {
+      "es": "Bambú",
+      "en": "Bamboo shoots",
+      "fr": "Pousses de bambou",
+      "pt": "Rebentos de bambu",
+      "de": "Bambussprossen"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 27,
+    "p": 2.6,
+    "c": 5.2,
+    "f": 0.3
+  },
+  {
+    "id": "O_242",
+    "name": {
+      "es": "Algas Nori",
+      "en": "Nori seaweed",
+      "fr": "Algue Nori",
+      "pt": "Alga Nori",
+      "de": "Nori-Algen"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 309,
+    "p": 41.4,
+    "c": 42.5,
+    "f": 3.7
+  },
+  {
+    "id": "O_243",
+    "name": {
+      "es": "Algas Wakame",
+      "en": "Wakame seaweed",
+      "fr": "Algue Wakame",
+      "pt": "Alga Wakame",
+      "de": "Wakame-Algen"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 45,
+    "p": 3.0,
+    "c": 9.1,
+    "f": 0.6
+  },
+  {
+    "id": "O_244",
+    "name": {
+      "es": "Algas Kombu",
+      "en": "Kombu seaweed",
+      "fr": "Algue Kombu",
+      "pt": "Alga Kombu",
+      "de": "Kombu-Algen"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 43,
+    "p": 1.7,
+    "c": 9.6,
+    "f": 0.6
+  },
+  {
+    "id": "O_245",
+    "name": {
+      "es": "Cardo",
+      "en": "Cardoon",
+      "fr": "Cardon",
+      "pt": "Cardo",
+      "de": "Kardone / Artischockendistel"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 20,
+    "p": 0.7,
+    "c": 3.9,
+    "f": 0.1
+  },
+  {
+    "id": "O_246",
+    "name": {
+      "es": "Borraja",
+      "en": "Borage",
+      "fr": "Bourrache",
+      "pt": "Borragem",
+      "de": "Borretsch"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 21,
+    "p": 1.8,
+    "c": 3.1,
+    "f": 0.7
+  },
+  {
+    "id": "O_247",
+    "name": {
+      "es": "Grelos",
+      "en": "Turnip tops / Rapini",
+      "fr": "Fanes de navet / Brocoli-rave",
+      "pt": "Grelos",
+      "de": "Stängelkohl / Rübengrün"
+    },
+    "category": "vegetables",
+    "type": "Aliment",
+    "k": 21,
+    "p": 2.5,
+    "c": 0.1,
+    "f": 0.3
+  },
+  {
+    "id": "O_248",
+    "name": {
+      "es": "Manzana (Roja)",
+      "en": "Apple (Red)",
+      "fr": "Pomme (Rouge)",
+      "pt": "Maçã (Vermelha)",
+      "de": "Apfel (Rot)"
+    },
+    "category": "fruit",
+    "type": "Aliment",
+    "k": 52,
+    "p": 0.3,
+    "c": 13.8,
+    "f": 0.2
+  },
+  {
+    "id": "O_249",
+    "name": {
+      "es": "Manzana (Verde)",
+      "en": "Apple (Green)",
+      "fr": "Pomme (Verte)",
+      "pt": "Maçã (Verde)",
+      "de": "Apfel (Grün)"
+    },
+    "category": "fruit",
+    "type": "Aliment",
+    "k": 58,
+    "p": 0.4,
+    "c": 13.6,
+    "f": 0.2
+  },
+  {
+    "id": "O_250",
+    "name": {
+      "es": "Plátano / Banana",
+      "en": "Banana",
+      "fr": "Banane",
+      "pt": "Banana",
+      "de": "Banane"
+    },
+    "category": "fruit",
+    "type": "Aliment",
+    "k": 91,
+    "p": 1.1,
+    "c": 21.1,
+    "f": 0.2
+  },
+  {
+    "id": "O_251",
+    "name": {
+      "es": "Pera (con piel)",
+      "en": "Pear (with skin)",
+      "fr": "Poire (avec la peau)",
+      "pt": "Pera (com casca)",
+      "de": "Birne (mit Schale)"
+    },
+    "category": "fruit",
+    "type": "Aliment",
+    "k": 49,
+    "p": 0.4,
+    "c": 10.6,
+    "f": 0.1
+  },
+  {
+    "id": "O_252",
+    "name": {
+      "es": "Naranja",
+      "en": "Orange",
+      "fr": "Orange",
+      "pt": "Laranja",
+      "de": "Orange"
+    },
+    "category": "fruit",
+    "type": "Aliment",
+    "k": 42,
+    "p": 0.8,
+    "c": 8.6,
+    "f": 0.1
+  },
+  {
+    "id": "O_253",
+    "name": {
+      "es": "Mandarina",
+      "en": "Mandarin / Clementine",
+      "fr": "Clémentine / Mandarine",
+      "pt": "Tangerina / Mandarina",
+      "de": "Mandarine"
+    },
+    "category": "fruit",
+    "type": "Aliment",
+    "k": 43,
+    "p": 0.8,
+    "c": 9.0,
+    "f": 0.3
+  },
+  {
+    "id": "O_254",
+    "name": {
+      "es": "Limón",
+      "en": "Lemon",
+      "fr": "Citron",
+      "pt": "Limão",
+      "de": "Zitrone"
+    },
+    "category": "fruit",
+    "type": "Aliment",
+    "k": 22,
+    "p": 0.5,
+    "c": 3.0,
+    "f": 0.2
+  },
+  {
+    "id": "O_255",
+    "name": {
+      "es": "Pomelo / Toronja",
+      "en": "Grapefruit",
+      "fr": "Pamplemousse",
+      "pt": "Toranja",
+      "de": "Grapefruit"
+    },
+    "category": "fruit",
+    "type": "Aliment",
+    "k": 26,
+    "p": 0.6,
+    "c": 5.4,
+    "f": 0.1
+  },
+  {
+    "id": "O_256",
+    "name": {
+      "es": "Lima",
+      "en": "Lime",
+      "fr": "Citron vert",
+      "pt": "Lima",
+      "de": "Limette"
+    },
+    "category": "fruit",
+    "type": "Aliment",
+    "k": 30,
+    "p": 0.7,
+    "c": 10.5,
+    "f": 0.2
+  },
+  {
+    "id": "O_257",
+    "name": {
+      "es": "Fresa / Fresón",
+      "en": "Strawberry",
+      "fr": "Fraise",
+      "pt": "Morango",
+      "de": "Erdbeere"
+    },
+    "category": "fruit",
+    "type": "Aliment",
+    "k": 32,
+    "p": 0.7,
+    "c": 7.7,
+    "f": 0.3
+  },
+  {
+    "id": "O_258",
+    "name": {
+      "es": "Frambuesa",
+      "en": "Raspberry",
+      "fr": "Framboise",
+      "pt": "Framboesa",
+      "de": "Himbeere"
+    },
+    "category": "fruit",
+    "type": "Aliment",
+    "k": 52,
+    "p": 1.2,
+    "c": 11.9,
+    "f": 0.7
+  },
+  {
+    "id": "O_259",
+    "name": {
+      "es": "Arándano azul",
+      "en": "Blueberry",
+      "fr": "Myrtille",
+      "pt": "Mirtilo",
+      "de": "Blaubeere / Heidelbeere"
+    },
+    "category": "fruit",
+    "type": "Aliment",
+    "k": 57,
+    "p": 0.7,
+    "c": 14.5,
+    "f": 0.3
+  },
+  {
+    "id": "O_260",
+    "name": {
+      "es": "Arándano rojo",
+      "en": "Cranberry",
+      "fr": "Canneberge",
+      "pt": "Arando vermelho",
+      "de": "Preiselbeere / Cranberry"
+    },
+    "category": "fruit",
+    "type": "Aliment",
+    "k": 46,
+    "p": 0.5,
+    "c": 12.2,
+    "f": 0.1
+  },
+  {
+    "id": "O_261",
+    "name": {
+      "es": "Mora",
+      "en": "Blackberry",
+      "fr": "Mûre",
+      "pt": "Amora",
+      "de": "Brombeere"
+    },
+    "category": "fruit",
+    "type": "Aliment",
+    "k": 39,
+    "p": 0.9,
+    "c": 6.0,
+    "f": 0.2
+  },
+  {
+    "id": "O_262",
+    "name": {
+      "es": "Grosella",
+      "en": "Redcurrant",
+      "fr": "Groseille",
+      "pt": "Groselha",
+      "de": "Johannisbeere"
+    },
+    "category": "fruit",
+    "type": "Aliment",
+    "k": 36,
+    "p": 1.1,
+    "c": 5.7,
+    "f": 0.1
+  },
+  {
+    "id": "O_263",
+    "name": {
+      "es": "Cereza",
+      "en": "Cherry",
+      "fr": "Cerise",
+      "pt": "Cereja",
+      "de": "Kirsche"
+    },
+    "category": "fruit",
+    "type": "Aliment",
+    "k": 58,
+    "p": 0.8,
+    "c": 13.5,
+    "f": 0.5
+  },
+  {
+    "id": "O_264",
+    "name": {
+      "es": "Uva blanca",
+      "en": "White grape",
+      "fr": "Raisin blanc",
+      "pt": "Uva branca",
+      "de": "Weiße Traube"
+    },
+    "category": "fruit",
+    "type": "Aliment",
+    "k": 63,
+    "p": 0.6,
+    "c": 16.1,
+    "f": 0
+  },
+  {
+    "id": "O_265",
+    "name": {
+      "es": "Uva negra/roja",
+      "en": "Red/Black grape",
+      "fr": "Raisin noir",
+      "pt": "Uva preta/roxa",
+      "de": "Dunkle Traube"
+    },
+    "category": "fruit",
+    "type": "Aliment",
+    "k": 67,
+    "p": 0.6,
+    "c": 15.5,
+    "f": 0.7
+  },
+  {
+    "id": "O_266",
+    "name": {
+      "es": "Pasas (Uvas pasas)",
+      "en": "Raisins",
+      "fr": "Raisins secs",
+      "pt": "Passas",
+      "de": "Rosinen"
+    },
+    "category": "fruit",
+    "type": "Aliment",
+    "k": 286,
+    "p": 2.5,
+    "c": 69.3,
+    "f": 0.4
+  },
+  {
+    "id": "O_267",
+    "name": {
+      "es": "Melocotón",
+      "en": "Peach",
+      "fr": "Pêche",
+      "pt": "Pêssego",
+      "de": "Pfirsich"
+    },
+    "category": "fruit",
+    "type": "Aliment",
+    "k": 39,
+    "p": 0.6,
+    "c": 9.0,
+    "f": 0.0
+  },
+  {
+    "id": "O_268",
+    "name": {
+      "es": "Nectarina",
+      "en": "Nectarine",
+      "fr": "Nectarine",
+      "pt": "Nectarina",
+      "de": "Nektarine"
+    },
+    "category": "fruit",
+    "type": "Aliment",
+    "k": 44,
+    "p": 0.9,
+    "c": 10.2,
+    "f": 0.1
+  },
+  {
+    "id": "O_269",
+    "name": {
+      "es": "Albaricoque / Damasco",
+      "en": "Apricot",
+      "fr": "Abricot",
+      "pt": "Damasco",
+      "de": "Aprikose"
+    },
+    "category": "fruit",
+    "type": "Aliment",
+    "k": 45,
+    "p": 0.8,
+    "c": 9.5,
+    "f": 0.1
+  },
+  {
+    "id": "O_270",
+    "name": {
+      "es": "Orejones (Albaricoque seco)",
+      "en": "Dried apricots",
+      "fr": "Abricots secs",
+      "pt": "Damascos secos / Orejones",
+      "de": "Getrocknete Aprikosen"
+    },
+    "category": "fruit",
+    "type": "Aliment",
+    "k": 258,
+    "p": 3.0,
+    "c": 55.0,
+    "f": 0.5
+  },
+  {
+    "id": "O_271",
+    "name": {
+      "es": "Ciruela",
+      "en": "Plum",
+      "fr": "Prune",
+      "pt": "Ameixa",
+      "de": "Pflaume"
+    },
+    "category": "fruit",
+    "type": "Aliment",
+    "k": 51,
+    "p": 0.6,
+    "c": 11.0,
+    "f": 0.2
+  },
+  {
+    "id": "O_272",
+    "name": {
+      "es": "Ciruela pasa",
+      "en": "Prune / Dried plum",
+      "fr": "Pruneau",
+      "pt": "Ameixa seca",
+      "de": "Trockenpflaume"
+    },
+    "category": "fruit",
+    "type": "Aliment",
+    "k": 240,
+    "p": 2.2,
+    "c": 63.9,
+    "f": 0.4
+  },
+  {
+    "id": "O_273",
+    "name": {
+      "es": "Piña natural",
+      "en": "Pineapple (fresh)",
+      "fr": "Ananas (frais)",
+      "pt": "Abacaxi / Ananás (fresco)",
+      "de": "Ananas (frisch)"
+    },
+    "category": "fruit",
+    "type": "Aliment",
+    "k": 50,
+    "p": 0.5,
+    "c": 13.1,
+    "f": 0.1
+  },
+  {
+    "id": "O_274",
+    "name": {
+      "es": "Piña en su jugo (lata)",
+      "en": "Canned pineapple (in juice)",
+      "fr": "Ananas en conserve (jus)",
+      "pt": "Ananás em lata (no próprio sumo)",
+      "de": "Ananas aus der Dose (im Saft)"
+    },
+    "category": "fruit",
+    "type": "Aliment",
+    "k": 60,
+    "p": 0.5,
+    "c": 15.0,
+    "f": 0.1
+  },
+  {
+    "id": "O_275",
+    "name": {
+      "es": "Kiwi (verde)",
+      "en": "Kiwi (green)",
+      "fr": "Kiwi (vert)",
+      "pt": "Kiwi (verde)",
+      "de": "Kiwi (grün)"
+    },
+    "category": "fruit",
+    "type": "Aliment",
+    "k": 61,
+    "p": 1.1,
+    "c": 14.7,
+    "f": 0.5
+  },
+  {
+    "id": "O_276",
+    "name": {
+      "es": "Kiwi (amarillo/gold)",
+      "en": "Kiwi (gold)",
+      "fr": "Kiwi (jaune/gold)",
+      "pt": "Kiwi (amarelo/gold)",
+      "de": "Kiwi (gold)"
+    },
+    "category": "fruit",
+    "type": "Aliment",
+    "k": 63,
+    "p": 1.0,
+    "c": 15.8,
+    "f": 0.3
+  },
+  {
+    "id": "O_277",
+    "name": {
+      "es": "Mango",
+      "en": "Mango",
+      "fr": "Mangue",
+      "pt": "Manga",
+      "de": "Mango"
+    },
+    "category": "fruit",
+    "type": "Aliment",
+    "k": 60,
+    "p": 0.8,
+    "c": 15.0,
+    "f": 0.4
+  },
+  {
+    "id": "O_278",
+    "name": {
+      "es": "Papaya",
+      "en": "Papaya",
+      "fr": "Papaye",
+      "pt": "Mamão / Papaia",
+      "de": "Papaya"
+    },
+    "category": "fruit",
+    "type": "Aliment",
+    "k": 35,
+    "p": 0.5,
+    "c": 7.1,
+    "f": 0.1
+  },
+  {
+    "id": "O_279",
+    "name": {
+      "es": "Melón (Piel de sapo)",
+      "en": "Santa Claus Melon / Piel de Sapo",
+      "fr": "Melon (Vert d'Espagne)",
+      "pt": "Melão (Pele de sapo)",
+      "de": "Futuro-Melone / Piel de Sapo"
+    },
+    "category": "fruit",
+    "type": "Aliment",
+    "k": 28,
+    "p": 0.6,
+    "c": 6.0,
+    "f": 0.1
+  },
+  {
+    "id": "O_280",
+    "name": {
+      "es": "Melón (Cantalupo)",
+      "en": "Cantaloupe Melon",
+      "fr": "Melon Cantaloup",
+      "pt": "Melão Cantaloupe",
+      "de": "Cantaloupe-Melone"
+    },
+    "category": "fruit",
+    "type": "Aliment",
+    "k": 34,
+    "p": 0.8,
+    "c": 8.2,
+    "f": 0.2
+  },
+  {
+    "id": "O_281",
+    "name": {
+      "es": "Sandía",
+      "en": "Watermelon",
+      "fr": "Pastèque",
+      "pt": "Melancia",
+      "de": "Wassermelone"
+    },
+    "category": "fruit",
+    "type": "Aliment",
+    "k": 30,
+    "p": 0.6,
+    "c": 7.6,
+    "f": 0.2
+  },
+  {
+    "id": "O_282",
+    "name": {
+      "es": "Granada",
+      "en": "Pomegranate",
+      "fr": "Grenade",
+      "pt": "Romã",
+      "de": "Granatapfel"
+    },
+    "category": "fruit",
+    "type": "Aliment",
+    "k": 77,
+    "p": 0.7,
+    "c": 14.7,
+    "f": 0.6
+  },
+  {
+    "id": "O_283",
+    "name": {
+      "es": "Higo fresco",
+      "en": "Fresh Fig",
+      "fr": "Figue fraîche",
+      "pt": "Figo fresco",
+      "de": "Frische Feige"
+    },
+    "category": "fruit",
+    "type": "Aliment",
+    "k": 65,
+    "p": 0.7,
+    "c": 12.9,
+    "f": 0.3
+  },
+  {
+    "id": "O_284",
+    "name": {
+      "es": "Higo seco",
+      "en": "Dried Fig",
+      "fr": "Figue séchée",
+      "pt": "Figo seco",
+      "de": "Getrocknete Feige"
+    },
+    "category": "fruit",
+    "type": "Aliment",
+    "k": 275,
+    "p": 3.6,
+    "c": 55.0,
+    "f": 1.3
+  },
+  {
+    "id": "O_285",
+    "name": {
+      "es": "Breva",
+      "en": "Breba fig",
+      "fr": "Figue fleur",
+      "pt": "Figo lampo / Breva",
+      "de": "Breba-Feige"
+    },
+    "category": "fruit",
+    "type": "Aliment",
+    "k": 54,
+    "p": 1.0,
+    "c": 10.6,
+    "f": 0.4
+  },
+  {
+    "id": "O_286",
+    "name": {
+      "es": "Dátil",
+      "en": "Date",
+      "fr": "Datte",
+      "pt": "Tâmara",
+      "de": "Dattel"
+    },
+    "category": "fruit",
+    "type": "Aliment",
+    "k": 289,
+    "p": 2.0,
+    "c": 67.0,
+    "f": 0.5
+  },
+  {
+    "id": "O_287",
+    "name": {
+      "es": "Caqui / Persimón",
+      "en": "Persimmon / Sharon fruit",
+      "fr": "Kaki / Persimon",
+      "pt": "Dióspiro / Caqui",
+      "de": "Kaki / Persimon"
+    },
+    "category": "fruit",
+    "type": "Aliment",
+    "k": 70,
+    "p": 0.6,
+    "c": 15.3,
+    "f": 0.2
+  },
+  {
+    "id": "O_288",
+    "name": {
+      "es": "Chirimoya",
+      "en": "Cherimoya / Custard apple",
+      "fr": "Chérimole",
+      "pt": "Anona / Chirimóia",
+      "de": "Cherimoya"
+    },
+    "category": "fruit",
+    "type": "Aliment",
+    "k": 81,
+    "p": 1.6,
+    "c": 17.7,
+    "f": 0.2
+  },
+  {
+    "id": "O_289",
+    "name": {
+      "es": "Níspero",
+      "en": "Loquat / Medlar",
+      "fr": "Nèfle / Bibasse",
+      "pt": "Nêspera",
+      "de": "Mispel / Loquat"
+    },
+    "category": "fruit",
+    "type": "Aliment",
+    "k": 44,
+    "p": 0.4,
+    "c": 10.0,
+    "f": 0.2
+  },
+  {
+    "id": "O_290",
+    "name": {
+      "es": "Maracuyá / Fruta de la pasión",
+      "en": "Passion fruit",
+      "fr": "Fruit de la passion",
+      "pt": "Maracujá",
+      "de": "Passionsfrucht"
+    },
+    "category": "fruit",
+    "type": "Aliment",
+    "k": 97,
+    "p": 2.2,
+    "c": 23.4,
+    "f": 0.7
+  },
+    {
+    "id": "O_291",
+    "name": {
+      "es": "Lichi",
+      "en": "Lychee",
+      "fr": "Litchi",
+      "pt": "Lichia",
+      "de": "Litschi"
+    },
+    "category": "fruit",
+    "type": "Aliment",
+    "k": 66,
+    "p": 0.8,
+    "c": 16.5,
+    "f": 0.4
+  },
+  {
+    "id": "O_292",
+    "name": {
+      "es": "Coco fresco (pulpa)",
+      "en": "Fresh coconut (meat)",
+      "fr": "Noix de coco fraîche (chair)",
+      "pt": "Coco fresco (polpa)",
+      "de": "Frische Kokosnuss (Fleisch)"
+    },
+    "category": "fats_nuts",
+    "type": "Aliment",
+    "k": 354,
+    "p": 3.3,
+    "c": 15.2,
+    "f": 33.5
+  },
+  {
+    "id": "O_293",
+    "name": {
+      "es": "Aguacate",
+      "en": "Avocado",
+      "fr": "Avocat",
+      "pt": "Abacate",
+      "de": "Avocado"
+    },
+    "category": "fats_nuts",
+    "type": "Aliment",
+    "k": 137,
+    "p": 1.5,
+    "c": 0.4,
+    "f": 12.0
+  },
+  {
+    "id": "O_294",
+    "name": {
+      "es": "Aceitunas verdes",
+      "en": "Green olives",
+      "fr": "Olives vertes",
+      "pt": "Azeitonas verdes",
+      "de": "Grüne Oliven"
+    },
+    "category": "fats_nuts",
+    "type": "Aliment",
+    "k": 150,
+    "p": 1.0,
+    "c": 0.0,
+    "f": 16.0
+  },
+  {
+    "id": "O_295",
+    "name": {
+      "es": "Aceitunas negras",
+      "en": "Black olives",
+      "fr": "Olives noires",
+      "pt": "Azeitonas pretas",
+      "de": "Schwarze Oliven"
+    },
+    "category": "fats_nuts",
+    "type": "Aliment",
+    "k": 170,
+    "p": 1.0,
+    "c": 0.0,
+    "f": 18.0
+  },
+  {
+    "id": "O_296",
+    "name": {
+      "es": "Almendras (naturales)",
+      "en": "Almonds (raw)",
+      "fr": "Amandes (crues)",
+      "pt": "Amêndoas (naturais)",
+      "de": "Mandeln (natur)"
+    },
+    "category": "fats_nuts",
+    "type": "Aliment",
+    "k": 604,
+    "p": 20.0,
+    "c": 3.5,
+    "f": 53.5
+  },
+  {
+    "id": "O_297",
+    "name": {
+      "es": "Nueces (California)",
+      "en": "Walnuts",
+      "fr": "Noix",
+      "pt": "Nozes",
+      "de": "Walnüsse"
+    },
+    "category": "fats_nuts",
+    "type": "Aliment",
+    "k": 649,
+    "p": 14.4,
+    "c": 4.4,
+    "f": 62.5
+  },
+  {
+    "id": "O_298",
+    "name": {
+      "es": "Nueces de Macadamia",
+      "en": "Macadamia nuts",
+      "fr": "Noix de Macadamia",
+      "pt": "Nozes de Macadâmia",
+      "de": "Macadamia-Nüsse"
+    },
+    "category": "fats_nuts",
+    "type": "Aliment",
+    "k": 718,
+    "p": 7.9,
+    "c": 5.2,
+    "f": 75.8
+  },
+  {
+    "id": "O_299",
+    "name": {
+      "es": "Nueces de Brasil",
+      "en": "Brazil nuts",
+      "fr": "Noix du Brésil",
+      "pt": "Castanha do Pará / do Brasil",
+      "de": "Paranüsse"
+    },
+    "category": "fats_nuts",
+    "type": "Aliment",
+    "k": 656,
+    "p": 14.3,
+    "c": 12.3,
+    "f": 66.4
+  },
+  {
+    "id": "O_300",
+    "name": {
+      "es": "Nueces Pecanas",
+      "en": "Pecans",
+      "fr": "Noix de pécan",
+      "pt": "Nozes-pecã",
+      "de": "Pekannüsse"
+    },
+    "category": "fats_nuts",
+    "type": "Aliment",
+    "k": 691,
+    "p": 9.2,
+    "c": 13.9,
+    "f": 72.0
+  },
+  {
+    "id": "O_301",
+    "name": {
+      "es": "Avellanas",
+      "en": "Hazelnuts",
+      "fr": "Noisettes",
+      "pt": "Avelãs",
+      "de": "Haselnüsse"
+    },
+    "category": "fats_nuts",
+    "type": "Aliment",
+    "k": 628,
+    "p": 15.0,
+    "c": 16.7,
+    "f": 60.8
+  },
+  {
+    "id": "O_302",
+    "name": {
+      "es": "Anacardos",
+      "en": "Cashews",
+      "fr": "Noix de cajou",
+      "pt": "Cajus",
+      "de": "Cashewkerne"
+    },
+    "category": "fats_nuts",
+    "type": "Aliment",
+    "k": 577,
+    "p": 17.5,
+    "c": 30.5,
+    "f": 43.1
+  },
+  {
+    "id": "O_303",
+    "name": {
+      "es": "Pistachos",
+      "en": "Pistachios",
+      "fr": "Pistaches",
+      "pt": "Pistácios",
+      "de": "Pistazien"
+    },
+    "category": "fats_nuts",
+    "type": "Aliment",
+    "k": 594,
+    "p": 17.6,
+    "c": 15.7,
+    "f": 51.6
+  },
+  {
+    "id": "O_304",
+    "name": {
+      "es": "Cacahuetes / Maní (natural)",
+      "en": "Peanuts (raw)",
+      "fr": "Cacahuètes / Arachides",
+      "pt": "Amendoins (naturais)",
+      "de": "Erdnüsse (natur)"
+    },
+    "category": "fats_nuts",
+    "type": "Aliment",
+    "k": 571,
+    "p": 25.2,
+    "c": 7.5,
+    "f": 48.9
+  },
+  {
+    "id": "O_305",
+    "name": {
+      "es": "Mantequilla de cacahuete (100%)",
+      "en": "Peanut butter (100%)",
+      "fr": "Beurre de cacahuète (100%)",
+      "pt": "Manteiga de amendoim (100%)",
+      "de": "Erdnussbutter (100%)"
+    },
+    "category": "fats_nuts",
+    "type": "Aliment",
+    "k": 618,
+    "p": 30.0,
+    "c": 7.0,
+    "f": 50.0
+  },
+  {
+    "id": "O_306",
+    "name": {
+      "es": "Crema de almendras",
+      "en": "Almond butter",
+      "fr": "Purée d'amandes",
+      "pt": "Manteiga de amêndoa",
+      "de": "Mandelmus"
+    },
+    "category": "fats_nuts",
+    "type": "Aliment",
+    "k": 614,
+    "p": 21.0,
+    "c": 19.0,
+    "f": 56.0
+  },
+  {
+    "id": "O_307",
+    "name": {
+      "es": "Pipas de girasol",
+      "en": "Sunflower seeds",
+      "fr": "Graines de tournesol",
+      "pt": "Sementes de girassol",
+      "de": "Sonnenblumenkerne"
+    },
+    "category": "fats_nuts",
+    "type": "Aliment",
+    "k": 574,
+    "p": 27.0,
+    "c": 20.0,
+    "f": 43.0
+  },
+  {
+    "id": "O_308",
+    "name": {
+      "es": "Pipas de calabaza",
+      "en": "Pumpkin seeds",
+      "fr": "Graines de citrouille",
+      "pt": "Sementes de abóbora",
+      "de": "Kürbiskerne"
+    },
+    "category": "fats_nuts",
+    "type": "Aliment",
+    "k": 559,
+    "p": 30.2,
+    "c": 4.7,
+    "f": 49.0
+  },
+  {
+    "id": "O_309",
+    "name": {
+      "es": "Semillas de chía",
+      "en": "Chia seeds",
+      "fr": "Graines de chia",
+      "pt": "Sementes de chia",
+      "de": "Chiasamen"
+    },
+    "category": "fats_nuts",
+    "type": "Aliment",
+    "k": 486,
+    "p": 16.5,
+    "c": 42.1,
+    "f": 30.7
+  },
+  {
+    "id": "O_310",
+    "name": {
+      "es": "Semillas de lino",
+      "en": "Flax seeds / Linseeds",
+      "fr": "Graines de lin",
+      "pt": "Sementes de linhaça",
+      "de": "Leinsamen"
+    },
+    "category": "fats_nuts",
+    "type": "Aliment",
+    "k": 534,
+    "p": 18.3,
+    "c": 28.9,
+    "f": 42.2
+  },
+  {
+    "id": "O_311",
+    "name": {
+      "es": "Semillas de sésamo",
+      "en": "Sesame seeds",
+      "fr": "Graines de sésame",
+      "pt": "Sementes de sésamo / Gergelim",
+      "de": "Sesamsamen"
+    },
+    "category": "fats_nuts",
+    "type": "Aliment",
+    "k": 601,
+    "p": 17.0,
+    "c": 10.1,
+    "f": 54.0
+  },
+  {
+    "id": "O_312",
+    "name": {
+      "es": "Semillas de amapola",
+      "en": "Poppy seeds",
+      "fr": "Graines de pavot",
+      "pt": "Sementes de papoila",
+      "de": "Mohnsamen"
+    },
+    "category": "fats_nuts",
+    "type": "Aliment",
+    "k": 525,
+    "p": 18.0,
+    "c": 28.1,
+    "f": 41.6
+  },
+  {
+    "id": "O_313",
+    "name": {
+      "es": "Aceite de Oliva Virgen Extra / girasol / aguacate",
+      "en": "Extra Virgin Olive Oil / Sunflower / Avocado oil",
+      "fr": "Huile d'olive vierge extra / Tournesol / Avocat",
+      "pt": "Azeite virgem extra / Girassol / Abacate",
+      "de": "Natives Olivenöl Extra / Sonnenblumenöl / Avocadoöl"
+    },
+    "category": "fats_nuts",
+    "type": "Aliment",
+    "k": 884,
+    "p": 0.0,
+    "c": 0.0,
+    "f": 100.0
+  },
+  {
+    "id": "O_314",
+    "name": {
+      "es": "Aceite de Coco",
+      "en": "Coconut oil",
+      "fr": "Huile de coco",
+      "pt": "Óleo de coco",
+      "de": "Kokosöl"
+    },
+    "category": "fats_nuts",
+    "type": "Aliment",
+    "k": 900,
+    "p": 0.0,
+    "c": 0.0,
+    "f": 100.0
+  },
+  {
+    "id": "O_315",
+    "name": {
+      "es": "Manteca de cerdo",
+      "en": "Lard / Pork fat",
+      "fr": "Saindoux",
+      "pt": "Banha de porco",
+      "de": "Schweineschmalz"
+    },
+    "category": "fats_nuts",
+    "type": "Aliment",
+    "k": 891,
+    "p": 0.3,
+    "c": 0.0,
+    "f": 99.0
+  },
+  {
+    "id": "O_316",
+    "name": {
+      "es": "Creatina Monohidrato",
+      "en": "Creatine Monohydrate",
+      "fr": "Créatine monohydrate",
+      "pt": "Creatina monohidratada",
+      "de": "Kreatin-Monohydrat"
+    },
+    "category": "supplements",
+    "type": "Aliment",
+    "k": 0,
+    "p": 0.0,
+    "c": 0.0,
+    "f": 0.0
+  },
+  {
+    "id": "O_317",
+    "name": {
+      "es": "Chocolate negro (>85% cacao)",
+      "en": "Dark chocolate (>85% cocoa)",
+      "fr": "Chocolat noir (>85% cacao)",
+      "pt": "Chocolate negro (>85% cacau)",
+      "de": "Dunkle Schokolade (>85% Kakao)"
+    },
+    "category": "sweets",
+    "type": "Aliment",
+    "k": 590,
+    "p": 12.0,
+    "c": 19.0,
+    "f": 46.0
+  },
+  {
+    "id": "O_318",
+    "name": {
+      "es": "Cacao puro en polvo (desgrasado)",
+      "en": "Pure cocoa powder (defatted)",
+      "fr": "Cacao en poudre pur (dégraissé)",
+      "pt": "Cacau em pó puro (magro)",
+      "de": "Reines Kakaopulver (entölt)"
+    },
+    "category": "sauces_condiments",
+    "type": "Aliment",
+    "k": 375,
+    "p": 26.0,
+    "c": 16.0,
+    "f": 16.0
+  },
+  {
+    "id": "O_319",
+    "name": {
+      "es": "Vinagre de vino / Manzana",
+      "en": "Wine / Apple cider vinegar",
+      "fr": "Vinaigre de vin / cidre",
+      "pt": "Vinagre de vinho / maçã",
+      "de": "Wein- / Apfelessig"
+    },
+    "category": "sauces_condiments",
+    "type": "Aliment",
+    "k": 20,
+    "p": 0,
+    "c": 0.6,
+    "f": 0
+  },
+  {
+    "id": "O_320",
+    "name": {
+      "es": "Vinagre de Módena / Balsámico",
+      "en": "Balsamic vinegar",
+      "fr": "Vinaigre balsamique",
+      "pt": "Vinagre balsâmico",
+      "de": "Balsamico-Essig"
+    },
+    "category": "sauces_condiments",
+    "type": "Aliment",
+    "k": 88,
+    "p": 0.5,
+    "c": 17.0,
+    "f": 0
+  },
+  {
+    "id": "O_321",
+    "name": {
+      "es": "Salsa de Soja",
+      "en": "Soy sauce",
+      "fr": "Sauce soja",
+      "pt": "Molho de soja",
+      "de": "Sojasauce"
+    },
+    "category": "sauces_condiments",
+    "type": "Aliment",
+    "k": 64,
+    "p": 8.7,
+    "c": 6.7,
+    "f": 0.1
+  },
+  {
+    "id": "O_322",
+    "name": {
+      "es": "Mostaza (clásica/Dijon)",
+      "en": "Mustard (Classic/Dijon)",
+      "fr": "Moutarde (Classique/Dijon)",
+      "pt": "Mostarda (Clássica/Dijon)",
+      "de": "Senf (Klassisch/Dijon)"
+    },
+    "category": "sauces_condiments",
+    "type": "Aliment",
+    "k": 150,
+    "p": 7.0,
+    "c": 3.5,
+    "f": 11.0
+  },
+  {
+    "id": "O_323",
+    "name": {
+      "es": "Ketchup",
+      "en": "Ketchup",
+      "fr": "Ketchup",
+      "pt": "Ketchup",
+      "de": "Ketchup"
+    },
+    "category": "sauces_condiments",
+    "type": "Aliment",
+    "k": 102,
+    "p": 1.0,
+    "c": 24.0,
+    "f": 0.1
+  },
+  {
+    "id": "O_324",
+    "name": {
+      "es": "Mayonesa",
+      "en": "Mayonnaise",
+      "fr": "Mayonnaise",
+      "pt": "Maionese",
+      "de": "Mayonnaise"
+    },
+    "category": "sauces_condiments",
+    "type": "Aliment",
+    "k": 700,
+    "p": 1.0,
+    "c": 1.0,
+    "f": 75.0
+  },
+  {
+    "id": "O_325",
+    "name": {
+      "es": "Salsa Barbacoa (BBQ)",
+      "en": "BBQ Sauce",
+      "fr": "Sauce Barbecue",
+      "pt": "Molho Barbecue",
+      "de": "Barbecuesauce"
+    },
+    "category": "sauces_condiments",
+    "type": "Aliment",
+    "k": 172,
+    "p": 1.0,
+    "c": 41.0,
+    "f": 0.6
+  },
+  {
+    "id": "O_326",
+    "name": {
+      "es": "Salsa Picante (Tabasco, Sriracha)",
+      "en": "Hot sauce (Tabasco, Sriracha)",
+      "fr": "Sauce piquante (Tabasco, Sriracha)",
+      "pt": "Molho picante (Tabasco, Sriracha)",
+      "de": "Scharfe Sauce (Tabasco, Sriracha)"
+    },
+    "category": "sauces_condiments",
+    "type": "Aliment",
+    "k": 90,
+    "p": 2.0,
+    "c": 20.0,
+    "f": 1.0
+  },
+  {
+    "id": "O_327",
+    "name": {
+      "es": "Pesto (Genovese/Verde)",
+      "en": "Pesto (Genovese/Green)",
+      "fr": "Pesto (Genovese/Vert)",
+      "pt": "Pesto (Genovês/Verde)",
+      "de": "Pesto (Genovese/Grün)"
+    },
+    "category": "sauces_condiments",
+    "type": "Aliment",
+    "k": 515,
+    "p": 5.0,
+    "c": 6.0,
+    "f": 52.0
+  },
+  {
+    "id": "O_328",
+    "name": {
+      "es": "Azúcar blanco",
+      "en": "White sugar",
+      "fr": "Sucre blanc",
+      "pt": "Açúcar branco",
+      "de": "Weißer Zucker"
+    },
+    "category": "sweets",
+    "type": "Aliment",
+    "k": 400,
+    "p": 0.0,
+    "c": 99.8,
+    "f": 0.0
+  },
+  {
+    "id": "O_329",
+    "name": {
+      "es": "Azúcar moreno",
+      "en": "Brown sugar",
+      "fr": "Sucre roux / Cassonade",
+      "pt": "Açúcar mascavo / moreno",
+      "de": "Brauner Zucker"
+    },
+    "category": "sweets",
+    "type": "Aliment",
+    "k": 380,
+    "p": 0.0,
+    "c": 97.6,
+    "f": 0.0
+  },
+  {
+    "id": "O_330",
+    "name": {
+      "es": "Miel",
+      "en": "Honey",
+      "fr": "Miel",
+      "pt": "Mel",
+      "de": "Honig"
+    },
+    "category": "sweets",
+    "type": "Aliment",
+    "k": 320,
+    "p": 0.4,
+    "c": 79.0,
+    "f": 0.0
+  },
+  {
+    "id": "O_331",
+    "name": {
+      "es": "Sirope de Arce / Agave",
+      "en": "Maple / Agave syrup",
+      "fr": "Sirop d'érable / Agave",
+      "pt": "Xarope de ácer / Agave",
+      "de": "Ahornsirup / Agavendicksaft"
+    },
+    "category": "sweets",
+    "type": "Aliment",
+    "k": 310,
+    "p": 0.0,
+    "c": 76.0,
+    "f": 0.5
+  },
+  {
+    "id": "O_332",
+    "name": {
+      "es": "Cacao en crema (tipo Nutella)",
+      "en": "Cocoa hazelnut spread",
+      "fr": "Pâte à tartiner (noisettes)",
+      "pt": "Creme de cacau e avelã",
+      "de": "Nuss-Nougat-Creme"
+    },
+    "category": "sweets",
+    "type": "Aliment",
+    "k": 539,
+    "p": 6.3,
+    "c": 57.5,
+    "f": 30.9
+  },
+  {
+    "id": "O_333",
+    "name": {
+      "es": "Mermelada (con azúcar)",
+      "en": "Jam / Marmalade (with sugar)",
+      "fr": "Confiture (sucrée)",
+      "pt": "Doce / Geleia (com açúcar)",
+      "de": "Marmelade / Konfitüre"
+    },
+    "category": "sweets",
+    "type": "Aliment",
+    "k": 250,
+    "p": 0.4,
+    "c": 60.0,
+    "f": 0.1
+  },
+  {
+    "id": "O_334",
+    "name": {
+      "es": "Mermelada (light / sin azúcar)",
+      "en": "Jam (light / sugar-free)",
+      "fr": "Confiture (allégée / sans sucre)",
+      "pt": "Doce / Geleia (light / sem açúcar)",
+      "de": "Marmelade (leicht / zuckerfrei)"
+    },
+    "category": "sweets",
+    "type": "Aliment",
+    "k": 40,
+    "p": 0.5,
+    "c": 10.0,
+    "f": 0.0
+  },
+  {
+    "id": "O_335",
+    "name": {
+      "es": "Levadura nutricional",
+      "en": "Nutritional yeast",
+      "fr": "Levure nutritionnelle",
+      "pt": "Levedura nutricional",
+      "de": "Hefeflocken"
+    },
+    "category": "sauces_condiments",
+    "type": "Aliment",
+    "k": 344,
+    "p": 51.0,
+    "c": 37.0,
+    "f": 4.0
+  },
+  {
+    "id": "O_336",
+    "name": {
+      "es": "Cubito de caldo",
+      "en": "Bouillon cube / Stock cube",
+      "fr": "Cube de bouillon",
+      "pt": "Caldo em cubo",
+      "de": "Brühwürfel"
+    },
+    "category": "sauces_condiments",
+    "type": "Aliment",
+    "k": 270,
+    "p": 14.0,
+    "c": 14.0,
+    "f": 21.0
+  }
+]

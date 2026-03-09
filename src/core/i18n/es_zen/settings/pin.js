@@ -1,0 +1,20 @@
+export default {
+    "pin_header": "Configurar_seguridad",
+    "pin_warning_off_title": "Necesitamos tu atención un momento:",
+    "pin_warning_off_desc": "El sistema de cifrado es tan seguro que si pierdes tu pin, podrías perder tus datos. Por favor, guardalo bien.",
+    "pin_warning_on_title": "Aviso",
+    "pin_warning_on_desc": "Al desactivar tu pin, los datos se desencriptarán y volverán a estar \"desnudos\" en el dispositivo.",
+    "pin_label_vaults": "Bóvedas_Protegidas (Cifradas)",
+    "btn_activate_pin": "Activar PIN",
+    "btn_disable_pin": "Desactivar Seguridad",
+    "btn_save": "Guardar",
+    "modal_create_pin": "Crea un PIN (4 Dígitos)",
+    "modal_enter_pin": "Introduce PIN Actual",
+    "alert_pin_length": "El PIN debe tener exactamente 4 dígitos.",
+    "alert_pin_disabled": "Seguridad desactivada, puedes volver a activarla en cualquier momento",
+    "alert_pin_wrong": "Has introducido mal el pin, vuelve a intentarlo",
+    "vault_user": "Usuario (Biometría / Pin)",
+    "vault_progress": "Progreso (Fotos / Medidas)",
+    "vault_training": "Entrenamiento (Rutinas / Logs)",
+    "vault_nutrition": "Nutrición (Dietas / Macros)"
+};

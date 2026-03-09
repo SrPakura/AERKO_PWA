@@ -1,0 +1,35 @@
+export default {
+    "record_title": "Ajouter_Entrée",
+    "record_toast_success": "Enregistré_Avec_Succès",
+    "record_btn_save": "Enregistrer_Entrée",
+    "record_btn_go_measures": "Ajouter_Mensurations",
+    "record_btn_go_folds": "Ajouter_Plis",
+
+    "record_add_lbl_weight": "Poids_Corporel",
+    "record_add_lbl_fat": "Pourcentage_De_Graisse",
+    "record_add_lbl_height": "Taille",
+    "record_add_lbl_muscle": "Masse_Musculaire",
+    "record_add_lbl_photo": "// Photo_De_Progrès",
+    "record_add_photo_title": "Importer_photo",
+    "record_add_photo_desc": "Touche pour ouvrir l'appareil photo ou la galerie.",
+    "record_add_helper": "N'oublie pas qu'il te suffit de remplir un champ ou d'importer une photo pour pouvoir enregistrer.",
+    "record_add_cooldown": "Te peser plusieurs fois par jour n'a aucun sens.<br><br>L'idéal est une fois par semaine.",
+
+    "record_folds_pectoral": "Pectoral",
+    "record_folds_abdominal": "Abdominal",
+    "record_folds_quadriceps": "Quadriceps",
+    "record_folds_suprailiac": "Supra-iliaque",
+    "record_folds_triceps": "Triceps",
+    "record_folds_subscapular": "Sous-scapulaire",
+    "record_folds_midaxillary": "Axillaire_Moyen",
+
+    "record_meas_neck": "Cou",
+    "record_meas_shoulder": "Épaules",
+    "record_meas_chest": "Poitrine",
+    "record_meas_arm_rel": "Bras_Relâché",
+    "record_meas_arm_flex": "Bras_Contracté",
+    "record_meas_waist": "Tour_De_Taille",
+    "record_meas_hip": "Hanches",
+    "record_meas_thigh": "Cuisse_(Quadriceps)",
+    "record_meas_calf": "Mollets"
+};

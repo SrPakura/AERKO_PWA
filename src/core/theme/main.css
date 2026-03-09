@@ -1,0 +1,232 @@
+/* src/core/theme/main.css */
+
+/* --- REGISTRO DE FUENTES LOCALES --- */
+
+/* 1. JetBrains Mono (Cuerpo y Números) */
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('/src/assets/fonts/JM_R.woff2') format('woff2');
+    font-weight: 400; /* Regular */
+    font-style: normal;
+}
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('/src/assets/fonts/JM_M.woff2') format('woff2');
+    font-weight: 500; /* Medium */
+    font-style: normal;
+}
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('/src/assets/fonts/JM_B.woff2') format('woff2');
+    font-weight: 700; /* Bold */
+    font-style: normal;
+}
+
+/* 2. Space Grotesk Local (Fallback para Títulos) */
+@font-face {
+    font-family: 'Space Grotesk Local';
+    src: url('/src/assets/fonts/SG_SM.ttf') format('truetype');
+    font-weight: 600; /* SemiBold (Sustituye pesos medios de Clash) */
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Space Grotesk Local';
+    src: url('/src/assets/fonts/SG_B.ttf') format('truetype');
+    font-weight: 700; /* Bold (Sustituye pesos gordos de Clash) */
+    font-style: normal;
+}
+
+/* --- RESET GLOBAL (CRÍTICO) --- */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* --- RESET BÁSICO --- */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-app);
+    color: var(--text-primary);
+    font-family: var(--font-body); /* Usamos la variable */
+    -webkit-font-smoothing: antialiased;
+    display: flex;              /* Necesario para centrar #app */
+    justify-content: center;    /* Centra horizontalmente */
+    align-items: flex-start;    /* Alinea arriba */
+    min-height: 100dvh;         /* Asegura que el body ocupe toda la altura */
+    background-color: #000;     /* Fondo negro fuera de la app */
+}
+
+#app {
+    width: 100%;
+    max-width: 480px;       /* Límite para iPhone Pro Max y Desktop */
+    margin: 0 auto;         /* Centrar en pantallas grandes */
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    position: relative;     /* Para posicionar modales absolutos respecto a esto */
+    background-color: var(--Negro-suave); /* Asegurar fondo en el contenedor */
+    box-shadow: 0 0 50px rgba(0,0,0,0.5); /* (Opcional) Sombra elegante en Desktop */
+}
+
+/* --- Margenes globales y otras cositas --- */
+
+.app-screen {
+    position: relative;
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+    
+    /* ALTURA: Usamos dvh (Dynamic Viewport Height) */
+    min-height: 100dvh; 
+    
+    /* --- MAGIC FIX --- */
+      padding-top: calc(env(safe-area-inset-top) + 8px);
+      padding-bottom: calc(env(safe-area-inset-bottom) + 0px);
+
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/* --- TIPOGRAFÍA (Tokens) --- */
+/* AHORA USAMOS VARIABLES EN LUGAR DE NOMBRES FIJOS */
+
+/* H0 */
+.text-h0 {
+    font-family: var(--font-title);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -0.48px;
+}
+
+/* H1 */
+.text-h1 {
+    font-family: var(--font-title);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 110%;
+    letter-spacing: -0.4px;
+}
+
+/* H2 (Mobile) */
+.text-h2 {
+    font-family: var(--font-title);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -0.32px;
+}
+
+/* H3 (Mobile) */
+.text-h3 {
+    font-family: var(--font-title);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+/* H4 (Mobile) */
+.text-h4 {
+    font-family: var(--font-title);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+/* Body Large */
+.text-body-large {
+    font-family: var(--font-body);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+/* Body Base (P) */
+.text-body-base {
+    font-family: var(--font-body);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+/* Label & Button */
+.text-label, .btn-text {
+    font-family: var(--font-body);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+/* Caption */
+.text-caption {
+    font-family: var(--font-body);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+/* Body Small */
+.text-small {
+    font-family: var(--font-body);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 130%;
+}
+
+/* --- UTILIDADES DE INPUT TEXT --- */
+.input-value {
+    color: var(--Blanco);
+    font-family: var(--font-body);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.input-value.placeholder {
+    opacity: 0.5;
+}
+
+.cursor-blink {
+    display: inline-block;
+    width: 2px;
+    height: 1em;
+    background-color: var(--Verde-acido);
+    animation: blink 1s step-end infinite;
+    vertical-align: middle;
+    margin-left: 2px;
+}
+
+@keyframes blink { 50% { opacity: 0; } }
+
+/* --- MODAL DEL ESCÁNER (Portal Global) --- */
+.scanner-portal {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw; height: 100vh;
+    background: #000;
+    z-index: 99999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#reader {
+    width: 100%;
+    max-width: 500px;
+    background: #000;
+}
+
+.scanner-close-btn {
+    margin-top: 30px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid var(--Blanco);
+    color: var(--Blanco);
+    padding: 12px 24px;
+    border-radius: 24px;
+    font-family: var(--font-body);
+    font-size: 14px;
+    cursor: pointer;
+    z-index: 100000;
+}

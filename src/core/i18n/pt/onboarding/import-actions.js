@@ -1,0 +1,38 @@
+export default {
+    "action_header": "Importar_Dados",
+    "action_source": "/// FONTE:",
+    "action_drop_title": "Importar_dados",
+    "action_drop_desc_aerko": "Envie seu arquivo <br><b>Aerko_Export.json</b>",
+    "action_drop_desc_apple": "Toque para explorar os arquivos.<br>Envie seu arquivo <b>export.xml</b> do Apple Health",
+    "action_drop_desc_health": "Toque para explorar os arquivos.<br>São aceitos arquivos do Takeout (.csv, .json)",
+    "action_drop_desc_training": "Toque para explorar os arquivos.<br>São aceitos .json e .csv do seu app anterior",
+    "action_drop_desc_default": "Toque para explorar os arquivos.",
+    "action_file_ready": "Arquivo pronto:<br><span style=\"color: var(--Verde-acido); font-weight: bold;\">{{name}}</span><br><span style=\"font-size:12px; opacity:0.6;\">({{size}} MB)</span>",
+    "action_analyzing": "Analisando... {{percent}}%",
+    "action_saving": "Salvando no cofre...",
+    "action_btn_import": "Importar",
+    "action_btn_cancel": "Cancelar",
+    "action_btn_processing": "Processando...",
+    "action_alert_health": "Selecione o arquivo de exportação de saúde primeiro.",
+    "action_alert_training": "Selecione um arquivo de treinos primeiro.",
+    "action_alert_aerko": "Selecione o arquivo de backup primeiro.",
+    "action_alert_error": "Erro ao processar: ",
+    "action_success_aerko": "> Dados do Aerko_ restaurados com sucesso.",
+    "action_success_health": "> {{count}} registros de biometria importados.",
+    "action_success_training": "> {{count}} registros do [{{app}}] importados.",
+    
+    // --- ERRORES DE SERVICIOS ---
+    "err_health_unsupported": "Fonte de saúde não suportada.",
+    "err_xml_read": "Erro ao ler o arquivo XML.",
+    "err_csv_read": "Erro ao ler o arquivo CSV.",
+    "err_json_corrupt": "O arquivo não é um JSON válido ou está corrompido.",
+    "err_system_locked": "O sistema está bloqueado. Desbloqueie o Aerko_ com seu PIN primeiro.",
+    "err_source_unsupported": "Fonte não suportada",
+    "err_file_corrupt": "O formato do arquivo não é válido ou está corrompido.",
+    "err_csv_empty": "CSV vazio",
+    "err_csv_columns": "Faltam colunas obrigatórias no CSV",
+    "err_zip_not_found": "Biblioteca JSZip não encontrada. Adicione jszip.min.js no seu index.html.",
+    "err_zip_corrupt": "O arquivo enviado não é um .zip válido ou está corrompido.",
+    
+    // --- STORE ---
+    "unknown_app": "Desconhecido"

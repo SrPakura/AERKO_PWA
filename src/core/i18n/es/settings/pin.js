@@ -1,0 +1,20 @@
+export default {
+    "pin_header": "Configurar_seguridad",
+    "pin_warning_off_title": "Atención:",
+    "pin_warning_off_desc": "El pin cifra tus datos localmente usando AES-GCM 256. Si olvidas tu pin, la recuperación será muy compleja, tanto que podríamos darlo por perdido. Recuerda tu pin.",
+    "pin_warning_on_title": "Aviso",
+    "pin_warning_on_desc": "Al desactivar el pin tus datos se desencriptarán y volveran a quedar expuestos en el almacenamiento del dispositivo.",
+    "pin_label_vaults": "Bóvedas_Protegidas (Cifradas)",
+    "btn_activate_pin": "Activar PIN",
+    "btn_disable_pin": "Desactivar Seguridad",
+    "btn_save": "Guardar",
+    "modal_create_pin": "Crea un PIN (4 Dígitos)",
+    "modal_enter_pin": "Introduce PIN Actual",
+    "alert_pin_length": "El PIN debe tener exactamente 4 dígitos.",
+    "alert_pin_disabled": "Seguridad desactivada. Claves destruidas.",
+    "alert_pin_wrong": "Pin erroneo.",
+    "vault_user": "Usuario (Biometría / Pin)",
+    "vault_progress": "Progreso (Fotos / Medidas)",
+    "vault_training": "Entrenamiento (Rutinas / Logs)",
+    "vault_nutrition": "Nutrición (Dietas / Macros)"
+};

@@ -1,0 +1,57 @@
+/* src/modules/system/components/keypad.css */
+
+.keyboard {
+  display: grid;
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  box-sizing: border-box; 
+  padding: 12px;
+  
+  /* DEFINIMOS EL MAPA DEL TESORO (4 columnas x 4 filas) */
+  grid-template-areas: 
+    "n1 n2 n3 del"
+    "n4 n5 n6 ok"
+    "n7 n8 n9 ok"
+    "dot n0 unit unit"; /* La unidad ocupa las 2 últimas celdas */
+
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 64px; 
+  gap: 6px;
+
+  border-top: 1px solid var(--Blanco);
+  background: var(--Negro-suave);
+}
+
+.key {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%; 
+  border: 1px solid var(--gris-suave-hover);
+  background: transparent;
+  color: var(--Blanco);
+  font-family: "JetBrains Mono";
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  transition: background 0.1s;
+}
+
+/* ASIGNAMOS CADA TECLA A SU ÁREA */
+.area-del { grid-area: del; }
+.area-ok  { grid-area: ok;  } /* El OK se estirará solo verticalmente gracias al grid */
+.area-unit{ grid-area: unit;}
+
+/* Estado Active */
+.key:active, .key.active {
+  background: var(--Blanco);
+  color: var(--Negro-suave);
+  border-color: var(--Blanco);
+}
+.key:active svg, .key.active svg { fill: var(--Negro-suave); }
+.key svg { fill: var(--Blanco); width: 24px; height: 24px; }

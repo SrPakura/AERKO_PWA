@@ -1,0 +1,778 @@
+[
+  {
+    "id": "pectoralis_major",
+    "name": {
+      "es": "Pectoral Mayor",
+      "en": "Pectoralis Major",
+      "fr": "Grand Pectoral",
+      "pt": "Peitoral Maior",
+      "de": "Großer Brustmuskel"
+    },
+    "weekly_limits": {
+      "mv": 8,
+      "mev": 10,
+      "mav": 16,
+      "mrv": 22
+    },
+    "heads": [
+      {
+        "id": "clavicular_head",
+        "name": {
+          "es": "Cabeza Clavicular (Superior)",
+          "en": "Clavicular Head (Upper)",
+          "fr": "Faisceau Claviculaire",
+          "pt": "Cabeça Clavicular",
+          "de": "Schlüsselbeinteil"
+        },
+        "ideal_ratio": 0.33
+      },
+      {
+        "id": "sternocostal_head",
+        "name": {
+          "es": "Cabeza Esternocostal (Media)",
+          "en": "Sternocostal Head (Middle)",
+          "fr": "Faisceau Sterno-costal",
+          "pt": "Cabeça Esternocostal",
+          "de": "Brustbeinteil"
+        },
+        "ideal_ratio": 0.34
+      },
+      {
+        "id": "abdominal_head",
+        "name": {
+          "es": "Cabeza Abdominal (Inferior)",
+          "en": "Abdominal Head (Lower)",
+          "fr": "Faisceau Abdominal",
+          "pt": "Cabeça Abdominal",
+          "de": "Bauchteil"
+        },
+        "ideal_ratio": 0.33
+      }
+    ]
+  },
+  {
+    "id": "latissimus_dorsi",
+    "name": {
+      "es": "Dorsal Ancho",
+      "en": "Latissimus Dorsi",
+      "fr": "Grand Dorsal",
+      "pt": "Grande Dorsal",
+      "de": "Breiter Rückenmuskel"
+    },
+    "weekly_limits": {
+      "mv": 8,
+      "mev": 10,
+      "mav": 18,
+      "mrv": 25
+    },
+    "heads": [
+      {
+        "id": "latissimus_dorsi_muscle",
+        "name": {
+          "es": "Dorsal Ancho",
+          "en": "Latissimus Dorsi",
+          "fr": "Grand Dorsal",
+          "pt": "Grande Dorsal",
+          "de": "Breiter Rückenmuskel"
+        },
+        "ideal_ratio": 1.0
+      }
+    ]
+  },
+  {
+    "id": "trapezius",
+    "name": {
+      "es": "Trapecio",
+      "en": "Trapezius",
+      "fr": "Trapèze",
+      "pt": "Trapézio",
+      "de": "Kapuzenmuskel"
+    },
+    "weekly_limits": {
+      "mv": 0,
+      "mev": 0,
+      "mav": 16,
+      "mrv": 26
+    },
+    "heads": [
+      {
+        "id": "trapezius_superior",
+        "name": {
+          "es": "Trapecio Superior",
+          "en": "Upper Trapezius",
+          "fr": "Trapèze Supérieur",
+          "pt": "Trapézio Superior",
+          "de": "Oberer Kapuzenmuskel"
+        },
+        "ideal_ratio": 0.33
+      },
+      {
+        "id": "trapezius_media",
+        "name": {
+          "es": "Trapecio Medio",
+          "en": "Middle Trapezius",
+          "fr": "Trapèze Moyen",
+          "pt": "Trapézio Médio",
+          "de": "Mittlerer Kapuzenmuskel"
+        },
+        "ideal_ratio": 0.33
+      },
+      {
+        "id": "trapezius_inferior",
+        "name": {
+          "es": "Trapecio Inferior",
+          "en": "Lower Trapezius",
+          "fr": "Trapèze Inférieur",
+          "pt": "Trapézio Inferior",
+          "de": "Unterer Kapuzenmuskel"
+        },
+        "ideal_ratio": 0.34
+      }
+    ]
+  },
+  {
+    "id": "deltoids_anterior",
+    "name": {
+      "es": "Deltoides Anterior",
+      "en": "Anterior Deltoid",
+      "fr": "Deltoïde Antérieur",
+      "pt": "Deltoide Anterior",
+      "de": "Vorderer Deltamuskel"
+    },
+    "weekly_limits": {
+      "mv": 0,
+      "mev": 0,
+      "mav": 7,
+      "mrv": 12
+    },
+    "heads": [
+      {
+        "id": "anterior_head",
+        "name": {
+          "es": "Cabeza Anterior",
+          "en": "Anterior Head",
+          "fr": "Faisceau Antérieur",
+          "pt": "Cabeça Anterior",
+          "de": "Vorderer Teil"
+        },
+        "ideal_ratio": 1.0
+      }
+    ]
+  },
+  {
+    "id": "deltoids_lateral",
+    "name": {
+      "es": "Deltoides Lateral",
+      "en": "Lateral Deltoid",
+      "fr": "Deltoïde Latéral",
+      "pt": "Deltoide Lateral",
+      "de": "Mittlerer Deltamuskel"
+    },
+    "weekly_limits": {
+      "mv": 6,
+      "mev": 6,
+      "mav": 19,
+      "mrv": 26
+    },
+    "heads": [
+      {
+        "id": "lateral_head",
+        "name": {
+          "es": "Cabeza Lateral",
+          "en": "Lateral Head",
+          "fr": "Faisceau Latéral",
+          "pt": "Cabeça Lateral",
+          "de": "Mittlerer Teil"
+        },
+        "ideal_ratio": 1.0
+      }
+    ]
+  },
+  {
+    "id": "deltoids_posterior",
+    "name": {
+      "es": "Deltoides Posterior",
+      "en": "Posterior Deltoid",
+      "fr": "Deltoïde Postérieur",
+      "pt": "Deltoide Posterior",
+      "de": "Hinterer Deltamuskel"
+    },
+    "weekly_limits": {
+      "mv": 0,
+      "mev": 6,
+      "mav": 19,
+      "mrv": 26
+    },
+    "heads": [
+      {
+        "id": "posterior_head",
+        "name": {
+          "es": "Cabeza Posterior",
+          "en": "Posterior Head",
+          "fr": "Faisceau Postérieur",
+          "pt": "Cabeça Posterior",
+          "de": "Hinterer Teil"
+        },
+        "ideal_ratio": 1.0
+      }
+    ]
+  },
+  {
+    "id": "biceps_brachii",
+    "name": {
+      "es": "Bíceps Braquial",
+      "en": "Biceps Brachii",
+      "fr": "Biceps Brachial",
+      "pt": "Bíceps Braquial",
+      "de": "Zweiköpfiger Armmuskel"
+    },
+    "weekly_limits": {
+      "mv": 5,
+      "mev": 8,
+      "mav": 17,
+      "mrv": 26
+    },
+    "heads": [
+      {
+        "id": "long_head",
+        "name": {
+          "es": "Cabeza Larga",
+          "en": "Long Head",
+          "fr": "Longue Portion",
+          "pt": "Cabeça Longa",
+          "de": "Langer Kopf"
+        },
+        "ideal_ratio": 0.5
+      },
+      {
+        "id": "short_head",
+        "name": {
+          "es": "Cabeza Corta",
+          "en": "Short Head",
+          "fr": "Courte Portion",
+          "pt": "Cabeça Curta",
+          "de": "Kurzer Kopf"
+        },
+        "ideal_ratio": 0.5
+      }
+    ]
+  },
+  {
+    "id": "triceps_brachii",
+    "name": {
+      "es": "Tríceps Braquial",
+      "en": "Triceps Brachii",
+      "fr": "Triceps Brachial",
+      "pt": "Tríceps Braquial",
+      "de": "Dreiköpfiger Armmuskel"
+    },
+    "weekly_limits": {
+      "mv": 4,
+      "mev": 6,
+      "mav": 12,
+      "mrv": 18
+    },
+    "heads": [
+      {
+        "id": "long_head_triceps",
+        "name": {
+          "es": "Cabeza Larga",
+          "en": "Long Head",
+          "fr": "Longue Portion",
+          "pt": "Cabeça Longa",
+          "de": "Langer Kopf"
+        },
+        "ideal_ratio": 0.33
+      },
+      {
+        "id": "lateral_head_triceps",
+        "name": {
+          "es": "Cabeza Lateral",
+          "en": "Lateral Head",
+          "fr": "Vaste Externe",
+          "pt": "Cabeça Lateral",
+          "de": "Lateraler Kopf"
+        },
+        "ideal_ratio": 0.33
+      },
+      {
+        "id": "medial_head_triceps",
+        "name": {
+          "es": "Cabeza Medial",
+          "en": "Medial Head",
+          "fr": "Vaste Interne",
+          "pt": "Cabeça Medial",
+          "de": "Medialer Kopf"
+        },
+        "ideal_ratio": 0.34
+      }
+    ]
+  },
+  {
+    "id": "brachialis",
+    "name": {
+      "es": "Braquial Anterior",
+      "en": "Brachialis",
+      "fr": "Brachial",
+      "pt": "Braquial",
+      "de": "Armbeuger"
+    },
+    "weekly_limits": {
+      "mv": 4,
+      "mev": 8,
+      "mav": 17,
+      "mrv": 26
+    },
+    "heads": [
+      {
+        "id": "brachialis_muscle",
+        "name": {
+          "es": "Músculo Braquial",
+          "en": "Brachialis Muscle",
+          "fr": "Muscle Brachial",
+          "pt": "Músculo Braquial",
+          "de": "Musculus Brachialis"
+        },
+        "ideal_ratio": 1.0
+      }
+    ]
+  },
+  {
+    "id": "forearms",
+    "name": {
+      "es": "Antebrazos",
+      "en": "Forearms",
+      "fr": "Avant-bras",
+      "pt": "Antebraços",
+      "de": "Unterarme"
+    },
+    "weekly_limits": {
+      "mv": 2,
+      "mev": 4,
+      "mav": 16,
+      "mrv": 27
+    },
+    "heads": [
+      {
+        "id": "flexors",
+        "name": {
+          "es": "Flexores",
+          "en": "Flexors",
+          "fr": "Fléchisseurs",
+          "pt": "Flexores",
+          "de": "Beuger"
+        },
+        "ideal_ratio": 0.5
+      },
+      {
+        "id": "extensors",
+        "name": {
+          "es": "Extensores",
+          "en": "Extensors",
+          "fr": "Extenseurs",
+          "pt": "Extensores",
+          "de": "Strecker"
+        },
+        "ideal_ratio": 0.5
+      }
+    ]
+  },
+  {
+    "id": "quadriceps_femoris",
+    "name": {
+      "es": "Cuádriceps",
+      "en": "Quadriceps",
+      "fr": "Quadriceps",
+      "pt": "Quadríceps",
+      "de": "Oberschenkelmuskel"
+    },
+    "weekly_limits": {
+      "mv": 6,
+      "mev": 8,
+      "mav": 15,
+      "mrv": 20
+    },
+    "heads": [
+      {
+        "id": "rectus_femoris",
+        "name": {
+          "es": "Recto Femoral",
+          "en": "Rectus Femoris",
+          "fr": "Droit Fémoral",
+          "pt": "Reto Femoral",
+          "de": "Gerader Muskel"
+        },
+        "ideal_ratio": 0.25
+      },
+      {
+        "id": "vastus_lateralis",
+        "name": {
+          "es": "Vasto Lateral",
+          "en": "Vastus Lateralis",
+          "fr": "Vaste Latéral",
+          "pt": "Vasto Lateral",
+          "de": "Äußerer Schenkelmuskel"
+        },
+        "ideal_ratio": 0.25
+      },
+      {
+        "id": "vastus_medialis",
+        "name": {
+          "es": "Vasto Medial",
+          "en": "Vastus Medialis",
+          "fr": "Vaste Médial",
+          "pt": "Vasto Medial",
+          "de": "Innerer Schenkelmuskel"
+        },
+        "ideal_ratio": 0.25
+      },
+      {
+        "id": "vastus_intermedius",
+        "name": {
+          "es": "Vasto Intermedio",
+          "en": "Vastus Intermedius",
+          "fr": "Vaste Intermédiaire",
+          "pt": "Vasto Intermédio",
+          "de": "Mittlerer Schenkelmuskel"
+        },
+        "ideal_ratio": 0.25
+      }
+    ]
+  },
+  {
+    "id": "hamstrings",
+    "name": {
+      "es": "Isquiosurales",
+      "en": "Hamstrings",
+      "fr": "Ischio-jambiers",
+      "pt": "Isquiotibiais",
+      "de": "Beinbeuger"
+    },
+    "weekly_limits": {
+      "mv": 4,
+      "mev": 6,
+      "mav": 13,
+      "mrv": 20
+    },
+    "heads": [
+      {
+        "id": "biceps_femoris",
+        "name": {
+          "es": "Bíceps Femoral",
+          "en": "Biceps Femoris",
+          "fr": "Biceps Fémoral",
+          "pt": "Bíceps Femoral",
+          "de": "Beinbizeps"
+        },
+        "ideal_ratio": 0.5
+      },
+      {
+        "id": "semitendinosus",
+        "name": {
+          "es": "Semitendinoso",
+          "en": "Semitendinosus",
+          "fr": "Demi-tendineux",
+          "pt": "Semitendíneo",
+          "de": "Halbsehnenmuskel"
+        },
+        "ideal_ratio": 0.25
+      },
+      {
+        "id": "semimembranosus",
+        "name": {
+          "es": "Semimembranoso",
+          "en": "Semimembranosus",
+          "fr": "Demi-membraneux",
+          "pt": "Semimembranoso",
+          "de": "Plattsehnenmuskel"
+        },
+        "ideal_ratio": 0.25
+      }
+    ]
+  },
+  {
+    "id": "gluteal_group",
+    "name": {
+      "es": "Glúteos",
+      "en": "Glutes",
+      "fr": "Fessiers",
+      "pt": "Glúteos",
+      "de": "Gesäßmuskeln"
+    },
+    "weekly_limits": {
+      "mv": 0,
+      "mev": 0,
+      "mav": 8,
+      "mrv": 16
+    },
+    "heads": [
+      {
+        "id": "gluteus_maximus",
+        "name": {
+          "es": "Glúteo Mayor",
+          "en": "Gluteus Maximus",
+          "fr": "Grand Fessier",
+          "pt": "Glúteo Máximo",
+          "de": "Großer Gesäßmuskel"
+        },
+        "ideal_ratio": 0.6
+      },
+      {
+        "id": "gluteus_medius",
+        "name": {
+          "es": "Glúteo Medio",
+          "en": "Gluteus Medius",
+          "fr": "Moyen Fessier",
+          "pt": "Glúteo Médio",
+          "de": "Mittlerer Gesäßmuskel"
+        },
+        "ideal_ratio": 0.3
+      },
+      {
+        "id": "gluteus_minimus",
+        "name": {
+          "es": "Glúteo Menor",
+          "en": "Gluteus Minimus",
+          "fr": "Petit Fessier",
+          "pt": "Glúteo Mínimo",
+          "de": "Kleiner Gesäßmuskel"
+        },
+        "ideal_ratio": 0.1
+      }
+    ]
+  },
+  {
+    "id": "calves",
+    "name": {
+      "es": "Pantorrillas",
+      "en": "Calves",
+      "fr": "Mollets",
+      "pt": "Panturrilhas",
+      "de": "Waden"
+    },
+    "weekly_limits": {
+      "mv": 6,
+      "mev": 8,
+      "mav": 14,
+      "mrv": 20
+    },
+    "heads": [
+      {
+        "id": "gastrocnemius",
+        "name": {
+          "es": "Gastrocnemio",
+          "en": "Gastrocnemius",
+          "fr": "Gastrocnémien",
+          "pt": "Gastrocnêmio",
+          "de": "Zwillingswadenmuskel"
+        },
+        "ideal_ratio": 0.6
+      },
+      {
+        "id": "soleus",
+        "name": {
+          "es": "Sóleo",
+          "en": "Soleus",
+          "fr": "Soléaire",
+          "pt": "Sóleo",
+          "de": "Schollenmuskel"
+        },
+        "ideal_ratio": 0.4
+      }
+    ]
+  },
+  {
+    "id": "abdominals",
+    "name": {
+      "es": "Abdominales",
+      "en": "Abs",
+      "fr": "Abdominaux",
+      "pt": "Abdominais",
+      "de": "Bauchmuskeln"
+    },
+    "weekly_limits": {
+      "mv": 0,
+      "mev": 0,
+      "mav": 18,
+      "mrv": 25
+    },
+    "heads": [
+      {
+        "id": "rectus_abdominis",
+        "name": {
+          "es": "Recto Abdominal",
+          "en": "Rectus Abdominis",
+          "fr": "Grand Droit",
+          "pt": "Reto Abdominal",
+          "de": "Gerader Bauchmuskel"
+        },
+        "ideal_ratio": 0.5
+      },
+      {
+        "id": "obliques",
+        "name": {
+          "es": "Oblicuos",
+          "en": "Obliques",
+          "fr": "Obliques",
+          "pt": "Oblíquos",
+          "de": "Schräge Bauchmuskeln"
+        },
+        "ideal_ratio": 0.5
+      }
+    ]
+  },
+  {
+    "id": "serratus_anterior",
+    "name": {
+      "es": "Serrato Anterior",
+      "en": "Serratus Anterior",
+      "fr": "Dentelé Antérieur",
+      "pt": "Serrátil Anterior",
+      "de": "Vorderer Sägemuskel"
+    },
+    "weekly_limits": {
+      "mv": 0,
+      "mev": 2,
+      "mav": 6,
+      "mrv": 10
+    },
+    "heads": [
+      {
+        "id": "serratus_anterior_muscle",
+        "name": {
+          "es": "Serrato Anterior",
+          "en": "Serratus Anterior",
+          "fr": "Dentelé Antérieur",
+          "pt": "Serrátil Anterior",
+          "de": "Vorderer Sägemuskel"
+        },
+        "ideal_ratio": 1.0
+      }
+    ]
+  },
+  {
+    "id": "adductors",
+    "name": {
+      "es": "Aductores",
+      "en": "Adductors",
+      "fr": "Adducteurs",
+      "pt": "Adutores",
+      "de": "Adduktoren"
+    },
+    "weekly_limits": {
+      "mv": 0,
+      "mev": 2,
+      "mav": 6,
+      "mrv": 10
+    },
+    "heads": [
+      {
+        "id": "adductor_magnus",
+        "name": {
+          "es": "Aductor Mayor",
+          "en": "Adductor Magnus",
+          "fr": "Grand Adducteur",
+          "pt": "Adutor Magno",
+          "de": "Großer Adduktor"
+        },
+        "ideal_ratio": 0.5
+      },
+      {
+        "id": "adductor_longus",
+        "name": {
+          "es": "Aductor Largo",
+          "en": "Adductor Longus",
+          "fr": "Long Adducteur",
+          "pt": "Adutor Longo",
+          "de": "Langer Adduktor"
+        },
+        "ideal_ratio": 0.25
+      },
+      {
+        "id": "adductor_brevis",
+        "name": {
+          "es": "Aductor Corto",
+          "en": "Adductor Brevis",
+          "fr": "Court Adducteur",
+          "pt": "Adutor Curto",
+          "de": "Kurzer Adduktor"
+        },
+        "ideal_ratio": 0.25
+      } 
+    ] 
+  },
+  {
+    "id": "upper_back",
+    "name": {
+      "es": "Espalda Alta",
+      "en": "Upper Back",
+      "fr": "Haut du Dos",
+      "pt": "Costas Superiores",
+      "de": "Oberer Rücken"
+    },
+    "weekly_limits": {
+      "mv": 4,
+      "mev": 6,
+      "mav": 12,
+      "mrv": 18
+    },
+    "heads": [
+      {
+        "id": "rhomboids",
+        "name": { "es": "Romboides", "en": "Rhomboids" },
+        "ideal_ratio": 0.5
+      },
+      {
+        "id": "teres_major",
+        "name": { "es": "Redondo Mayor", "en": "Teres Major" },
+        "ideal_ratio": 0.5
+      }
+    ]
+  },
+  {
+    "id": "erector_spinae",
+    "name": {
+      "es": "Erectores Espinales (Lumbares)",
+      "en": "Erector Spinae (Lower Back)",
+      "fr": "Érecteurs du Rachis",
+      "pt": "Eretores da Espinha",
+      "de": "Rückenstrecker"
+    },
+    "weekly_limits": {
+      "mv": 3,
+      "mev": 4,
+      "mav": 8,
+      "mrv": 12
+    },
+    "heads": [
+      {
+        "id": "lumbar_muscles",
+        "name": { "es": "Músculos Lumbares", "en": "Lumbar Muscles" },
+        "ideal_ratio": 1.0
+      }
+    ]
+  },
+  {
+    "id": "tibialis_anterior",
+    "name": {
+      "es": "Tibial Anterior",
+      "en": "Tibialis Anterior",
+      "fr": "Tibial Antérieur",
+      "pt": "Tibial Anterior",
+      "de": "Vorderer Schienbeinmuskel"
+    },
+    "weekly_limits": {
+      "mv": 0,
+      "mev": 0,
+      "mav": 6,
+      "mrv": 10
+    },
+    "heads": [
+      {
+        "id": "tibialis_muscle",
+        "name": { "es": "Músculo Tibial", "en": "Tibialis Muscle" },
+        "ideal_ratio": 1.0
+      } 
+    ]
+  }
+]
