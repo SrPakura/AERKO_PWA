@@ -10,6 +10,12 @@
 
 ---
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/7256c1dc-ba3e-4dc9-975b-4aa8f576630c" width="100%" alt="Aerko Roadmap">
+</div>
+
+---
+
 Aerko_ is a web application designed to be installed natively as a PWA. It combines advanced nutrition tracking, progressive overload training, and biomechanical analysis via computer vision. It was built with an obsessive focus on local-first privacy, extreme performance, and a brutalist usability standard. 
 
 The goal was simple: replace three different types of monthly-subscription CRUD apps with a single, standalone, zero-cloud environment. 
