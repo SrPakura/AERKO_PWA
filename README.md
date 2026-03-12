@@ -17,11 +17,11 @@ The goal was simple: replace three different types of monthly-subscription CRUD 
 ### Index
 * [1. Design Philosophy & UX](#1-design-philosophy--ux)
 * [2. Core Engine & Modules](#2-core-engine--modules)
-*[3. Languages & Personalities](#3-languages--personalities)
+* [3. Languages & Personalities](#3-languages--personalities)
 * [4. Privacy & Security](#4-privacy--security)
 * [5. Architecture & Tech Stack](#5-architecture--tech-stack)
-*[6. The Role of AI in Development](#6-the-role-of-ai-in-development)
-*[7. Roadmap](#7-roadmap)
+* [6. The Role of AI in Development](#6-the-role-of-ai-in-development)
+* [7. Roadmap](#7-roadmap)
 
 ---
 
