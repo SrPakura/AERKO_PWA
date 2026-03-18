@@ -16,6 +16,15 @@
 
 ---
 
+<div align="center">
+  <h3>🚀 Latest Updates</h3>
+  <p><b>First bug fixed:</b> Added input validation and limits (no more 6,000kg users, sorry Hulk!). <br> 
+  All live updates and hosting changes will be reflected in <b>this repository</b>: <br>
+  <a href="https://github.com/PakuraDev/Hosting_Aerko_PWA">github.com/PakuraDev/Hosting_Aerko_PWA</a></p>
+</div>
+
+---
+
 Aerko_ is a web application designed to be installed natively as a PWA. It combines advanced nutrition tracking, progressive overload training, and biomechanical analysis via computer vision. It was built with an obsessive focus on local-first privacy, extreme performance, and a brutalist usability standard. 
 
 The goal was simple: replace three different types of monthly-subscription CRUD apps with a single, standalone, zero-cloud environment. 
