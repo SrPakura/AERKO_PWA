@@ -89,12 +89,12 @@ Analyzing biomechanics (Squat, Bench Press, Deadlift) locally on a mobile browse
 
 1. **The Phantom DOM:** MediaPipe *demands* DOM access to function, which makes Web Worker implementation hell. To trick the model, I built a "Phantom DOM" inside the worker environment. It tames the library without main-thread blocking.
 2. **Frame Traffic Controller:** Processing 1080p60 is unnecessary. The video is downscaled (720p/480p) and dropped to 15-30fps via a Ping-Pong traffic controller logic (sends a frame, waits for the `"FRAME_DONE"` signal).
-3. **Math Interpolation & EMA:** To prevent a choppy 15fps output on the UI, coordinates are mathematically interpolated on the main thread, and an Exponential Moving Average (EMA) filter is applied to smooth the tracking. 
+3. **Math Interpolation & EMA:** To prevent a choppy 15fps output on the UI, coordinates are mathematically interpolated on the main thread, and an Exponential Moving Average (EMA) filter is applied to smooth the tracking.
 
-**Benchmarks (5 identical video passes):** 
-* *Heavy Model:* 87-94% accuracy.
-* *Full Model:* Slightly faster, less accurate.
-* *Lite Model:* 59-71% accuracy (fast, but mathematically unreliable for serious lifting).
+
+**Benchmarks (5 identical video passes):** Tested across 5 different videos: Bench Press, Squat (90° & 45°), and Deadlift (90° & 45°). *Note: A pure 90-degree camera angle is vastly superior for 2D pose estimation.* Assuming the `Heavy` model as the baseline ground truth (100% reference):
+* **Full Model (~87-94% match):** Noticeably faster. It yields excellent results as long as the video lighting and recording angle are optimal.
+* **Lite Model (~59-71% match):** Extremely fast, but mathematically unreliable for serious biomechanics. It was so erratic and indecisive that it literally crashed my Python benchmarking script due to missing coordinate tensors.
 
 ### 📈 Progress
 * **Scientific Fat Calculator:** Input skinfold caliper data, and the app calculates body density using the Jackson-Pollock 3/7 formula alongside Siri's equation.
