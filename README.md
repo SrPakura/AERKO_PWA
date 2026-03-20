@@ -57,7 +57,7 @@ The goal was simple: replace three different types of monthly-subscription CRUD 
 
 ## 1. Design Philosophy & UX
 
-> **System Warning:** I am primarily a Product Designer. This project started as my Master's Thesis (TFM) and was forged through Design Thinking and usability testing with Reddit communities. This isn't a sanitized corporate README. I'm going to break down the strict UX rules, the brutalist UI decisions, and the local-first architecture that make Aerko_ work.
+> **System Warning:** I am primarily a Product Designer. This project started as my Master's Thesis (TFM) and was forged through Design Thinking and usability testing with Reddit communities.
 
 ### UI: Brutalism & Hierarchy
 The interface relies on neo-brutalism and a cyberpunk/IDE aesthetic. I am fully aware it won't be to everyone's taste, but it is built strictly for high-contrast visibility and speed.
@@ -75,16 +75,16 @@ The app is visually intimidating but technically idiot-proof. It prioritizes Jak
 
 ## 2. Core Engine & Modules
 
-### 🍎 Nutrition
+### Nutrition
 * **Base Calculators:** Uses the classic 1984 Harris-Benedict formula (I like retro) with macro ratios based on ISSN scientific standards. Or, you can use God Mode and input everything manually.
 * **Local Pantry & Barcode Scanner:** A local database of +340 foods built from BEDCA and USDA data, combined with a native integration of the Open Food Facts API (via HTML5-QRCode) for zero-friction barcode scanning.
 * **Modular Smart Checks:** Based on Pareto's law. You configure your base diet (fixed weights like 600g of chicken, or variable weights daily). Then, daily tracking is reduced to checking off accordions in record speed. Meals also hook into the *Notification Triggers API*.
 
-### 🏋️ Training
+### Training
 * **Volume Analysis:** Cross-references your effective sets (filtering out warm-ups) with an anatomical database to map your exact volume thresholds (MV, MEV, MAV, or MRV). It features an Imbalance Detector that analyzes muscle head volume to warn you if you have structural blind spots.
 * **Adaptive 1RM Calculator:** A dynamic engine that switches formulas based on reps: Brzycki (under 5 reps), Epley (6-10 reps), and Lombardi (11+ reps).
 
-#### 🦾 MediaPipe & The Phantom DOM (The Crown Jewel)
+#### MediaPipe & The Phantom DOM (The Crown Jewel)
 Analyzing biomechanics (Squat, Bench Press, Deadlift) locally on a mobile browser is usually a performance nightmare. Processing 1080p 60fps video via MediaPipe melts batteries and freezes the main thread. So, I built a workaround:
 
 1. **The Phantom DOM:** MediaPipe *demands* DOM access to function, which makes Web Worker implementation hell. To trick the model, I built a "Phantom DOM" inside the worker environment. It tames the library without main-thread blocking.
