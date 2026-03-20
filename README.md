@@ -16,11 +16,15 @@
 
 ---
 
-App: https://aerko.app/ 
+<div align="center">
+  <h3>Links</h3>
+  <p>
+    <b>App:</b> <a href="https://aerko.app/">https://aerko.app/</a> <br>
+    <b>Landing page:</b> <a href="https://landing.aerko.app/">https://landing.aerko.app/</a> <br>
+    <b>Figma design:</b> <a href="https://www.figma.com/design/UpqnrIqYNyEnqPb2LUiMnK/Aerko_?node-id=728-4774&t=ZC9zdy5ZHMeILwim-1">View on Figma</a>
+  </p>
+</div>
 
-Landing page: https://landing.aerko.app/
-
-Figma design: https://www.figma.com/design/UpqnrIqYNyEnqPb2LUiMnK/Aerko_?node-id=728-4774&t=ZC9zdy5ZHMeILwim-1
 
 ---
 
@@ -155,13 +159,14 @@ I didn't use lazy prompts like "make me a fitness app." I acted as the software 
 
 ## 7. Roadmap
 
-I plan to rewrite parts of the codebase from scratch when Gemini 3.2/3.3 drops, just to clean up the architecture further. Future plans include:
+When I have the time, I'd like to release a v2—more modular and this time, a bit more "human". Here is what I have in mind, though there are many more ideas in the backlog:
 
-* **Cardio & Endurance:** Currently, the app is 100% hypertrophy-focused.
-* **Desktop-First Analysis (RTPose):** Utilizing heavier models that don't fit on mobile web for extreme biomechanical precision.
-* **Extreme Modularity:** The ability to install *only* the Nutrition DB or *only* the Training module to save local storage.
-* **Optional Cloudflare Sync:** An opt-in cloud for those who don't want strict IndexedDB isolation.
-* **Quality of Life:** PPL preset routines, up to 3 custom stopwatches, and a real end-of-year "Wrapped".
+* **Cardio & Endurance Support:** Currently, the app is heavily focused on hypertrophy. I want to expand it to make it a more universal fitness tool.
+* **Nutrition Recipes / Groups Overhaul:** I want to add a "Recipes" feature. It's essentially a food group, but if all ingredients have fixed weights, the app will generate a custom food item with average macros per 100g. This way, you just log how many grams of the final meal you ate instead of adjusting individual ingredients every time.
+* **Desktop Web Version:** I'd like to decouple the UI so Training, Nutrition, and Progress tracking stay on mobile, while heavy Analysis moves to desktop. This allows for better, detailed statistics and leverages desktop GPU power to move away from MediaPipe to heavier models like RTMPose or DWPose (though it's too early to lock in a model; a better one might drop tomorrow).
+* **Extreme Modularity:** I want a system where the user decides exactly which modules to install (e.g., only Nutrition, or only Training) to save space. I honestly have no idea how I'm going to architect this yet (if anyone has suggestions, please let me know!).
+* **WebRTC & Optional Cloudflare R2 Sync:** For mobile-to-desktop sync, I'll likely use WebRTC for pure P2P local transfers. But for the lazy ones, I'll add an option to plug in your own Cloudflare R2 API keys for automatic, private cloud syncing.
+* **General UX Improvements:** Plus dozens of other smaller quality-of-life ideas I have in the pipeline.
 
 ### Acknowledgments
 Massive thanks to **OpenFoodFacts**, **USDA**, and **BEDCA** for the DBs, **Google MediaPipe** for the vision models, and the maintainers of Chart.js, HTML5-QRCode, JSZip, and SortableJS.
