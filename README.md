@@ -31,8 +31,8 @@
 <div align="center">
   <h3>Latest Updates</h3>
   <p>
-    <b>First bug fixed:</b> Added input validation and limits (no more 6,000kg users, sorry Hulk!). <br>
-    <b>Second bug fixed:</b> Fixed i18n logic to prioritize browser language detection (goodbye, accidental Russian-only mode!). <br><br>
+    <b>First bug fixed:</b> Added input validation and limits (no more 6,000kg users, sorry Hulk). <br>
+    <b>Second bug fixed:</b> Fixed i18n logic to prioritize browser language detection (now implemented in this repository too). <br><br>
     All live updates and hosting changes will be reflected in <b>this repository</b>: <br>
     <a href="https://github.com/PakuraDev/Hosting_Aerko_PWA">github.com/PakuraDev/Hosting_Aerko_PWA</a>
   </p>
