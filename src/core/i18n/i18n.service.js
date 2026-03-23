@@ -17,12 +17,26 @@ class I18nService {
     async init() {
         try {
             const record = await db.get(STORE_NAME, PREFS_KEY);
-            if (record && record.data) {
-                this._currentLang = record.data.lang || DEFAULT_LANG;
+
+            if (record && record.data && record.data.lang) {
+                this._currentLang = record.data.lang;
                 this._currentMode = record.data.mode || DEFAULT_MODE;
+            } 
+            else {
+                const browserLang = (navigator.language || navigator.userLanguage).split('-')[0];
+                const isSupported = SUPPORTED_LANGUAGES.some(l => l.id === browserLang);
+                
+                this._currentLang = isSupported ? browserLang : DEFAULT_LANG;
+                this._currentMode = DEFAULT_MODE;
+                
+                // Guardamos para que la próxima vez vaya por el "if"
+                await this._saveAndEmit(); 
             }
         } catch (error) {
-            console.error('[I18N] Error cargando preferencias:', error);
+            console.error('[I18N] Error en init, usando defaults:', error);
+            // IMPORTANTE: Aseguramos que siempre haya un valor aunque falle la DB
+            this._currentLang = DEFAULT_LANG;
+            this._currentMode = DEFAULT_MODE;
         }
     }
 
